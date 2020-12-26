@@ -1,0 +1,31 @@
+c3c1d72b219561cfe00084d3434f37c3714f5961
+
+#user
+
+
+Post  http://127.0.0.1:8000/security/api-token-auth/  username= password = 
+
+http://127.0.0.1:8000/security/prerigstration/
+#get all the customer
+http://127.0.0.1:8000/security/accounts/
+
+#machine
+$list all machine
+http://127.0.0.1:8000/management/Machines/
+$search machine by machineid
+http://127.0.0.1:8000/management/machine_search/?search=MACH002
+http://127.0.0.1:8000/management/machine_search_client/?search=tonyho
+http://127.0.0.1:8000/management/update_machine_info/
+
+
+#case
+http://127.0.0.1:8000/management/Cases/
+
+#MainPacks
+http://127.0.0.1:8000/management/MainPacks/
+
+#Technicians
+http://127.0.0.1:8000/management/Technicians/
+
+#Filters
+http://127.0.0.1:8000/management/Filters/

@@ -19,14 +19,11 @@ class CustomerSerializer(serializers.ModelSerializer):
     """
     A student serializer to return the student details
     """
-    user = UserSerializer(required=True)
+    customercode = UserSerializer(required=True)
 
     class Meta:
         model = Customer
-        fields = ('user', 'contactname', 'billingaddress1',
-                  'billingaddress2',
-                  'contactno', 'mobile', 'invitationcode', 'source',
-                  'comment', 'joindate','isconfirm')
+        fields = ('customercode','contactname', 'billingaddress','installaddress','contactno','mobile')
 
     def create(self, validated_data):
         """

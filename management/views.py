@@ -46,24 +46,24 @@ class MachineViewSet(viewsets.ModelViewSet):
 @transaction.atomic
 def machine_search(request):
     search = request.GET.get('search', '')
+    print(search)
     queryset = list(Machine.objects.filter(machineid__icontains=search))
     queryset.extend(list(Machine.objects.filter(mac__icontains=search)))
-    queryset.extend(list(Machine.objects.filter(producttype__icontains=search)))
-    queryset.extend(list(Machine.objects.filter(price__icontains=search)))
     queryset.extend(list(Machine.objects.filter(installdate__icontains=search)))
     queryset.extend(list(Machine.objects.filter(nextservicedate__icontains=search)))
     users = User.objects.filter(username__icontains=search)
     if len(users) != 0:
         for user in users:
             if not user.is_staff:
-                queryset.extend(list(Machine.objects.filter(user=user.profile)))
+                queryset.extend(list(Machine.objects.filter(customer=user.username)))
 
     queryset = list(dict.fromkeys(queryset))  # remounve deplicated items
     serializer = MachineSerializer(queryset, many=True)
     test = serializer.data
+
     for i in test:
-        i["user"] = Customer.objects.get(pk=i["user"]).user.username
-        print("{}".format(i["user"]))
+        i["username"] = Customer.objects.get(pk=i["customer"]).customercode.username
+        print("{}".format(i["username"]))
     return Response(serializer.data)
 
 
@@ -72,16 +72,15 @@ def machine_search(request):
 @transaction.atomic
 def machine_search_client(request):
     search = request.GET.get('search', '')
+    #current login user
     username = request.user
-
     user = User.objects.get(username=username)
 
-    queryset = list(Machine.objects.filter(user=user.profile, machineid__icontains=search))
-    queryset.extend(list(Machine.objects.filter(user=user.profile, mac__icontains=search)))
-    queryset.extend(list(Machine.objects.filter(user=user.profile, producttype__icontains=search)))
-    queryset.extend(list(Machine.objects.filter(user=user.profile, price__icontains=search)))
-    queryset.extend(list(Machine.objects.filter(user=user.profile, installdate__icontains=search)))
-    queryset.extend(list(Machine.objects.filter(user=user.profile, nextservicedate__icontains=search)))
+
+    queryset = list(Machine.objects.filter(customer=user.customer, machineid__icontains=search))
+    queryset.extend(list(Machine.objects.filter(customer=user.customer, mac__icontains=search)))
+    #queryset.extend(list(Machine.objects.filter(user=user.profile, installdate__icontains=search)))
+    #queryset.extend(list(Machine.objects.filter(user=user.profile, nextservicedate__icontains=search)))
 
     queryset = list(dict.fromkeys(queryset))  # remounve deplicated items
     serializer = MachineSerializer(queryset, many=True)
@@ -93,16 +92,16 @@ def machine_search_client(request):
 @permission_classes([IsAdminUser])
 @transaction.atomic
 def update_machine_info(request):
-    # try:
-    machineid = ""
-    installaddress1 = ""
-    installaddress2 = ""
-    nextservicedate = ""
+
     try:
         machineid = request.data["machineid"]
         installaddress1 = request.data["installaddress1"]
         installaddress2 = request.data["installaddress2"]
         nextservicedate = request.data["nextservicedate"]
+        mac = request.data["mac"]
+        installdate = request.data["installdate"]
+
+
 
     except KeyError:
         raise serializers.ValidationError({'error': "please make sure to fill all informations"})
@@ -117,6 +116,8 @@ def update_machine_info(request):
     machine.installaddress1 = installaddress1
     machine.installaddress2 = installaddress2
     machine.nextservicedate = nextservicedate
+    machine.mac = mac
+    machine.installdate = installdate
     machine.save()
     serializer = MachineSerializer(machine)
     return Response(serializer.data)
@@ -126,13 +127,7 @@ def update_machine_info(request):
 @permission_classes([IsAdminUser])
 @transaction.atomic
 def update_case_info(request):
-    case_id = ""
-    scheduledate = ""
-    time = ""
-    action = ""
-    suggest = ""
-    comment = ""
-    iscompleted = ""
+
     try:
         case_id = request.data["case_id"]
         scheduledate = request.data["scheduledate"]
@@ -144,9 +139,9 @@ def update_case_info(request):
 
 
     except KeyError:
-        raise serializers.ValidationError({'error': "please make suuuuure to fill all informations"})
+        raise serializers.ValidationError({'error': "please make sure to fill all information"})
     if case_id == "" or scheduledate == "" or time == "" or iscompleted == "":
-        raise serializers.ValidationError({'error': "please make s to fill all informations"})
+        raise serializers.ValidationError({'error': "please make sure to fill all information"})
     try:
         case = Case.objects.get(case_id=case_id)
 
@@ -168,11 +163,7 @@ def update_case_info(request):
 @permission_classes([IsAdminUser])
 @transaction.atomic
 def update_main_pack_info(request):
-    packagecode = ""
-    price = ""
-    exfiltermonth = ""
-    exfiltervolume = ""
-    packagedetail = ""
+
     try:
         packagecode = request.data["packagecode"]
         price = request.data["price"]
@@ -207,6 +198,12 @@ def update_main_pack_price(request):
     price = ""
     try:
         packagecode = request.data["packagecode"]
+        isbytime = requsst.date["isbytime"]
+        isbyusage = requsst.date["isbyusage"]
+        exfiltermonth = requsst.date["exfiltermonth"]
+        exfiltervolume = requsst.date["exfiltervolume"]
+        packagedetail = requsst.date["packagedetail"]
+
         price = request.data["price"]
     except KeyError:
         raise serializers.ValidationError({'error': "please make sure to fill all informations"})
@@ -218,7 +215,13 @@ def update_main_pack_price(request):
     except  ObjectDoesNotExist:
         raise serializers.ValidationError({'error': "make sure that the packagecode is correct"})
 
-    main_pack.price = main_pack.price + price
+    main_pack.price = price
+    main_pack.isbytime= isbytime
+    main_pack.isbyusage = isbyusage
+    main_pack.exfiltermonth = exfiltermonth
+    main_pack.exfiltervolume = exfiltervolume
+    main_pack.packagedetail = packagedetail
+
     main_pack.save()
     serializer = MainPackSerializer(main_pack)
     return Response(serializer.data)
@@ -273,11 +276,11 @@ class MainPackViewSet(viewsets.ViewSet):
         try:
             exfiltermonth = request.data["exfiltermonth"]
         except  KeyError:
-            raise serializers.ValidationError({'error': "please enter the exfiltermonth of the main pack"})
+            raise serializers.ValidationError({'error': "please enter the exchange month of the main pack"})
         try:
             exfiltervolume = request.data["exfiltervolume"]
         except  KeyError:
-            raise serializers.ValidationError({'error': "please enter the exfiltervolume of the main pack"})
+            raise serializers.ValidationError({'error': "please enter the exchange volume of the main pack"})
         main_pack = MainPackSerializer.create(MainPackSerializer(), validated_data=request.data)
         return Response(MainPackSerializer(main_pack).data)
 
@@ -286,12 +289,7 @@ class MainPackViewSet(viewsets.ViewSet):
 @permission_classes([IsAdminUser])
 @transaction.atomic
 def update_technicien_info(request):
-    # try:
-    staffcode = ""
-    staffshort = ""
-    staffname = ""
-    staffcontact = ""
-    email = ""
+
     try:
         staffcode = request.data["staffcode"]
         staffshort = request.data["staffshort"]
@@ -439,11 +437,6 @@ class FilterViewSet(viewsets.ViewSet):
 @permission_classes([IsAdminUser])
 @transaction.atomic
 def update_filter_info(request):
-    filtercode = ""
-    price = ""
-    filtername = ""
-    filterdetail = ""
-
     try:
         filtercode = request.data["filtercode"]
         price = request.data["price"]
@@ -499,10 +492,10 @@ def client_name_and_id(request):
         for client in clients:
             if not client.is_staff:
                 di["username"] = client.username
-                di["id"] = client.profile.pk
+                di["id"] = client.id
                 li.append(di.copy())
                 di.clear()
     except:
         raise Response({"error": "there is something wrong"})
-    print("lajflsjflskad")
+    print("Success ! ")
     return Response(li)

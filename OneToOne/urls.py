@@ -16,9 +16,9 @@ urlpatterns = [
     path('api-token-auth/', views.CustomAuthToken.as_view()),
     path('logout/', views.logout),
     path('forgotpassword/', views.forgotpassword),
-    path('update_password/', views.updada_password),
-    path('update_contact_name/', views.updada_contact_name),
-    path('update_email_address/', views.updada_email_address),
+    path('update_password/', views.updade_password),
+    path('update_contact_name/', views.updade_contact_name),
+    path('update_email_address/', views.updade_email_address),
 
 ]
 urlpatterns += router.urls

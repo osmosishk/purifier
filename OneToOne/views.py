@@ -205,11 +205,9 @@ def forgotpassword(request):
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 @transaction.atomic
-def updada_password(request):
+def updade_password(request):
     print(request.data)
-    current_password = ""
-    new_password = ""
-    new_password2 = ""
+
     try:
         current_password = request.data["current_password"]
         new_password = request.data["new_password"]
@@ -233,7 +231,7 @@ def updada_password(request):
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 @transaction.atomic
-def updada_contact_name(request):
+def updade_contact_name(request):
     print(request.data)
     password = ""
     new_contact_name = ""
@@ -255,7 +253,7 @@ def updada_contact_name(request):
 @api_view(['POST'])
 @permission_classes([IsAuthenticated])
 @transaction.atomic
-def updada_email_address(request):
+def updade_email_address(request):
     print(request.data)
     password = ""
     current_email = ""

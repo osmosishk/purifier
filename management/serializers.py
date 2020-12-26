@@ -71,9 +71,9 @@ class MachineSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Machine
-        fields = ('user', 'main_pack', 'machineid', 'installaddress1', 'installaddress2',
+        fields = ('customer','machineid', 'installaddress1', 'installaddress2',
                   'mac', 'installdate',
-                  'nextservicedate', 'producttype', 'price')
+                  'nextservicedate', 'machinetype')
         extra_kwargs = {
 
             'machineid': {
@@ -82,15 +82,13 @@ class MachineSerializer(serializers.ModelSerializer):
             'user': {
                 'required': False
             },
-            'producttype': {
+            'machinetype': {
                 'required': False
             },
             'main_pack': {
                 'required': False
             },
-            'price': {
-                'required': False
-            },
+
             'installaddress1': {
                 'required': False
             },
@@ -100,14 +98,14 @@ class MachineSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         try:
             machineid = validated_data["machineid"]
-            producttype = validated_data["producttype"]
+            machinetype = validated_data["producttype"]
             user = validated_data["user"]
             main_pack = validated_data["main_pack"]
             installaddress1 = validated_data["installaddress1"]
             price = validated_data["price"]
         except KeyError:
             raise serializers.ValidationError({'error': "please make sure to fill all informations"})
-        if machineid == "" or price == "" or producttype == "" or user == "" or main_pack == "" or installaddress1 == "":
+        if machineid == "" or price == "" or machinetype == "" or user == "" or main_pack == "" or installaddress1 == "":
             raise serializers.ValidationError({'error': "please make sure to fill all informations"})
         if Machine.objects.filter(machineid=validated_data["machineid"]).exists():
             raise serializers.ValidationError({'error': 'there is a machine with the same machine id'})
