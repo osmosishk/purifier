@@ -82,4 +82,3 @@ class RegistrationSerializer(serializers.ModelSerializer):
         instance.save()
         return instance
 
-# machine

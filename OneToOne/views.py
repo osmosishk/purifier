@@ -176,10 +176,7 @@ class CustomAuthToken(ObtainAuthToken):
 @permission_classes([AllowAny])
 @transaction.atomic
 def forgotpassword(request):
-    # try:
-    invitationcode = ""
-    username = ""
-    user = ""
+
     try:
         invitationcode = request.data["invitationcode"]
         username = request.data["username"]
@@ -233,8 +230,7 @@ def updade_password(request):
 @transaction.atomic
 def updade_contact_name(request):
     print(request.data)
-    password = ""
-    new_contact_name = ""
+
     try:
         password = request.data["password"]
         new_contact_name = request.data["new_contact_name"]

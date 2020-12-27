@@ -42,5 +42,3 @@ class EmailVerification(models.Model):
     username = models.CharField(max_length=100, primary_key=True)
     date = models.DateTimeField(auto_now=True)
 
-
-# hadhci jdid dalchi dyal l machine wl case wl filter ....
