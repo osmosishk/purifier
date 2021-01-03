@@ -23,7 +23,7 @@ class CustomerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Customer
-        fields = ('customercode','contactname', 'billingaddress','installaddress','contactno','mobile')
+        fields = ('id','customercode','contactname', 'billingaddress','installaddress','contactno','mobile')
 
     def create(self, validated_data):
         """

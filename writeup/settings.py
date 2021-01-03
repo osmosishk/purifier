@@ -25,8 +25,10 @@ DEBUG = True
 # TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
-# Application definition
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000"
+]
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -38,7 +40,8 @@ INSTALLED_APPS = (
     'OneToOne',
     'management',
     'rest_framework',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+    'corsheaders',
 )
 
 MIDDLEWARE = (
@@ -49,6 +52,7 @@ MIDDLEWARE = (
     # 'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
 )
 
 REST_FRAMEWORK = {

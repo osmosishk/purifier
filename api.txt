@@ -3,29 +3,95 @@ c3c1d72b219561cfe00084d3434f37c3714f5961
 #user
 
 
-Post  http://127.0.0.1:8000/security/api-token-auth/  username= password = 
+
+
+
+
+Post  http://127.0.0.1:8000/security/api-token-auth/?username=tonyho&password=Zanik5dbr 
 
 http://127.0.0.1:8000/security/prerigstration/
 #get all the customer
 http://127.0.0.1:8000/security/accounts/
+http://127.0.0.1:8000/security/update_password/
 
+
+{
+    "current_password": "zanik5dbkr",
+    "new_password": "Zanik5dbr",
+    "new_password2": "Zanik5dbr"
+    }
 #machine
 $list all machine
 http://127.0.0.1:8000/management/Machines/
 $search machine by machineid
 http://127.0.0.1:8000/management/machine_search/?search=MACH002
-http://127.0.0.1:8000/management/machine_search_client/?search=tonyho
+$search machine by machineid using currnet user
+http://127.0.0.1:8000/management/machine_search_client/?search=MACH002
+http://127.0.0.1:8000/management/update_machine_info/
+$get all customercode and [pk]
+http://127.0.0.1:8000/management/client_name_and_id/
+
 http://127.0.0.1:8000/management/update_machine_info/
 
+{
+        "customer": 1,
+        "machineid": "3323",
+        "installaddress1": "e",
+        "installaddress2": "e",
+        "mac": "e",
+        "installdate": null,
+        "nextservicedate": null,
+        
+    },
 
 #case
 http://127.0.0.1:8000/management/Cases/
+http://127.0.0.1:8000/management/update_case_info/
+{
+		"case_id": 8,
+        "casetype": "",
+        "scheduledate": "2020-12-04",
+        "time": "10:00:00",
+        "action": "",
+        "suggest": "",
+        "comment": "",
+        "iscompleted": true
+        }
 
 #MainPacks
 http://127.0.0.1:8000/management/MainPacks/
+http://127.0.0.1:8000/management/update_main_pack_info/
+
+{
+        "packagecode": "STD06",
+        "isbytime": true,
+        "isbyusage": false,
+        "price": 1780.0,
+        "exfiltermonth": 6,
+        "exfiltervolume": 2500,
+        "packagedetail": "Exchange filter every 6 months , 2 times per year"
+}
+    
 
 #Technicians
 http://127.0.0.1:8000/management/Technicians/
+http://127.0.0.1:8000/management/update_technicien_info/
+ {
+        "staffcode": "OSG001",
+        "staffshort": "TH",
+        "staffname": "HO TONY",
+        "staffcontact": "68270830",
+        "email": "tonyho@osmosis.com.hk"
+    },
 
 #Filters
 http://127.0.0.1:8000/management/Filters/
+http://127.0.0.1:8000/management/update_filter_info/
+
+
+    {
+        "filtercode": "SED8",
+        "filtername": "Sed & Pre 8 inch",
+        "filterdetail": "Sediment & Pre-carbon filter for WPU",
+        "price": 398.0
+    },
