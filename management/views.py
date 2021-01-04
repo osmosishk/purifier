@@ -68,6 +68,22 @@ def machine_search(request):
 
 
 @api_view(['GET'])
+@permission_classes([IsAdminUser])
+@transaction.atomic
+def list_machine_client(request):
+    cid = request.GET.get('cid', '')
+    user = User.objects.get(id=cid)
+    # search machine by customer id
+
+    queryset = list(Machine.objects.filter(customer=user.customer))
+    queryset = list(dict.fromkeys(queryset))  # remounve deplicated items
+    serializer = MachineSerializer(queryset, many=True)
+
+    return Response(serializer.data)
+
+
+
+@api_view(['GET'])
 @permission_classes([IsAuthenticated])
 @transaction.atomic
 def machine_search_client(request):
@@ -121,6 +137,22 @@ def update_machine_info(request):
     machine.save()
     serializer = MachineSerializer(machine)
     return Response(serializer.data)
+
+@api_view(['GET'])
+@permission_classes([IsAdminUser])
+@transaction.atomic
+def list_case_client(request):
+    cid = request.GET.get('cid', '')
+    user = User.objects.get(id=cid)
+    # search machine by customer id
+
+    queryset = list(Case.objects.filter(customer=user.customer))
+    queryset = list(dict.fromkeys(queryset))  # remounve deplicated items
+    serializer = CaseSerializer(queryset, many=True)
+
+    return Response(serializer.data)
+
+
 
 
 @api_view(['PUT'])

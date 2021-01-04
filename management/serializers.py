@@ -132,10 +132,8 @@ class CaseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Case
-        fields = ('case_id','machines', 'casetype', 'scheduledate', 'time', 'action',
-                  'suggest', 'comment',
-                  'iscompleted',  # 'user',
-                  'filters', 'handledby')
+        fields = ('case_id','customer','machines', 'casetype', 'scheduledate', 'time', 'action',
+                  'suggest', 'comment','iscompleted','filters', 'handledby')
 
     def create(self, validated_data):
         """
