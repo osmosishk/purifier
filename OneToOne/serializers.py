@@ -15,6 +15,14 @@ class UserSerializer(serializers.ModelSerializer):
         }
 
 
+class CustomerCodeSerializer(serializers.ModelSerializer):
+    customercode = UserSerializer(required=True)
+
+    class Meta:
+        model = Customer
+        fields = ('id','customercode')
+
+
 class CustomerSerializer(serializers.ModelSerializer):
     """
     A student serializer to return the student details
@@ -32,7 +40,7 @@ class CustomerSerializer(serializers.ModelSerializer):
         :return: returns a successfully created student record
         """
 
-        user_data = validated_data.pop('user')
+        user_data = validated_data.pop('customercode')
         if User.objects.filter(username=user_data["username"]).exists():
             raise serializers.ValidationError({"error": {"username": "the username must be unique"}})
 
@@ -45,13 +53,13 @@ class CustomerSerializer(serializers.ModelSerializer):
 
     # this not tested yet
     def update(self, instance, validated_data):
-        user_data = validated_data.pop('user')
+        user_data = validated_data.pop('customercode')
         user = User.objects.get_or_create(username=user_data["username"])[0]
         instance.user = user
-        profile, created = Customer.objects.update_or_create(user=user,
+        customer, created = Customer.objects.update_or_create(user=user,
                                                             **validated_data)
 
-        return profile
+        return customer
 
 
 # registration serializer

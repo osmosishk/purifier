@@ -19,6 +19,7 @@ urlpatterns = [
     path('update_password/', views.updade_password),
     path('update_contact_name/', views.updade_contact_name),
     path('update_email_address/', views.updade_email_address),
+    path('update_customer_info/', views.update_customer_info),
 
 ]
 urlpatterns += router.urls

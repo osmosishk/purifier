@@ -1,8 +1,13 @@
 from django.contrib.auth.validators import UnicodeUsernameValidator
 from rest_framework import serializers, status
 
-from OneToOne.serializers import UserSerializer
+from OneToOne.serializers import CustomerCodeSerializer ,CustomerSerializer
 from .models import *
+
+class ProductSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Product
+        fields = ('productcode' , 'producttype')
 
 
 class MainPackSerializer(serializers.ModelSerializer):
@@ -63,17 +68,17 @@ class FilterSerializer(serializers.ModelSerializer):
 
 class MachineSerializer(serializers.ModelSerializer):
     """
-    A MachineSerializer serializer to return the student details
+    A MachineSerializer serializer to return the Water Purifier details
     """
 
-    # user = UserSerializer(required=True)
+    customer = CustomerCodeSerializer(required=True)
+    machinetype =  ProductSerializer(required=True)
     # main_pack = MainPackSerializer(required=True)
 
     class Meta:
         model = Machine
         fields = ('customer','machineid', 'installaddress1', 'installaddress2',
-                  'mac', 'installdate',
-                  'nextservicedate', 'machinetype')
+                  'mac', 'installdate','nextservicedate', 'machinetype')
         extra_kwargs = {
 
             'machineid': {
@@ -97,28 +102,53 @@ class MachineSerializer(serializers.ModelSerializer):
 
     def create(self, validated_data):
         try:
+
             machineid = validated_data["machineid"]
-            machinetype = validated_data["producttype"]
-            user = validated_data["user"]
-            main_pack = validated_data["main_pack"]
+            machinetype = validated_data.pop("machinetype")
+            customer = validated_data.pop("customer")
+            ##main_pack = validated_data["main_pack"]
             installaddress1 = validated_data["installaddress1"]
-            price = validated_data["price"]
-        except KeyError:
+            installaddress2 = validated_data["installaddress2"]
+            mac = validated_data["mac"]
+            installdate = validated_data["installdate"]
+            nextservicedate = validated_data["nextservicedate"]
+
+        except KeyError as e:
+            print('I got a KeyError - reason "%s"' % str(e))
+            raise serializers.ValidationError({'error': "please make sure JSON format"})
+
+        if machineid == "" or customer =="":
             raise serializers.ValidationError({'error': "please make sure to fill all informations"})
-        if machineid == "" or price == "" or machinetype == "" or user == "" or main_pack == "" or installaddress1 == "":
-            raise serializers.ValidationError({'error': "please make sure to fill all informations"})
+
         if Machine.objects.filter(machineid=validated_data["machineid"]).exists():
-            raise serializers.ValidationError({'error': 'there is a machine with the same machine id'})
+            raise serializers.ValidationError({'error': 'there is a water purifier with the same id'})
 
-        machine, created = Machine.objects.update_or_create(**validated_data)
+        if User.objects.filter(username=customer["customercode"]["username"]).exists():
+            user_data = User.objects.get(username=customer["customercode"]["username"])
+        else:
+            raise serializers.ValidationError({"error": {"customercode": "the customercode did not exist"}})
+        if Customer.objects.filter(customercode=user_data).exists():
+            customer_data = Customer.objects.get(customercode=user_data)
+        else:
+            raise serializers.ValidationError({"error": {"customer": "the customer did not exist"}})
+        if Product.objects.filter(productcode=machinetype["productcode"]).exists():
+            machinetype_data = Product.objects.get(productcode=machinetype["productcode"])
+        else:
+            raise serializers.ValidationError({"error": {"productcode": "the productcode did not exist"}})
+
+
+        machine, created = Machine.objects.update_or_create(customer=customer_data,
+                                                  machinetype=machinetype_data,
+                                                  machineid=machineid,
+                                                  mac=mac,
+                                                  installaddress1=installaddress1,
+                                                  installaddress2=installaddress2,
+                                                  installdate=installdate,
+                                                  nextservicedate=nextservicedate)
+        machine.save()
         return machine
 
-    # this not tested yet
-    def update(self, instance, validated_data):
-        machine, created = Machine.objects.update_or_create(
-            **validated_data)
 
-        return machine
 
 
 class CaseSerializer(serializers.ModelSerializer):
@@ -126,13 +156,13 @@ class CaseSerializer(serializers.ModelSerializer):
     A MachineSerializer serializer to return the student details
     """
     machines = MachineSerializer(required=True, many=True)
-    # user = UserSerializer(required=True)
+
     filters = FilterSerializer(required=True, many=True)
     handledby = TechnicianSerializer(required=True)
 
     class Meta:
         model = Case
-        fields = ('case_id','customer','machines', 'casetype', 'scheduledate', 'time', 'action',
+        fields = ('case_id','machines', 'casetype', 'scheduledate', 'time', 'action',
                   'suggest', 'comment','iscompleted','filters', 'handledby')
 
     def create(self, validated_data):

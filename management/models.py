@@ -36,10 +36,10 @@ class Machine(models.Model):
     photoncode = models.CharField(max_length=100)
     mac = models.CharField(max_length=100, blank=True)
 
-    installdate = models.DateField(null=True, blank=True, auto_now_add=True)
+    installdate = models.DateField(null=True, blank=True)
     nextservicedate = models.DateField(null=True, blank=True)
     machinetype = models.ForeignKey(Product , on_delete=models.CASCADE ,null=True)
-    maintenance = models.ForeignKey(MainPack, on_delete=models.CASCADE)
+    maintenance = models.ForeignKey(MainPack, on_delete=models.CASCADE,null=True)
 
     def __str__(self):
         return "%s %s " % (self.machineid, self.customer.customercode)

@@ -242,7 +242,7 @@ def updade_contact_name(request):
     else:
         customer = Customer.objects.get(user=request.user)
         customer.contactname = new_contact_name
-        profile.save()
+        customer.save()
         return Response({"response": "your contact name has been updated successfully"})
 
 
@@ -279,3 +279,40 @@ def updade_email_address(request):
         p.isconfirm = False
         p.save()
         return Response({"response": "your email address has been updated successfully"})
+
+
+
+@api_view(['PUT'])
+@permission_classes([IsAdminUser])
+@transaction.atomic
+def update_customer_info(request):
+
+    try:
+
+        customercode = request.data.get('customercode',dict()).get('username')
+        installaddress = request.data["installaddress"]
+        billingaddress = request.data["billingaddress"]
+        contactname = request.data["contactname"]
+        contactno = request.data["contactno"]
+        mobile = request.data["mobile"]
+
+    except KeyError:
+        raise serializers.ValidationError({'error': "please make sure JSON data "})
+    if id == "" or customercode == "" :
+        raise serializers.ValidationError({'error': "please make sure to fill all Data"})
+    try:
+        user = User.objects.get(username=customercode)
+        customer = Customer.objects.get(customercode=user)
+
+    except  ObjectDoesNotExist:
+        raise serializers.ValidationError({'error': "No Customer Found !!!"})
+
+
+    customer.installaddress= installaddress
+    customer.billingaddress = billingaddress
+    customer.contactname = contactname
+    customer.contactno = contactno
+    customer.mobile = mobile
+    customer.save()
+    serializer = CustomerSerializer(customer)
+    return Response(serializer.data)

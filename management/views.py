@@ -120,9 +120,9 @@ def update_machine_info(request):
 
 
     except KeyError:
-        raise serializers.ValidationError({'error': "please make sure to fill all informations"})
-    if machineid == "" or installaddress1 == "" or nextservicedate == "":
-        raise serializers.ValidationError({'error': "please make sure to fill all informations"})
+        raise serializers.ValidationError({'error': "please make sure JSON"})
+    ###if machineid == "" or installaddress1 == "":
+        ###raise serializers.ValidationError({'error': "please make sure to fill all informations"})
     try:
         machine = Machine.objects.get(machineid=machineid)
 

@@ -12,6 +12,18 @@ Post  http://127.0.0.1:8000/security/api-token-auth/?username=tonyho&password=Za
 http://127.0.0.1:8000/security/prerigstration/
 #get all the customer
 http://127.0.0.1:8000/security/accounts/
+{
+    "id": 5,
+    "customercode": {
+        "username": "PXT05",
+        "email": ""
+    },
+    "contactname": "XPT",
+    "billingaddress": "RM F , 9/F , BLOCK 1, GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD",
+    "installaddress": "RM F , 9/F , BLOCK 1, GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD",
+    "contactno": "68270830",
+    "mobile": "12131213"
+}
 http://127.0.0.1:8000/security/update_password/
 
 
@@ -30,7 +42,7 @@ http://127.0.0.1:8000/management/machine_search_client/?search=MACH002
 http://127.0.0.1:8000/management/update_machine_info/
 $get all customercode and [pk]
 http://127.0.0.1:8000/management/client_name_and_id/
-
+http://127.0.0.1:8000/management/list_machine_client/?cid=id
 http://127.0.0.1:8000/management/update_machine_info/
 
 {
@@ -43,7 +55,26 @@ http://127.0.0.1:8000/management/update_machine_info/
         "nextservicedate": null,
         
     },
-
+Post New Machine
+{
+        "customer": "{
+                    "id": 1,
+                    "customercode": {
+                        "username": "tonyho",
+                        "email": ""
+                    }
+                },"
+        "machineid": "TEST0217",
+        "installaddress1": "e",
+        "installaddress2": "e",
+        "mac": "FSDFDSF",
+        "installdate": null,
+        "nextservicedate": null,
+        "machinetype": {
+            "productcode": "WPU8900CX",
+            "producttype": "WPU"
+        }
+    },
 #case
 http://127.0.0.1:8000/management/Cases/
 http://127.0.0.1:8000/management/update_case_info/
@@ -95,3 +126,10 @@ http://127.0.0.1:8000/management/update_filter_info/
         "filterdetail": "Sediment & Pre-carbon filter for WPU",
         "price": 398.0
     },
+
+
+
+    
+
+
+    const auths = [].concat(AuthRoutes);
