@@ -116,6 +116,7 @@ def update_machine_info(request):
         nextservicedate = request.data["nextservicedate"]
         mac = request.data["mac"]
         installdate = request.data["installdate"]
+        productcode = request.data.get('machinetype', dict()).get('productcode')
 
 
 
@@ -129,11 +130,17 @@ def update_machine_info(request):
     except  ObjectDoesNotExist:
         raise serializers.ValidationError({'error': "make sure that the machine id is correct"})
 
+    if Product.objects.filter(productcode=productcode).exists():
+        machinetype_data = Product.objects.get(productcode=productcode)
+    else:
+        raise serializers.ValidationError({"error": {"productcode": "the productcode did not exist"}})
+
     machine.installaddress1 = installaddress1
     machine.installaddress2 = installaddress2
     machine.nextservicedate = nextservicedate
     machine.mac = mac
     machine.installdate = installdate
+    machine.machinetype = machinetype_data
     machine.save()
     serializer = MachineSerializer(machine)
     return Response(serializer.data)
@@ -531,3 +538,52 @@ def client_name_and_id(request):
         raise Response({"error": "there is something wrong"})
     print("Success ! ")
     return Response(li)
+
+
+class ProductViewSet(viewsets.ViewSet):
+    """
+    A simple ViewSet for listing or retrieving users.
+    """
+
+    def create(self, request):
+        pass
+
+    @permission_classes([IsAuthenticated, ])
+    def list(self, request):
+        search = request.GET.get('search', '')
+        queryset = list(Product.objects.filter(productcode__icontains=search))
+
+        queryset = list(dict.fromkeys(queryset))
+        serializer = ProductSerializer(queryset, many=True)
+        return Response(serializer.data)
+
+    def retrieve(self, request, pk=None):
+        queryset = Product.objects.all()
+        product = get_object_or_404(queryset, pk=pk)
+        serializer = ProductSerializer(product)
+        return Response(serializer.data)
+
+    @permission_classes([IsAuthenticated])
+    def create(self, request):
+
+        try:
+            productcode = request.data["productcode"]
+            producttype = request.data["producttype"]
+            price = request.data["price"]
+        except  KeyError:
+            raise serializers.ValidationError({'error': "please enter the filtercode of the Filter"})
+
+        if Product.objects.filter(
+                productcode=request.data["productcode"]).exists():
+            raise serializers.ValidationError(
+                {'error': "there is already another Product with same product code"})
+        try:
+            productcode = request.data["productcode"]
+        except  KeyError:
+            raise serializers.ValidationError({'error': "please enter the productcode"})
+        try:
+            price = request.data["price"]
+        except  KeyError:
+            raise serializers.ValidationError({'error': "please enter the price of the Product"})
+        product = ProductSerializer.create(ProductSerializer(), validated_data=request.data)
+        return Response(ProductSerializer(product).data)

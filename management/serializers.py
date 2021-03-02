@@ -65,6 +65,14 @@ class FilterSerializer(serializers.ModelSerializer):
 
         }
 
+class ProductSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Product
+        fields = ('productcode', 'producttype', 'price')
+
+
+
+
 
 class MachineSerializer(serializers.ModelSerializer):
     """
