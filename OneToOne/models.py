@@ -21,7 +21,7 @@ class Customer(models.Model):
     contactno = models.CharField(max_length=20 , null=True)
     mobile = models.CharField(max_length=20, blank=True)
     email = models.EmailField(max_length=150, blank=True)
-    invitationcode = models.CharField(max_length=20, unique=True)
+    invitationcode = models.CharField(max_length=20, blank=False)
     joindate = models.DateField(null=True, blank=True)
     source = models.CharField(max_length=20, choices=SOURCE_CHOICES)
     comment = models.TextField(max_length=300, blank=True, null=True)

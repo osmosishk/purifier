@@ -31,7 +31,7 @@ class CustomerSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Customer
-        fields = ('id','customercode','contactname', 'billingaddress','installaddress','contactno','mobile')
+        fields = ('id','customercode','contactname', 'billingaddress','installaddress','contactno','mobile','email','invitationcode','joindate','source','comment')
 
     def create(self, validated_data):
         """
@@ -47,7 +47,7 @@ class CustomerSerializer(serializers.ModelSerializer):
         user = UserSerializer.create(UserSerializer(), validated_data=user_data)
         user.set_password("123456789")
 
-        customer, created = Customer.objects.update_or_create(user=user,
+        customer, created = Customer.objects.update_or_create(customercode=user,
                                                             **validated_data)
         return customer
 

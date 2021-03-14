@@ -70,7 +70,25 @@ class ProductSerializer(serializers.ModelSerializer):
         model = Product
         fields = ('productcode', 'producttype', 'price')
 
+class LiteMachineSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Machine
+        fields = ('machineid',)
+        extra_kwargs = {
+            'machineid': {
+                'validators': [], 'required': True
+            },
+        }
 
+class LiteFilterSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Filter
+        fields = ('filtercode',)
+        extra_kwargs = {
+            'filtercode': {
+                'validators': [], 'required': True
+            },
+        }
 
 
 
@@ -160,12 +178,9 @@ class MachineSerializer(serializers.ModelSerializer):
 
 
 class CaseSerializer(serializers.ModelSerializer):
-    """
-    A MachineSerializer serializer to return the student details
-    """
-    machines = MachineSerializer(required=True, many=True)
 
-    filters = FilterSerializer(required=True, many=True)
+    machines = LiteMachineSerializer(required=True , many=True )
+    filters =  LiteFilterSerializer(required=True , many = True)
     handledby = TechnicianSerializer(required=True)
 
     class Meta:
@@ -174,11 +189,6 @@ class CaseSerializer(serializers.ModelSerializer):
                   'suggest', 'comment','iscompleted','filters', 'handledby')
 
     def create(self, validated_data):
-        """
-        Overriding the default create method of the Model serializer.
-        :param validated_data: data containing all the details of machine
-        :return: returns a successfully created machine record
-        """
 
         # user_data = validated_data.pop('user')
         machines_data = validated_data.pop('machines')
@@ -194,7 +204,7 @@ class CaseSerializer(serializers.ModelSerializer):
 
         for machine_data in machines_data:
             if not Machine.objects.filter(machineid=machine_data["machineid"]).exists():
-                raise serializers.ValidationError({'error': "the machine with the {} id is not exist".format(
+                raise serializers.ValidationError({'error': "the water purifer with the {} id is not exist".format(
                     machine_data["machineid"])})
 
         for filter_data in filters_data:
@@ -205,10 +215,12 @@ class CaseSerializer(serializers.ModelSerializer):
         if not Technician.objects.filter(
                 staffcode=handledby_data["staffcode"]).exists():
             raise serializers.ValidationError({'error': "there user not exist or the technician not exist"})
-        userTemp = Machine.objects.get(machineid=machines_data[0]["machineid"]).user
+
+        userTemp = Machine.objects.get(machineid=machines_data[0]["machineid"]).customer
+        print(userTemp)
 
         for machine_data3 in machines_data:
-            user = Machine.objects.get(machineid=machine_data3["machineid"]).user
+            user = Machine.objects.get(machineid=machine_data3["machineid"]).customer
             if user != userTemp:
                 raise serializers.ValidationError({'error': "all the machines in the same case must have the same "
                                                             "client"})
@@ -216,24 +228,28 @@ class CaseSerializer(serializers.ModelSerializer):
                 userTemp = user
         technician = Technician.objects.get(staffcode=handledby_data["staffcode"])
 
-        case, created = Case.objects.update_or_create(handledby=technician,
-                                                      casetype=casetype,
-                                                      scheduledate=scheduledate,
-                                                      time=time,
-                                                      action=action,
-                                                      suggest=suggest,
-                                                      comment=comment,
-                                                      iscompleted=iscompleted)
+        case, created = Case.objects.update_or_create(casetype=casetype,
+                                                        scheduledate=scheduledate,
+                                                        time=time,
+                                                        action=action,
+                                                        suggest=suggest,
+                                                        comment=comment,
+                                                        iscompleted=iscompleted,
+                                                        customer=userTemp)
         case.save()
         # m = Machine.objects.get(machineid="0010")
         # case.machines.add(m)
         # case.filters.add(Filter.objects.filter(filtercode="0003"))
         for machine_data2 in machines_data:
-            m = Machine.objects.get(machineid=machine_data2["machineid"])
+            m = Machine.objects.filter(machineid=machine_data2["machineid"])
             # m = Machine.objects.filter(machineid="0010")
             case.machines.add(m)
         for filter_data2 in filters_data:
-            case.filters.add(Filter.objects.get(filtercode=filter_data2["filtercode"]))
+            case.filters.add(Filter.objects.filter(filtercode=filter_data2["filtercode"]))
+        for handledby_data2 in handledby_data:
+            case.handledby.add(Technician.objects.filter(staffcode=handledby_data2["staffcode"]))
+
+
         return case
 
     # this not tested yet

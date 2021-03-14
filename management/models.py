@@ -82,9 +82,7 @@ class Case(models.Model):
     iscompleted = models.BooleanField(default=False, blank=True)
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE, default='')
     filters = models.ManyToManyField(Filter, blank=True)
-    handledby = models.ForeignKey(Technician, on_delete=models.CASCADE)
-
-
+    handledby = models.ForeignKey(Technician, on_delete=models.CASCADE,default='')
 
     # def get_absolute_url(self):
     #    return reverse("crm:caselist")

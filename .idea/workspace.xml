@@ -17,9 +17,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d3b23f63-c8c5-4326-8a72-596be7352505" name="Default Changelist" comment="19 Feb changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneToOne/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneToOne/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OneToOne/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneToOne/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/management/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +153,10 @@
       <workItem from="1613699571764" duration="3657000" />
       <workItem from="1614482712906" duration="5176000" />
       <workItem from="1614690582337" duration="2797000" />
+      <workItem from="1615103762216" duration="3833000" />
+      <workItem from="1615294195447" duration="599000" />
+      <workItem from="1615606905463" duration="2794000" />
+      <workItem from="1615685853940" duration="10676000" />
     </task>
     <task id="LOCAL-00001" summary="3 jan changes">
       <created>1609678507859</created>
