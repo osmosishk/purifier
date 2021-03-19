@@ -517,8 +517,6 @@ class CaseViewSet(viewsets.ModelViewSet):
         permission_classes = [IsAuthenticated]
         return [permission() for permission in permission_classes]
 
-        # i gived all the permission to user now but i will change that later
-
 
 @api_view(['GET'])
 @permission_classes([IsAdminUser])

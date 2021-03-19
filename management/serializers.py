@@ -217,7 +217,7 @@ class CaseSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({'error': "there user not exist or the technician not exist"})
 
         userTemp = Machine.objects.get(machineid=machines_data[0]["machineid"]).customer
-        print(userTemp)
+
 
         for machine_data3 in machines_data:
             user = Machine.objects.get(machineid=machine_data3["machineid"]).customer
@@ -228,7 +228,8 @@ class CaseSerializer(serializers.ModelSerializer):
                 userTemp = user
         technician = Technician.objects.get(staffcode=handledby_data["staffcode"])
 
-        case, created = Case.objects.update_or_create(casetype=casetype,
+        case, created = Case.objects.update_or_create(handledby=technician,
+                                                        casetype=casetype,
                                                         scheduledate=scheduledate,
                                                         time=time,
                                                         action=action,
@@ -237,24 +238,17 @@ class CaseSerializer(serializers.ModelSerializer):
                                                         iscompleted=iscompleted,
                                                         customer=userTemp)
         case.save()
-        # m = Machine.objects.get(machineid="0010")
-        # case.machines.add(m)
-        # case.filters.add(Filter.objects.filter(filtercode="0003"))
-        for machine_data2 in machines_data:
-            m = Machine.objects.filter(machineid=machine_data2["machineid"])
-            # m = Machine.objects.filter(machineid="0010")
-            case.machines.add(m)
-        for filter_data2 in filters_data:
-            case.filters.add(Filter.objects.filter(filtercode=filter_data2["filtercode"]))
-        for handledby_data2 in handledby_data:
-            case.handledby.add(Technician.objects.filter(staffcode=handledby_data2["staffcode"]))
+
+        if(created):
+            for machine_data2 in machines_data:
+                m = Machine.objects.get(machineid=machine_data2["machineid"])
+                case.machines.add(m)
+            for filter_data2 in filters_data:
+                case.filters.add(Filter.objects.get(filtercode=filter_data2["filtercode"]))
 
 
-        return case
 
-    # this not tested yet
-    def update(self, instance, validated_data):
-        case, created = Case.objects.update_or_create(
-            **validated_data)
+
+
 
         return case
