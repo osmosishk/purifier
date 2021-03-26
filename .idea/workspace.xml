@@ -16,16 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3b23f63-c8c5-4326-8a72-596be7352505" name="Default Changelist" comment="19 Feb changes">
-      <change afterPath="$PROJECT_DIR$/merge.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneToOne/migrations/0002_auto_20201210_0848.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneToOne/migrations/0003_auto_20201210_0848.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/migrations/0002_auto_20201210_0848.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/migrations/0003_auto_20201210_1737.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/management/migrations/0004_auto_20210217_1205.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/management/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/management/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writeup/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/writeup/settings.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/env/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/management/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="13" />
+            <state relative-caret-position="1070">
+              <caret line="84" column="13" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="13" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -65,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OneToOne/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-999">
+            <state>
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -77,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/management/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="237" column="42" lean-forward="true" selection-start-line="237" selection-start-column="42" selection-end-line="237" selection-end-column="42" />
+              <caret line="206" column="52" lean-forward="true" selection-start-line="206" selection-start-column="52" selection-end-line="206" selection-end-column="52" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -88,17 +81,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/management/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="541" column="7" lean-forward="true" selection-start-line="541" selection-start-column="7" selection-end-line="541" selection-end-column="7" />
+            <state relative-caret-position="1416">
+              <caret line="251" selection-start-line="251" selection-end-line="251" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#989#1612#0" />
-                <element signature="e#2778#3119#0" />
-                <element signature="e#3241#3949#0" />
-                <element signature="e#4065#5500#0" />
-                <element signature="e#5611#5946#0" />
-                <element signature="e#6061#7114#0" />
-                <element signature="e#9622#12092#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OneToOne/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6739">
+              <caret line="313" column="20" selection-start-line="313" selection-start-column="20" selection-end-line="313" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/management/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="67" />
+            <state relative-caret-position="460">
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -139,9 +137,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="y" value="4" />
+    <option name="y" value="6" />
     <option name="width" value="1036" />
     <option name="height" value="733" />
   </component>
@@ -151,6 +149,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,7 +176,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -313,6 +311,9 @@
       <workItem from="1615869649886" duration="603000" />
       <workItem from="1615945463795" duration="14178000" />
       <workItem from="1616030801065" duration="8092000" />
+      <workItem from="1616373109353" duration="136000" />
+      <workItem from="1616462538049" duration="9185000" />
+      <workItem from="1616546974086" duration="3429000" />
     </task>
     <task id="LOCAL-00001" summary="3 jan changes">
       <created>1609678507859</created>
@@ -339,13 +340,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30002000" />
+    <option name="totallyTimeSpent" value="42752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="4" width="1036" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="6" width="1036" height="733" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4385246" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4579918" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -469,15 +469,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OneToOne/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OneToOne/management/commands/casefilter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -497,48 +488,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/urls.py">
+    <entry file="file://$PROJECT_DIR$/env/Lib/site-packages/django/db/models/manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="1331">
+          <caret line="199" column="26" lean-forward="true" selection-start-line="199" selection-start-column="26" selection-end-line="199" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OneToOne/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OneToOne/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-999">
+        <state>
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/management/models.py">
+    <entry file="file://$PROJECT_DIR$/OneToOne/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="13" />
+        <state relative-caret-position="6739">
+          <caret line="313" column="20" selection-start-line="313" selection-start-column="20" selection-end-line="313" selection-end-column="20" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/management/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="541" column="7" lean-forward="true" selection-start-line="541" selection-start-column="7" selection-end-line="541" selection-end-column="7" />
+        <state relative-caret-position="1416">
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#989#1612#0" />
-            <element signature="e#2778#3119#0" />
-            <element signature="e#3241#3949#0" />
-            <element signature="e#4065#5500#0" />
-            <element signature="e#5611#5946#0" />
-            <element signature="e#6061#7114#0" />
-            <element signature="e#9622#12092#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/management/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1070">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -546,7 +556,7 @@
     <entry file="file://$PROJECT_DIR$/management/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="237" column="42" lean-forward="true" selection-start-line="237" selection-start-column="42" selection-end-line="237" selection-end-column="42" />
+          <caret line="206" column="52" lean-forward="true" selection-start-line="206" selection-start-column="52" selection-end-line="206" selection-end-column="52" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>

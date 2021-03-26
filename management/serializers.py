@@ -91,6 +91,18 @@ class LiteFilterSerializer(serializers.ModelSerializer):
         }
 
 
+class LiteTechnicianSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Technician
+        fields = ('staffcode','staffname')
+        extra_kwargs = {
+            'staffcode': {
+                'validators': [], 'required': True
+            },
+
+
+        }
+
 
 class MachineSerializer(serializers.ModelSerializer):
     """
@@ -104,7 +116,7 @@ class MachineSerializer(serializers.ModelSerializer):
     class Meta:
         model = Machine
         fields = ('customer','machineid', 'installaddress1', 'installaddress2',
-                  'mac', 'installdate','nextservicedate', 'machinetype')
+                  'mac', 'installdate','nextservicedate', 'machinetype','id')
         extra_kwargs = {
 
             'machineid': {
@@ -181,7 +193,7 @@ class CaseSerializer(serializers.ModelSerializer):
 
     machines = LiteMachineSerializer(required=True , many=True )
     filters =  LiteFilterSerializer(required=True , many = True)
-    handledby = TechnicianSerializer(required=True)
+    handledby = LiteTechnicianSerializer(required=True)
 
     class Meta:
         model = Case

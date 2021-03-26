@@ -40,6 +40,15 @@ class MachineViewSet(viewsets.ModelViewSet):
         return [permission() for permission in permission_classes]
         # i gived all the permission to user now but i will change that later
 
+    def destroy(self, request, *args, **kwargs):
+        try:
+            instance = self.get_object()
+            print(instance)
+            self.perform_destroy(instance)
+        except Http404:
+            return Response({'result': 'fail'})
+        return Response({'result': 'success'})
+
 
 @api_view(['GET'])
 @permission_classes([IsAdminUser])
@@ -175,10 +184,17 @@ def update_case_info(request):
         suggest = request.data["suggest"]
         comment = request.data["comment"]
         iscompleted = request.data["iscompleted"]
+        machines= request.data.get('machines')
+        handledby = request.data.get('handledby')
+        filters=request.data.get('filters')
 
 
     except KeyError:
         raise serializers.ValidationError({'error': "please make sure to fill all information"})
+
+
+    print(machines)
+
     if case_id == "" or scheduledate == "" or time == "" or iscompleted == "":
         raise serializers.ValidationError({'error': "please make sure to fill all information"})
     try:
@@ -186,6 +202,20 @@ def update_case_info(request):
 
     except  ObjectDoesNotExist:
         raise serializers.ValidationError({'error': "make sure that the case id is correct"})
+    case.machines.clear()
+    case.filters.clear()
+    for machines2 in machines:
+        m = Machine.objects.get(machineid=machines2["machineid"])
+        print(m)
+
+        case.machines.add(m)
+
+    for filters2 in filters:
+        if Filter.objects.filter(filtercode=filters2["filtercode"]).exists():
+            f=Filter.objects.get(filtercode=filters2["filtercode"])
+            print(f)
+            case.filters.add(f)
+
 
     case.scheduledate = scheduledate
     case.time = time
@@ -193,6 +223,9 @@ def update_case_info(request):
     case.action = action
     case.suggest = suggest
     case.comment = comment
+    #case.machines= machines
+    #case.handledby=handledby
+
     case.save()
     serializer = CaseSerializer(case)
     return Response(serializer.data)
@@ -367,7 +400,7 @@ class TechnicianViewSet(viewsets.ViewSet):
     def list(self, request):
         search = request.GET.get('search', '')
         queryset = list(Technician.objects.filter(staffcode__icontains=search))
-        print(queryset)
+        ##print(queryset)
         queryset.extend(list(Technician.objects.filter(staffshort__icontains=search)))
         queryset.extend(list(Technician.objects.filter(staffname__icontains=search)))
         queryset.extend(list(Technician.objects.filter(staffcontact__icontains=search)))
@@ -433,7 +466,7 @@ class FilterViewSet(viewsets.ViewSet):
     def list(self, request):
         search = request.GET.get('search', '')
         queryset = list(Filter.objects.filter(filtercode__icontains=search))
-        print(queryset)
+        ##print(queryset)
         queryset.extend(list(Filter.objects.filter(filtername__icontains=search)))
         queryset.extend(list(Filter.objects.filter(filterdetail__icontains=search)))
         queryset.extend(list(Filter.objects.filter(price__icontains=search)))
@@ -452,20 +485,20 @@ class FilterViewSet(viewsets.ViewSet):
         # i catch those exception to be sure that the request contain the price and the exfilltermonth and the
         # exfiltervolume
         try:
-            staffcode = request.data["filtercode"]
+            filtercode = request.data["filtercode"]
         except  KeyError:
             raise serializers.ValidationError({'error': "please enter the filtercode of the Filter"})
 
         if Filter.objects.filter(
-                staffcode=request.data["filtercode"]).exists():
+                filtercode=request.data["filtercode"]).exists():
             raise serializers.ValidationError(
                 {'error': "there is already another Filter with the same filter code"})
         try:
-            staffname = request.data["filtername"]
+            filtername = request.data["filtername"]
         except  KeyError:
             raise serializers.ValidationError({'error': "please enter the filter name"})
         try:
-            staffcontact = request.data["price"]
+            price = request.data["price"]
         except  KeyError:
             raise serializers.ValidationError({'error': "please enter the price of the filter"})
         filter = FilterSerializer.create(FilterSerializer(), validated_data=request.data)
@@ -516,6 +549,17 @@ class CaseViewSet(viewsets.ModelViewSet):
                """
         permission_classes = [IsAuthenticated]
         return [permission() for permission in permission_classes]
+
+    7
+
+    def destroy(self, request, *args, **kwargs):
+        try:
+            instance = self.get_object()
+
+            self.perform_destroy(instance)
+        except Http404:
+            return Response({'result': 'fail'})
+        return Response({'result': 'success'})
 
 
 @api_view(['GET'])
