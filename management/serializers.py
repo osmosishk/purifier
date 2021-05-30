@@ -71,12 +71,17 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = ('productcode', 'producttype', 'price')
 
 class LiteMachineSerializer(serializers.ModelSerializer):
+
+    machinetype = ProductSerializer(required=True)
     class Meta:
         model = Machine
-        fields = ('machineid',)
+        fields = ('machineid','machinetype')
         extra_kwargs = {
             'machineid': {
                 'validators': [], 'required': True
+            },
+            'machinetype': {
+                'required': False
             },
         }
 

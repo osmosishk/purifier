@@ -17,6 +17,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d3b23f63-c8c5-4326-8a72-596be7352505" name="Default Changelist" comment="19 Feb changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +161,11 @@
       <workItem from="1615869649886" duration="603000" />
       <workItem from="1615945463795" duration="14178000" />
       <workItem from="1616030801065" duration="8092000" />
-      <workItem from="1616292086321" duration="959000" />
+      <workItem from="1616292086321" duration="978000" />
+      <workItem from="1616769638005" duration="54000" />
+      <workItem from="1616805001048" duration="5655000" />
+      <workItem from="1617367261390" duration="604000" />
+      <workItem from="1622255213125" duration="1687000" />
     </task>
     <task id="LOCAL-00001" summary="3 jan changes">
       <created>1609678507859</created>

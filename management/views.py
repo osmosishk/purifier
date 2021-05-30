@@ -160,6 +160,16 @@ def list_case_client(request):
     return Response(serializer.data)
 
 
+@api_view(['GET'])
+@permission_classes([IsAdminUser])
+@transaction.atomic
+def list_code_client(request):
+    cid = request.GET.get('customercode', '')
+
+    user = User.objects.get(username=cid)
+    customer = Customer.objects.get(customercode=user)
+    serializer = CustomerSerializer(customer)
+    return Response(serializer.data)
 
 
 @api_view(['PUT'])
@@ -227,6 +237,40 @@ def update_main_pack_info(request):
     main_pack.save()
     serializer = MainPackSerializer(main_pack)
     return Response(serializer.data)
+
+
+
+
+@api_view(['PUT'])
+@permission_classes([IsAdminUser])
+@transaction.atomic
+def update_product_info(request):
+
+    try:
+        productcode = request.data["productcode"]
+        price = request.data["price"]
+        producttype = request.data["producttype"]
+
+
+    except KeyError:
+        raise serializers.ValidationError({'error': "please make the json is correct"})
+    if productcode == "" or producttype == "" :
+        raise serializers.ValidationError({'error': "please make sure to fill all informations"})
+    try:
+        p = Product.objects.get(productcode=productcode)
+
+    except  ObjectDoesNotExist:
+        raise serializers.ValidationError({'error': "make sure that the productcode is correct"})
+
+    p.productcode = productcode
+    p.producttype = producttype
+    p.price = price
+    p.save()
+    serializer = ProductSerializer(p)
+    return Response(serializer.data)
+
+
+
 
 
 @api_view(['PUT'])
@@ -337,8 +381,8 @@ def update_technicien_info(request):
         email = request.data["email"]
 
     except KeyError:
-        raise serializers.ValidationError({'error': "please make sure to fill all informations"})
-    if staffname == "" or staffshort == "" or staffname == "" or staffcontact == "" or email == "":
+        raise serializers.ValidationError({'error': "please make json"})
+    if staffcode == "":
         raise serializers.ValidationError({'error': "please make sure to fill all informations"})
     try:
         technician = Technician.objects.get(staffcode=staffcode)
@@ -482,9 +526,9 @@ def update_filter_info(request):
         filtername = request.data["filtername"]
         filterdetail = request.data["filterdetail"]
     except KeyError:
-        raise serializers.ValidationError({'error': "please make suuurre to fill all informations"})
-    if filtercode == "" or price == "" or filtername == "":
-        raise serializers.ValidationError({'error': "please make s2222ure to fill all informations"})
+        raise serializers.ValidationError({'error': "please make json is correct"})
+    if filtercode == "" :
+        raise serializers.ValidationError({'error': "please make sure to fill all informations"})
     try:
         filter = Filter.objects.get(filtercode=filtercode)
 

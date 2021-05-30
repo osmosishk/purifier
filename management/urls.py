@@ -21,11 +21,12 @@ urlpatterns = [path('update_technicien_info/', views.update_technicien_info),
                path('machine_search/', views.machine_search),
                path('list_machine_client/', views.list_machine_client),
                path('list_case_client/', views.list_case_client),
+               path('list_code_client/', views.list_code_client),
                path('machine_search_client/', views.machine_search_client),
                path('client_name_and_id/', views.client_name_and_id),
                path('update_machine_info/', views.update_machine_info),
                path('update_case_info/', views.update_case_info),
+               path('update_product_info/', views.update_product_info),
 
-               path('update_main_pack_price/', views.update_main_pack_price)
                ]
 urlpatterns += router.urls
