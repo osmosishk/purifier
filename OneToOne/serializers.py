@@ -33,6 +33,11 @@ class CustomerSerializer(serializers.ModelSerializer):
         model = Customer
         fields = ('id','customercode','contactname', 'billingaddress','installaddress','contactno','mobile','email','invitationcode','joindate','source','comment')
 
+
+
+
+
+
     def create(self, validated_data):
         """
         Overriding the default create method of the Model serializer.
