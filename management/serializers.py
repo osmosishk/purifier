@@ -99,7 +99,7 @@ class LiteFilterSerializer(serializers.ModelSerializer):
 class LiteTechnicianSerializer(serializers.ModelSerializer):
     class Meta:
         model = Technician
-        fields = ('staffcode','staffshort')
+        fields = ('staffcode','staffshort','staffname')
         extra_kwargs = {
             'staffcode': {
                 'validators': [], 'required': True

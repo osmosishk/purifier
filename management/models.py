@@ -101,3 +101,19 @@ class MainPeriod(models.Model):
     Price = models.CharField(max_length=30, blank=False)
     isrenewed = models.BooleanField(default=False, blank=False)
 
+
+class jobsheet(models.Model):
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, default='')
+    CASE_TYPE = [('Filter replacement', 'Filter replacement'), ('Urgent Repair', 'Urgent Repair'),
+                 ('Installation', 'Installation'), ('Checking', 'Checking')]
+
+    DOC_TYPE = [('Job Sheet', 'Job Sheet'), ('Renewal Letter', 'Renewal Letter'),
+                 ('Table', 'Table'), ('Others', 'Others')]
+
+
+    casetype = models.CharField(max_length=100, choices=CASE_TYPE)
+    doctype = models.CharField(max_length=100, choices=DOC_TYPE)
+    date = models.DateField(null=True, blank=False)
+    scandate = models.DateField(null=True, blank=False)
+    filename = models.CharField(max_length=200, unique=True)
+    image_path = models.CharField(max_length=200, unique=True)
