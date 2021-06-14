@@ -109,6 +109,13 @@ class LiteTechnicianSerializer(serializers.ModelSerializer):
         }
 
 
+class Docserializers(serializers.ModelSerializer):
+
+    class Meta:
+        model = jobsheet
+        fields = ('customer','casetype','doctype','date','scandate','filename','image_path')
+
+
 class MachineSerializer(serializers.ModelSerializer):
     """
     A MachineSerializer serializer to return the Water Purifier details

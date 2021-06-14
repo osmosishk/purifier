@@ -105,7 +105,7 @@ class MainPeriod(models.Model):
 class jobsheet(models.Model):
     customer = models.ForeignKey(Customer, on_delete=models.CASCADE, default='')
     CASE_TYPE = [('Filter replacement', 'Filter replacement'), ('Urgent Repair', 'Urgent Repair'),
-                 ('Installation', 'Installation'), ('Checking', 'Checking')]
+                 ('Installation', 'Installation'), ('Checking', 'Checking'),('Other', 'Other')]
 
     DOC_TYPE = [('Job Sheet', 'Job Sheet'), ('Renewal Letter', 'Renewal Letter'),
                  ('Table', 'Table'), ('Others', 'Others')]

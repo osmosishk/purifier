@@ -55,7 +55,7 @@ class MachineViewSet(viewsets.ModelViewSet):
 @transaction.atomic
 def machine_search(request):
     search = request.GET.get('search', '')
-    print(search)
+    #print(search)
     queryset = list(Machine.objects.filter(machineid__icontains=search))
     queryset.extend(list(Machine.objects.filter(mac__icontains=search)))
     queryset.extend(list(Machine.objects.filter(installdate__icontains=search)))
@@ -673,3 +673,57 @@ class ProductViewSet(viewsets.ViewSet):
             raise serializers.ValidationError({'error': "please enter the price of the Product"})
         product = ProductSerializer.create(ProductSerializer(), validated_data=request.data)
         return Response(ProductSerializer(product).data)
+
+
+class JobSheetViewSet(viewsets.ViewSet):
+    """
+    A simple ViewSet for listing or retrieving users.
+    """
+
+    def create(self, request):
+        pass
+
+    @permission_classes([IsAuthenticated, ])
+    def list(self, request):
+
+
+        search = request.GET.get('search', '')
+        customer = request.GET.get('customer', '')
+        queryset = jobsheet.objects.get_queryset()
+
+        if customer:
+            queryset = queryset.filter(customer=customer)
+        if search:
+            queryset = queryset.filter(filename=search)
+
+        serializer = Docserializers(queryset, many=True)
+        return Response(serializer.data)
+
+
+
+
+@api_view(['PUT'])
+@permission_classes([IsAdminUser])
+@transaction.atomic
+def update_doc(request):
+    try:
+        filename = request.data["filename"]
+        casetype = request.data["casetype"]
+        date = request.data["date"]
+        doctype = request.data["doctype"]
+    except KeyError:
+        raise serializers.ValidationError({'error': "please make json is correct"})
+    if filename == "" :
+        raise serializers.ValidationError({'error': "please make sure to fill all informations"})
+    try:
+        doc = jobsheet.objects.get(filename=filename)
+
+    except  ObjectDoesNotExist:
+        raise serializers.ValidationError({'error': "make sure that the filter code is correct"})
+
+    doc.casetype = casetype
+    doc.date  = date
+    doc.doctype = doctype
+    doc.save()
+    serializer = Docserializers(doc)
+    return Response(serializer.data)

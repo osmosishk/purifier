@@ -24,6 +24,10 @@ http://127.0.0.1:8000/security/accounts/
     "contactno": "68270830",
     "mobile": "12131213"
 }
+
+
+{"email":"fsda@fdsd.com","customercode":"PXX4532","contactname":"sfdsd","companyname":"fdsf","billingaddress":"fdsf","installaddress":"sdsdf","contactno":"dsfd","mobile":"sfsd","invitationcode":"IA6FN9GT","joindate":"2021-03-06","source":"f","comment":"f","isconfirm":false,"savedToCloud":false}
+
 http://127.0.0.1:8000/security/update_password/
 
 
@@ -133,3 +137,5 @@ http://127.0.0.1:8000/management/update_filter_info/
 
 
     const auths = [].concat(AuthRoutes);
+
+  
