@@ -2,10 +2,13 @@ import csv
 from django.core.management.base import BaseCommand, CommandError
 from django.contrib.auth import get_user_model
 from django.utils.crypto import get_random_string
-
+import datetime
 
 class Command(BaseCommand):
     """manage.py import_users --csv='/Users/user/usuariosweb.csv' --encoding='iso-8859-1'"""
+
+    """python manage.py bulk_users_from_csv --csv="c:/github/purifier/customer-import.csv" --encoding="utf-8"""
+
     help = 'Imports users based on a CSV file'
 
     def add_arguments(self, parser):
@@ -43,7 +46,10 @@ class Command(BaseCommand):
                             if created:
                                 user.email = row.get('email')
                                 user.first_name = row.get('first')
-                                user.date_joined = row.get('joindate')
+                                #jdate=row.get('joindate')
+                                #jdate = str(jdate)
+
+                                #user.date_joined = datetime.datetime.strptime(jdate, '%d/%m/%Y').date()
                                 user.set_password('default1234')
                                 user.is_active = True if row.get('enabled') == 1 else False
                                 user.save()

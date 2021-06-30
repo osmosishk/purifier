@@ -93,7 +93,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': '35.220.139.166',
         'PORT': '3306',
-        'NAME': 'osmosisdatatest1',
+        'NAME': 'crmtest',
         'USER': 'tonyho',
         'PASSWORD': 'zanik5dbkr',
         'OPTIONS': {
