@@ -4,11 +4,6 @@ from rest_framework import serializers, status
 from OneToOne.serializers import CustomerCodeSerializer ,CustomerSerializer
 from .models import *
 
-class ProductSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Product
-        fields = ('productcode' , 'producttype')
-
 
 class MainPackSerializer(serializers.ModelSerializer):
     class Meta:
@@ -70,12 +65,20 @@ class ProductSerializer(serializers.ModelSerializer):
         model = Product
         fields = ('productcode', 'producttype', 'price')
 
+        extra_kwargs = {
+            'price': {
+                'required': False
+            },
+
+        }
+
 class LiteMachineSerializer(serializers.ModelSerializer):
 
-    machinetype = ProductSerializer(required=True)
+    machinetype = ProductSerializer(required=False)
     class Meta:
         model = Machine
-        fields = ('machineid','machinetype')
+        fields = ('machineid' , 'machinetype')
+
         extra_kwargs = {
             'machineid': {
                 'validators': [], 'required': True
@@ -84,6 +87,7 @@ class LiteMachineSerializer(serializers.ModelSerializer):
                 'required': False
             },
         }
+
 
 class LiteFilterSerializer(serializers.ModelSerializer):
     class Meta:
@@ -104,7 +108,9 @@ class LiteTechnicianSerializer(serializers.ModelSerializer):
             'staffcode': {
                 'validators': [], 'required': True
             },
-
+            'staffname': {
+                'required': False
+            },
 
         }
 
@@ -122,7 +128,7 @@ class MachineSerializer(serializers.ModelSerializer):
     """
 
     customer = CustomerCodeSerializer(required=True)
-    machinetype =  ProductSerializer(required=True)
+    machinetype =  ProductSerializer(required=True , partial=True)
     # main_pack = MainPackSerializer(required=True)
 
     class Meta:
@@ -187,6 +193,7 @@ class MachineSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError({"error": {"productcode": "the productcode did not exist"}})
 
 
+
         machine, created = Machine.objects.update_or_create(customer=customer_data,
                                                   machinetype=machinetype_data,
                                                   machineid=machineid,
@@ -225,6 +232,8 @@ class CaseSerializer(serializers.ModelSerializer):
         suggest = validated_data["suggest"]
         comment = validated_data["comment"]
         iscompleted = validated_data["iscompleted"]
+
+        print(machines_data)
 
         for machine_data in machines_data:
             if not Machine.objects.filter(machineid=machine_data["machineid"]).exists():

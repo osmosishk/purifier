@@ -1,0 +1,704 @@
+﻿id,contactname,companyname,billingaddress,installaddress,contactno,mobile,invitationcode,joindate,source,comment,customercode_id,isconfirm
+1,HO TONY,osmosis system group limited,"RM F , GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD","RM F , 9/F , GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD",68270830,,HO,2019-06-19,Online,,1,0
+2,郑珂,大生公司,B座4层 深圳市福田区荣超商务中心,深圳市福田区荣超商务中心B座4层，郑珂 13670250722 深圳市福田区荣超商务中心B座4层，郑珂 13670250722,13670250722,13670250722,Tony,2019-06-19,Online,,2,0
+3,HO TONY,,"RM F , 9/F , BLOCK 1, GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD 0", ,68270830,,Tony,2019-06-20,Online,,3,0
+4,HO TONY,,"RM F , 9/F , BLOCK 1, GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD 0", ,68270830,,Tony,2019-06-21,Online,,4,0
+5,HO TONY,,"RM F , 9/F , BLOCK 1, GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD 0", ,68270830,,Tony,2019-06-22,Online,,5,0
+6,HO TONY1,,"RM F , 9/F , BLOCK 1, GOLDEN DRAGON IND. CTR. , 152-160 TAI LIN PAI ROAD", ,68270830,,FSDSDFS,2019-09-13,,,6,0
+7,Chan tai man,,"room 32 382 Nathan Rd, Jordan", ,98009,809809,RWERWER,2019-07-28,,,7,0
+8,Lee tai ai,,19年新產品直接淨水器數頂冷 大連排道金龍工業中心, ,3432423,43432,FSDFDS3,2019-07-11,,,8,0
+9,Mrs Yeung,Mrs Yeung,"41 First street, Sect 1, Fairview Park, N.T.","41 First street, Sect 1, Fairview Park, N.T.",2482 1650,2482 1650,0EE70,2011-03-03,Online,,9,0
+10,Ms Lam,Ms Lam,屯門小欖帝濤灣 1座12樓B室,屯門小欖帝濤灣 1座12樓B室,9022 4119,9022 4119,1998C,2011-05-09,Online,,10,0
+11,Tony ho,osmosis system group limited,"Unit 1506, 15/F, Low Block, Grand Millennium Plaza,","Unit 1506, 15/F, Low Block, Grand Millennium Plaza,",68270830,,FDSAE,2011-05-09,Online,,11,0
+12,Mr Hung,Mr Hung,北角城市花園 10座16樓A室,北角城市花園 10座16樓A室,9199 2946,2807 1666,CD0CE,2011-04-05,Online,,12,0
+13,張太,張太,"No.33A, 2/F, Sun Wai Tsai, Tai Po, N.T.","No.33A, 2/F, Sun Wai Tsai, Tai Po, N.T.",9646 7909,9646 7909,CCBB3,2011-04-14,Online,,13,0
+14,Billy Chan,Hongkong International Theme Parks Ltd,HK Disneyland ResortLantau Island HK Disneyland ResortLantau Island, HK Disneyland ResortLantau Island,35503359,94492328,6B889,2011-07-22,,,14,0
+15,Miss Tong,Hong Kong Japanese Club,18樓 香港銅鑼灣怡和街68號百寶利廣場, 香港銅鑼灣怡和街68號百寶利廣場18樓,2577 3669,,BB8E7,2011-05-09,,,15,0
+16,Miss Chan,嗇色園可善護理安老院,大埔富善村 善景樓地下,大埔富善村善景樓地下 大埔富善村善景樓地下,2661 6555,2661 6555,58C26,2011-08-14,Online,,16,0
+17,Dr Paul Lau,Orthodontic & Children's Dental Center,"Suite 1822-23, 18/F, Phase 1, Argyle Centre, 668 Nathan Road, Mong Kok","Suite 1822-23, 18/F, Phase 1, Argyle Centre, 668 Nathan Road, Mong Kok",2396 0801,2396 0801,4E57F,2011-08-29,Online,,17,0
+18,Dr Paul Lau,Orthodontic & Children's Dental Center,"Suite 329, Central Building, 1 Pedder Street, Central","Suite 329, Central Building, 1 Pedder Street, Central",2869 7268,2869 7268,C0FE2,2011-10-18,Online,,18,0
+19,Miss Ng ,Sheng Li Metals Limited," Rm 1002, 10/F, Honest Motors Bldg, 9-11 Leighton Rd,"," Rm 1002, 10/F, Honest Motors Bldg, 9-11 Leighton Rd,",2834 8166,,1F288,2011-05-09,,,19,0
+20,Ms Wong,Tanny Beauty Limited,香港德輔道西343號 圴益大廈2期32號地鋪,香港德輔道西343號 圴益大廈2期32號地鋪,2858 7790,9233 9776,98678,2011-12-05,Online,,20,0
+21,Mr Ma,L Travel Center Limited,香港德輔道中121號 遠東發展大廈2204室,香港德輔道中121號 遠東發展大廈2204室,2543 1600,2543 1600,10A40,2012-01-07,Online,,21,0
+22,Mr Kwok ,Mr Kwok, 九龍灣寶隆中心B座906室, 九龍灣寶隆中心B座906室,9704 8759,,A3E7B,2011-05-09,,,22,0
+23,Mr Leith Chan,HKU,"Room 8-16, 8/F, Haking Wong Building, Pokfulam Road","Room 8-16, 8/F, Haking Wong Building, Pokfulam Road",.,.,7A6C2,2012-06-08,Online,,23,0
+24,Mr Leung,Mr Leung,元朗米埔村 201B號1樓,元朗米埔村 201B號1樓,9278 8946,9278 8946,7B320,2012-06-23,Online,,24,0
+25,彭生 ,彭生, 東頭村地盤, 東頭村地盤,6770 1474,,F418C,2011-05-09,,,25,0
+26,Miss Leung ,Miss Leung, 荃灣西地盤, 荃灣西地盤,6194 5138,,C6E2B,2011-05-09,,,26,0
+27,Mr Ho ,Mr Ho," DD 123, 3/F元朗地利黃金閣"," DD 123, 3/F元朗地利黃金閣",9788 6060,,B7B95,2011-05-09,,,27,0
+28,Mr Arthur,The Peninsula Hong Kong,"The Peninsula, Salisbury Road,Kowloon","The Peninsula, Salisbury Road,Kowloon",2696 6925,2696 6925,E6AD9,2012-10-19,Online,,28,0
+29,Miss Leung,Miss Leung,九龍城衙前圍道168號 怡德花園D6座3樓,九龍城衙前圍道168號 怡德花園D6座3樓,9040 3106,9040 3106,7F028,2012-11-07,Online,,29,0
+30,Mr Wong,Mr Wong,太古城東山閣 5樓B室,太古城東山閣 5樓B室,9183 4480,9183 4480,DE3F8,2012-11-07,Online,,30,0
+31,Michelle Cheong,Promise Network Printing Limited,九龍觀塘道436-446號 官塘工業中心第3期4樓A室,九龍觀塘道436-446號 官塘工業中心第3期4樓A室,2319 7155,2319 7155,8CEB2,2012-12-13,Online,,31,0
+32, ,Alessandro Leoni," Unit 1707,V Serviced Apartment, "," Unit 1707,V Serviced Apartment, ",9865 1500,,B9A5B,2011-05-09,,,32,0
+33,Shirley Lam,Miss Shirley Lam,"136D, Tong Fuk Village, South Lantau","136D, Tong Fuk Village, South Lantau",6273 2581,6273 2581,BAAD2,2013-03-22,Online,,33,0
+34,Jan Cheung,Tai Po Mega Mall Management Services Office,"Shop No. 80, 2/F, Zone B,Tai Po Mega Mall, 8 & 10 On Pong Road, Tai Po","Shop No. 80, 2/F, Zone B,Tai Po Mega Mall, 8 & 10 On Pong Road, Tai Po",2665 6828,2665 6828,206BE,2013-03-06,Online,,34,0
+35,Ms Lok,Hyland Theatre,屯門鄉事會路136號 雅都花園地下,屯門鄉事會路136號 雅都花園地下,9731 9075,2459 4857,B7C6D,2013-01-15,Online,,35,0
+36, ,With Hair," 5/F, 472 Lockhart Road,Causeway Bay, Hong Kong"," 5/F, 472 Lockhart Road,Causeway Bay, Hong Kong",2573 1077,,4666A,2011-05-09,,,36,0
+37,Wong ,Disneyland Hotel, 3樓工程部, 3樓工程部,3510 6953,,FB051,2011-05-09,,,37,0
+38,阿鋒,阿鋒,粉嶺嘉福邨 福安樓2113室,粉嶺嘉福邨 福安樓2113室,9651 1239,9651 1239,EF5DA,2013-05-31,Online,,38,0
+39,Mr Ng,Lui's Co Limited,銅鑼灣駱克道492號 順禧銅鑼灣中心22樓全層,銅鑼灣駱克道492號順 順禧銅鑼灣中心22樓全層,2573 1077,2573 1077,7195B,2013-06-01,Online,,39,0
+40, ,Bonnie Ng," 34C, Tower 3, Grand ViewGraden, Diamond Hill"," 34C, Tower 3, Grand ViewGraden, Diamond Hill",9328 6612,,3CCE6,2011-05-09,,,40,0
+41,Sophie ,Colour Arrow Investment Limited," 11/F, Golden Star Building,20-24 Lock Hart Road,"," 11/F, Golden Star Building,20-24 Lock Hart Road,",2893 4063,,A70BA,2011-05-09,,,41,0
+42,Ivy Wong ,Able Contractors Limited," 155 Waterloo Road, Kowloon Tong, "," 155 Waterloo Road, Kowloon Tong, ",2748 9819,,55A92,2011-05-09,,,42,0
+43,崔小姐,Poly U,"Rm TU 732, Dept of AppliedMathematics,Poly U.","Rm TU 732, Dept of AppliedMathematics,Poly U.",2766 6946,2766 6946,CD321,2013-09-23,Online,,43,0
+44,Mr Arthur Leung,Chinachem Agencies Ltd,"35-38/F, Tower Two, Nina Tower, 8 Yeung Uk Rd, Tsuen Wan","35-38/F, Tower Two, Nina Tower, 8 Yeung Uk Rd, Tsuen Wan",2500 7200,2500 7200,CDD0F,2013-10-18,Online,,44,0
+45,Ms Ada Leong,Futac International Limited,"Unit D, 6/F, Ka To Factory Building, 2 Cheung Yue St, Cheung Sha Wan","Unit D, 6/F, Ka To Factory Building, 2 Cheung Yue St, Cheung Sha Wan",2975 2222,9342 9239,94C4F,2014-10-08,Online,,45,0
+46, ,Miss Lam," Flat A, 4/F, Greenery Court,Discovery Bay, Lantau Island"," Flat A, 4/F, Greenery Court,Discovery Bay, Lantau Island",5317 6880,,99DBB,2011-05-09,,,46,0
+47,Ms Emily Wong ,爾巒,元朗錦田映河路1號 元朗錦田映河路1號,元朗錦田映河路1號 元朗錦田映河路1號,2470 8066,2470 8066,6AC6E,2013-11-01,,,47,0
+48,Ms Lee,Kai Shing Management Services Ltd,沙田白鶴汀街2-8號新城市商業大廈602室 沙田新城市廣場3期LB控制室,沙田白鶴汀街2-8號新城市商業大廈602室 沙田新城市廣場3期LB控制室,2692 2719,2692 2719,40AFF,2014-11-27,Online,,48,0
+49,Enoch Wong ,Enoch Wong," Room 1505-1512,Leader Industrial Centre,"," Room 1505-1512,Leader Industrial Centre,",9876 3114 ,,A4A09,2011-05-09,,,49,0
+50,Miss Fan ,Miss Fan, Discovery Bay The Marine DOCK F2, Discovery Bay The Marine DOCK F2,9141 9961,,7CE4C,2011-05-09,,,50,0
+51, ,Miss Lai, 九龍油麻地上海街279號9B, 九龍油麻地上海街279號9B,6463 8860,,3C465,2011-05-09,,,51,0
+52,Matt Fung ,Sanfield Management Ltd," 44/F, Sun Hung Kai Centre,30 Harbour Road"," 44/F, Sun Hung Kai Centre,30 Harbour Road",3766 6708,,CF62F,2011-05-09,,,52,0
+53,Ms Krizia Wong,Vivavo (HK) Limited,"17/F, Tai Yip Building, 141 Thomson Road,Wanchai 17/F, Tai Yip Building, 141 Thomson Road,Wanchai","17/F, Tai Yip Building, 141 Thomson Road,Wanchai 17/F, Tai Yip Building, 141 Thomson Road,Wanchai",3464 1700,3464 1700,0174C,2014-04-01,,,53,0
+54,李小姐 ,鐘聲小學, 新界元朗舊墟路29號, 新界元朗舊墟路29號,2476 2505,,18CB4,2011-05-09,,,54,0
+55,Mrs Choi,Mrs Choi,地利根德里12號 譽皇居26樓B室,地利根德里12號 譽皇居26樓B室,9222 1221,9222 1221,54A8F,2014-05-22,Online,,55,0
+56,Gary S.K. Ho ,Key Design & Construction Company Ltd," Rm A12, 5/F, East Sun Ind. CtrBlk A, 20 Shing Yip St. "," Rm A12, 5/F, East Sun Ind. CtrBlk A, 20 Shing Yip St. ",3488 9881,,45191,2018-01-01,,,56,0
+57,Jerde Partnership International,Jerde Partnership International,"29/F, EIB Centre, 40 BonhamStrand, Sheung Wan,","29/F, EIB Centre, 40 BonhamStrand, Sheung Wan,",2544 2133,,B317F,2018-01-01,Online,,57,0
+58,Cherry ,Lanon Construction Ltd," 157 Waterloo Road,Kowloon Tong, Kowloon,"," 157 Waterloo Road,Kowloon Tong, Kowloon,",2748 9823,,BA521,2018-01-01,,,58,0
+59,Joe Wong ,Futac International Ltd," Unit 4, 3/F, Sun CheongIndustrial Building, Cheung"," Unit 4, 3/F, Sun CheongIndustrial Building, Cheung",9427 7166,,F72C0,2018-01-01,,,59,0
+60, ,Ms Gan," 27A, Block 6, Coastal Skyline,12 Tung Chung Waterfront Road,"," 27A, Block 6, Coastal Skyline,12 Tung Chung Waterfront Road,",,,7023,2018-01-01,,,60,0
+61, ,Mr Lam, , ,6831 6128,,85A7A,2018-01-01,,,61,0
+62, ,黃生, 元朗朗庭園3座27樓E室, 元朗朗庭園3座27樓E室,6022 3816,,F0C51,2018-01-01,,,62,0
+63,Mr Wong,Mr Wong,"Room 407, Hiu Fung House, Fung Wah Estate","Room 407, Hiu Fung House, Fung Wah Estate",9473 1852,9473 1852,565FC,2014-07-07,Online,,63,0
+64, ,李生, 元朗黃屋村152號地下, 元朗黃屋村152號地下,9308 8239,,1F99A,2018-01-01,,,64,0
+65,方小姐 ,Maya Entertainment Limited," Unit C, 6/F,10 Knutsford Terrace,"," Unit C, 6/F,10 Knutsford Terrace,",6019 9161,,9DC81,2018-01-01,,,65,0
+66,黃生,黃生,1座2A 大埔科進路9號天賦海灣3期海鑽, 大埔科進路9號天賦海灣3期海鑽1座2A,9010 6929,9010 6929,5F645,2018-01-01,,,66,0
+67, ,Doshf," Flat F, 11/F, Kimberly Mansion15 Austin Rd, Tsim Sha Tsui"," Flat F, 11/F, Kimberly Mansion15 Austin Rd, Tsim Sha Tsui",5690 2929,,CDF3F,2018-01-01,,,67,0
+68,Ms Jennifer Lau,Sky Tact Investment Limited,"Shop 201, 2/F, Central Building, 1-3 Pedder St, Central","Shop 201, 2/F, Central Building, 1-3 Pedder St, Central",2290 2652,2290 2652,128A8,2016-07-27,Online,,68,0
+69,Ms Chan,Aegean Coast 愛琴海岸,"Aegean Coast, 2 Kwun Tsing Road, So 2 Kwun Tsing Rd, So Kwun Wat, Tuen Mun, N.T","Aegean Coast, 2 Kwun Tsing Road, So 2 Kwun Tsing Rd, So Kwun Wat, Tuen Mun, N.T",2949 5111,2949 5111,738B5,2014-07-12,Online,,69,0
+70,May,Noiseless Design,"Flat A4, 9/F, Block A, Mai Hing Industrial Building, 16-18 Hing Yip Street, Kwun Tong","Flat A4, 9/F, Block A, Mai Hing Industrial Building, 16-18 Hing Yip Street, Kwun Tong",9357 8071,9357 8071,53E7E,2014-07-16,Online,,70,0
+71,Mr Yeung ,Strong Action," G/F, 50 Wyndham Street,Central"," G/F, 50 Wyndham Street,Central",6081 0223,,4394F,2018-01-01,,,71,0
+72,Mr Homond Cheung,Mr Homond Cheung,"Flat A, 7/F, Tower 3, The Spectra, 8 Kwong Yip St, Long Ping, N.T","Flat A, 7/F, Tower 3, The Spectra, 8 Kwong Yip St, Long Ping, N.T",6050 0301,6050 0301,CA25E,2018-01-01,Online,,72,0
+73,周生,周生,觀塘麗港城 26座23樓A室,觀塘麗港城 26座23樓A室,9267 8862,9267 8862,27FAF,2014-08-01,Online,,73,0
+74,葉小姐,青山浸信會恆青福音堂,屯門建泰街恆威工業中心 A1座11樓1室,屯門建泰街恆威工業中心 A1座11樓1室,2146 9836,2146 9836,C07DA,2014-08-14,Online,,74,0
+75,Ms Hody Leung,Plaza Hollywood Limited,九龍鑽石山 龍蟠街3號,九龍鑽石山 龍蟠街3號,2118 8829,2118 8829,E32C1,2014-08-04,Online,,75,0
+76,Mr Joel Chan ,Shun Yuen Construction Company Limited,"12/F, China Trade Centre,122-124 Wai Yip Street, Kwun Tong 屯門浩洋街2號路政署地盤","12/F, China Trade Centre,122-124 Wai Yip Street, Kwun Tong 屯門浩洋街2號路政署地盤",2389 1368 (Ext. 23),2450 0938,2B6BF,2015-08-26,,,76,0
+77,Maggie,Maggie,九龍灣啟興道2號 太平洋貿易中心16樓28室,九龍灣啟興道2號 太平洋貿易中心16樓28室,5437 7740,5437 7740,7427F,2014-08-08,Online,,77,0
+78,周生,周生,"Rm 914, Blk 7, Shui Choi Hse,Tin Shui Estate","Rm 914, Blk 7, Shui Choi Hse,Tin Shui Estate",6221 9394,6221 9394,BCEC5,2014-08-12,Online,,78,0
+79,Ms Kwan,五旬節靳茂生小學,"No. 4, Pik Fung Road, Fanling"," No. 4, Pik Fung Road, Fanling",2670 0103,,552CD,2014-08-27,Online,,79,0
+80,Mr Anthony Tong,Mr Anthony Tong,"1/F, 5 Dianthus Road, Yau Yat Chuen, Kowloon","1/F, 5 Dianthus Road, Yau Yat Chuen, Kowloon",9881 2160,9881 2160,A81DC,2014-08-26,Online,,80,0
+81,Sarah Chung ,The Kinnet," LG - 3/F, Hillier Building,33 Hillier Street, Sheung Wan"," LG - 3/F, Hillier Building,33 Hillier Street, Sheung Wan",9572 2422,,CD788,2018-01-01,,,81,0
+82,唐小姐,唐小姐,又一村14號 丹桂路2樓D,又一村14號 丹桂路2樓D,6772 3760,6772 3760,D423C,2014-09-03,Online,,82,0
+83,Ms Chan,Yee Fung Polyfoam Limited,"Rm 2003-06, Billion Plaza, 8 Cheung Yue st, Cheung Sha Wan","Rm 2003-06, Billion Plaza, 8 Cheung Yue st, Cheung Sha Wan",2314 7761,2314 7761,959B1,2014-10-07,Online,,83,0
+84,Ms Vera Lai,Randstad Hong Kong,"Rm2906, Hysan Place 500 Hennessy Road , Causeway Bay","Rm2906, Hysan Place 500 Hennessy Road , Causeway Bay",2232 3408,2232 3408,5C7E9,2018-10-29,Online,,84,0
+85,Miss Ip,Miss Ip,"Rm K, 21/F, BLK 3, Charming Garden, 16 Hoi Ting Road, Mong Kok","Rm K, 21/F, BLK 3, Charming Garden, 16 Hoi Ting Road, Mong Kok",9757 4739,9757 4739,EA1F5,2014-10-12,Online,,85,0
+86,Mr Yeung,SCAD Hong Kong,"292 Tai Po Road, Sham Shui Po, Kowloon","292 Tai Po Road, Sham Shui Po, Kowloon",2253 8058,9540 7744,A0EA6,2014-09-13,Online,,86,0
+87,Ms Yeung,The Samaritan Befrienders Hong Kong Suicide Crisis Intervention Ctr,"Units 1, 3/F, Shui Tin House, Pak Tin Estate, Kowloon","Units 1, 3/F, Shui Tin House, Pak Tin Estate, Kowloon",2341 7227,9340 0918,D08A8,2014-09-16,Online,,87,0
+88, ,Maya Consultants Ltd," 1/F, Nam Wo Hong Building,148 Wing Lok Street, "," 1/F, Nam Wo Hong Building,148 Wing Lok Street, ",2858 9987,,AAA63,2018-01-01,,,88,0
+89,Ms Au Yeung,Latitude Brokers Limited,"Unit C, 18/F, Casey Aberdeen House, 38 Heung Yip Road, Wong Chuk Hang","Unit C, 18/F, Casey Aberdeen House, 38 Heung Yip Road, Wong Chuk Hang",2154 2242,2154 2242,9074F,2014-02-07,Online,,89,0
+90,陳生,陳生,西灣河耀興道88號 星灣峰大廈25樓D室,西灣河耀興道88號 星灣峰大廈25樓D室,9133 6170,9133 6170,FC30A,2014-09-30,Online,,90,0
+91,Ms Wong,Cundall Hong Kong Limited,"7/F, The Hennessy, 256 Hennessy Road, Wan Chai","7/F, The Hennessy, 256 Hennessy Road, Wan Chai",2566 6260,6281 9801,ECFD8,2014-10-03,Online,,91,0
+92,Ms June Wong,Gold Bright Hong Kong Group Limited,"21/F, 88 Commercial Building 28 Wing Lok St, Sheung Wan","21/F, 88 Commercial Building 28 Wing Lok St, Sheung Wan",2815 2992,2815 2992,82A5C,2014-10-08,Online,,92,0
+93,曾小姐,曾小姐,粉嶺萊洞村 26號2樓,粉嶺萊洞村 26號2樓,9218 6452,9218 6452,EB9B0,2014-10-13,Online,,93,0
+94, ,Mr Leung," Flat A, 23/F, Block 7, Parkland Villas, Tuen Mun"," Flat A, 23/F, Block 7, Parkland Villas, Tuen Mun",9255 5129,,9640D,2018-01-01,,,94,0
+95,Mr Eric Lo,The Prime Construction Materials,"House 23, L'Utopie, 18 Yat Yiu Avenue, Tai Po Kau, Tai Po","House 23, L'Utopie, 18 Yat Yiu Avenue, Tai Po Kau, Tai Po",9099 6391,9099 6391,5239E,2014-10-27,Online,,95,0
+96, ,Mr Tin," Flat 2A, Yee Wah Court,182 Fuk Wa Street, "," Flat 2A, Yee Wah Court,182 Fuk Wa Street, ",9380 7167,,52E6C,2018-01-01,,,96,0
+97, ,Fitness Artisan Limited," 2A Crawford Tower,99 Jervois St,Sheung Wan."," 2A Crawford Tower,99 Jervois St,Sheung Wan.",6932 0365,,84D94,2018-01-01,,,97,0
+98, ,"Osprey Associates Co., Ltd."," Unit 2, 2/F, Blk B, New Trade Plaza , 6 On Ping Street"," Unit 2, 2/F, Blk B, New Trade Plaza , 6 On Ping Street",,,C4818,2018-01-01,,,98,0
+99,Ms Yiu,Ms Yiu,"Room 1517, Mei Sau House, Mei Tin Estate, Tai Wai","Room 1517, Mei Sau House, Mei Tin Estate, Tai Wai",9105 9997,9105 9997,65658,2014-10-24,Online,,99,0
+100,Kimberly Kim,Kimberly Kim,"17B, Aigburth, 12 Tregunter Path, Mid Level","17B, Aigburth, 12 Tregunter Path, Mid Level",9329 3326,9329 3326,7B2F7,2015-10-28,Online,,100,0
+101,Mike,Mike,灣仔克街6號廣生行大廈B座3樓H室 灣仔克街6號廣生行大廈B座3樓H室,灣仔克街6號廣生行大廈B座3樓H室 灣仔克街6號廣生行大廈B座3樓H室,6011 6337,6011 6337,6A8B6,2014-11-17,,,101,0
+102,譚小姐,譚小姐,銅鑼灣大坑道5-7號 光明臺2座34樓A室,銅鑼灣大坑道5-7號 光明臺2座34樓A室,9097 7783,9097 7783,B9AD1,2014-11-18,Online,,102,0
+103,Mrs Wong,Mrs Wong,元朗錦田映河路1號 爾巒茵娜大道8座10A室,元朗錦田映河路1號 爾巒茵娜大道8座10A室,9460 6148,6193 2485,4529D,2014-12-05,Online,,103,0
+104, ,李生, 屯門黃金海岸2期26座1A, 屯門黃金海岸2期26座1A,9722 9875,,2F7FE,2018-01-01,,,104,0
+105,Ms Ngo,Art Group Corporation Ltd,中環皇后大道20號 太平行10樓1001,中環皇后大道20號 太平行10樓1001,2117 0303,9132 3332,C4586,2014-12-08,Online,,105,0
+106,鄭太,Bill's Food Factory Limited,九龍長沙灣 青山道330號唐3樓,九龍長沙灣 青山道330號唐3樓,2194 8612,9344 0120,D3EB4,2014-12-16,Online,,106,0
+107,Ms Wong,Ms Wong,"6/F, 81 Blue Pool Road, Happy Valley","6/F, 81 Blue Pool Road, Happy Valley",9475 8998,9475 8998,4118A,2014-12-29,Online,,107,0
+108,麥小姐,基督教宣道會屯門堂家庭服務處- 興耀服務處,"G/F, 26-29, 32-35, Hing Yiu House, Tai Hing Estate, Tuen Mun","G/F, 26-29, 32-35, Hing Yiu House, Tai Hing Estate, Tuen Mun",2464 8152,2464 8152,13CA2,2014-12-18,Online,,108,0
+109,葉生,葉生,將軍澳唐明街1號 富康花園2座1樓C室,將軍澳唐明街1號 富康花園2座1樓C室,9640 3909,9640 3909,BF34A,2015-06-19,Online,,109,0
+110,Ms Chan,Ms Chan,元朗錦田映河路1號 爾巒茵羅洛斯大道6A座19B室,元朗錦田映河路1號 爾巒茵羅洛斯大道6A座19B室,9633 1226,9633 1226,D775E,2014-12-27,Online,,110,0
+111, ,Mandarin Oriental Hotel Group," 281 Gloucester Road, Causeway Bay, Hong Kong"," 281 Gloucester Road, Causeway Bay, Hong Kong",2895 9130,,66899,2018-01-01,,,111,0
+112,Ms So,Simon Intellectual Property Services Asia Limited (SIPS HK),"25/F, 3 Lockhart Road, Wan Chai, HK","25/F, 3 Lockhart Road, Wan Chai, HK",3468 7500,3468 7500,4E60D,2015-01-02,Online,,112,0
+113, ,Mr Shek," Rm F, 33/F, Block 2,Nerine Cove, 22 Hang Fu St,"," Rm F, 33/F, Block 2,Nerine Cove, 22 Hang Fu St,",6889 6294,,89DF9,2018-01-01,,,113,0
+114,梁小姐,梁小姐,官塘樂華南邨 奐華樓15樓A1512室,官塘樂華南邨 奐華樓15樓A1512室,9010 9508,9010 9508,F1514,2015-01-04,Online,,114,0
+115, ,Mr Law," Flat F, 10/F, Green CodeTower 3, 1 Ma Sik Road,"," Flat F, 10/F, Green CodeTower 3, 1 Ma Sik Road,",6182 6189,,B7A30,2018-01-01,,,115,0
+116, ,Yummi House International Limited, 香港上環文咸東街56-58號及急庇利街8A/8B金豐大廈地下, 香港上環文咸東街56-58號及急庇利街8A/8B金豐大廈地下,9573 9465,,80980,2018-01-01,,,116,0
+117, ,連小姐, 大圍世界花園1座6樓A室, 大圍世界花園1座6樓A室,9720 0063,,9F022,2018-01-01,,,117,0
+118,Ms Sin,A-Event Group Limited,"Unit 4 & 5, G/F, 52-56 King's Road, North Point","Unit 4 & 5, G/F, 52-56 King's Road, North Point",2882 5452,2882 5452,D8FD2,2015-01-21,Online,,118,0
+119, ,Mr Chao," Block 1, 26C, Grand PacificViews, Palatial Coast, Siu Lam"," Block 1, 26C, Grand PacificViews, Palatial Coast, Siu Lam",9209 0823,,B8AAC,2018-01-01,,,119,0
+120,Mr Cheung,Mr Cheung,"Unit B, 19/F, Tower 1, The Legend, 23 Tai Hang Drive, Tai Hang","Unit B, 19/F, Tower 1, The Legend, 23 Tai Hang Drive, Tai Hang",9229 7331,9229 7331,5.70E+67,2015-01-19,Online,,120,0
+121, ,Ms Yan, 將軍澳新都城2期2座38樓D室, 將軍澳新都城2期2座38樓D室,9524 6888,,AFC50,2018-01-01,,,121,0
+122,Ms Yim,Ms Yim,青山公路46號 深井陳記廣場1樓前座A鋪,青山公路46號 深井陳記廣場1樓前座A鋪,6050 5311,6050 5311,008EA,2015-01-21,Online,,122,0
+123,鄭生,鄭生,沙田富豪花園 林景閣15樓C室,沙田富豪花園 林景閣15樓C室,9831 6387,9831 6387,B3E4E,2015-01-27,Online,,123,0
+124,Ms Alana Chan,Ms Alana Chan,紅磡半島豪庭 5座20樓G室,紅磡半島豪庭 5座20樓G室,9288 8538,9288 8538,C2351,2015-01-22,Online,,124,0
+125,藍小姐,藍小姐,將軍澳廣明苑 廣賢閣3015室,將軍澳廣明苑 廣賢閣3015室,6052 2975,6052 2975,1B662,2015-01-23,Online,,125,0
+126,Macy,Red Capital Group Limited,"11/F, Southland Building, 48 Connaught Road Central, Hong Kong","11/F, Southland Building, 48 Connaught Road Central, Hong Kong",3108 6933,3108 6933,9A336,2015-01-27,Online,,126,0
+127,Ms Wong,Tuen Mun Alliance Church,"1A-1B, Shopping Arcade, Prime View Garden, Tuen Mun","1A-1B, Shopping Arcade, Prime View Garden, Tuen Mun",2457 4781 (EXT 310),2457 4781 (E,F905A,2015-01-30,Online,,127,0
+128,Ms Lam,Mother Hong Kong Arts Centre,觀塘開源道55號 開聯工業中心B座13樓13室,觀塘開源道55號 開聯工業中心B座13樓13室,2342 7782,2342 7782,7D1BA,2015-01-14,Online,,128,0
+129,Ms Yeung,CNEC Hung Hom Christian Church,"Flat E & F, 1/F, In House, 307 To Kwa Wan Road","Flat E & F, 1/F, In House, 307 To Kwa Wan Road",3955 0774,3955 0774,A4C8F,2015-02-06,Online,,129,0
+130,Ms Lai,Ms Lai,"Flat I, 5/F, Archie Graden, Blk 2, Shatin Park Phase 2, Kong Pui Street, Shatin","Flat I, 5/F, Archie Graden, Blk 2, Shatin Park Phase 2, Kong Pui Street, Shatin",6154 8151,6154 8151,BE8CD,2015-02-10,Online,,130,0
+131,朱小姐,朱小姐,大埔嘉豐花園 16座3樓C室,大埔嘉豐花園 16座3樓C室,9604 6409,9604 6409,7D8F8,2015-02-13,Online,,131,0
+132,Mr Wong,Mr Wong,"Flat A, 25/F, Tower 8, Park Avenue, 18 Hoi Ting Rd, Tai Kok Tsui","Flat A, 25/F, Tower 8, Park Avenue, 18 Hoi Ting Rd, Tai Kok Tsui",2785 6860,9185 6956,1E7B2,2015-02-12,Online,,132,0
+133,張生,張生,元朗 山下村613F,元朗 山下村613F,9441 1040,9441 1040,F48BD,2015-02-12,Online,,133,0
+134,張生,張生,元朗 山下村613E,元朗 山下村613E,9643 5066,9643 5066,D17AA,2015-02-12,Online,,134,0
+135,Ms Cheung,Ms Cheung,"Flat C, 27/F, Chung Hing House, Tsuen Wan Centre, Tsuen Wan","Flat C, 27/F, Chung Hing House, Tsuen Wan Centre, Tsuen Wan",6338 9943,6338 9943,4.20E+19,2015-02-16,Online,,135,0
+136,Ms Melody Wan,Biocare Technology Co Ltd,"Room 5036-40, Sun Hung Kai Centre, 30 Harbour Rd, Wanchai","Room 5036-40, Sun Hung Kai Centre, 30 Harbour Rd, Wanchai",2583 0878,2583 0878,B30A2,2015-02-16,Online,,136,0
+137,Ms Cheung,Ms Cheung,"Rm 608, Kiu Fung Mansion, 18 Austin Avenue, Tsim Sha Tsui","Rm 608, Kiu Fung Mansion, 18 Austin Avenue, Tsim Sha Tsui Rm 608, Kiu Fung Mansion, 18 Austin Avenue, Tsim Sha Tsui",6134 8888,6134 8888,B7F38,2015-02-16,Online,,137,0
+138,蘇小姐,蘇小姐,"Flat 6, 1/F, Block D, Hung Shing Court, Hung Hom Bay Center, 98 Baker St, Hung Hom","Flat 6, 1/F, Block D, Hung Shing Court, Hung Hom Bay Center, 98 Baker St, Hung Hom",9518 9509,9518 9509,41223,2015-03-10,Online,,138,0
+139, ,Mr Cheung," Flat G, 17/F, Tower 5,Park Signature, 68 Kung Um Rd,"," Flat G, 17/F, Tower 5,Park Signature, 68 Kung Um Rd,",9181 9755,,8DBE2,2018-01-01,,,139,0
+140,Vincy,Vincy,新界青龍頭青山公路青龍頭段100號 豪景花園27座17樓A室,新界青龍頭青山公路青龍頭段100號 豪景花園27座17樓A室,6688 2211,6688 2211,E683A,2015-03-12,Online,,140,0
+141, ,沙田教會會堂, 新界沙田瀝源街7號沙田娛樂城1樓A室, 新界沙田瀝源街7號沙田娛樂城1樓A室,2697 6220,,75B7F,2018-01-01,,,141,0
+142, ,丁小姐, 香港灣仔交加街9號嘉威閣3樓, 香港灣仔交加街9號嘉威閣3樓,9828 4938,,39294,2018-01-01,,,142,0
+143,Mr Calvin Li,Mr Calvin Li,"Flat C, 38/F, Tower 2A, Cullinan West, 28 Shum Mong Road, Sham Shui Po","Flat C, 38/F, Tower 2A, Cullinan West, 28 Shum Mong Road, Sham Shui Po",9232 8768,9232 8768,E1307,2015-03-29,Online,,143,0
+144,Ms Ma,Ms Ma,"Flat A, 5/F, Block 11, Mayfair Garden, 2-16 Sai Shan Road, Tsing Yi Flat A, 5/F, Block 11, Mayfair Garden, 2-16 Sai Shan Road, Tsing Yi","Flat A, 5/F, Block 11, Mayfair Garden, 2-16 Sai Shan Road, Tsing Yi Flat A, 5/F, Block 11, Mayfair Garden, 2-16 Sai Shan Road, Tsing Yi",6116 6588,6116 6588,23C60,2015-03-31,,,144,0
+145, ,Mr Lee,"Flat F, 25/F, Peony Court,Fulrich Garden, 9 Kung Lok Rd, Ngau Tau Kok Flat F, 25/F, Peony Court,Fulrich Garden, 9 Kung Lok Rd, Ngau Tau Kok","Flat F, 25/F, Peony Court,Fulrich Garden, 9 Kung Lok Rd, Ngau Tau Kok Flat F, 25/F, Peony Court,Fulrich Garden, 9 Kung Lok Rd, Ngau Tau Kok",6033 8233,6033 8233,2C0EC,2015-04-01,,,145,0
+146,蕭小姐,蕭小姐,"G/F, 6A San Hing Tsuen, Lau Fau Shan Road, Lau Fau Shan","G/F, 6A San Hing Tsuen, Lau Fau Shan Road, Lau Fau Shan",9269 3191,9269 3191,FB705,2015-04-01,Online,,146,0
+147,Mr Gary Tam,Mr Gary Tam,沙田晉名峰 C座12樓D室,沙田晉名峰 C座12樓D室,9229 6006,9229 6006,11740,2015-04-01,Online,,147,0
+148,Philip,Philip,"1/F, 18 Bisney Road, Pok Fu Lam, Hong Kong","1/F, 18 Bisney Road, Pok Fu Lam, Hong Kong",6300 5885,6300 5885,D999F,2015-04-03,Online,,148,0
+149, ,Ms Chan," Room 2906, Yu Yeung House(Block G), Yu Chui Court,"," Room 2906, Yu Yeung House(Block G), Yu Chui Court,",9487 6157,,5513F,2018-01-01,,,149,0
+150,Mr Wong,Ms Chan,"Flat F, 68/F, Tower 5, Sorrento, Austin Road West, Kowloon","Flat F, 68/F, Tower 5, Sorrento, Austin Road West, Kowloon",9167 9276,9742 2341,B37B1,2015-04-10,Online,,150,0
+151,Ms Leung,Ms Leung,元朗錦繡花園 河北11街9號,元朗錦繡花園 河北11街9號,9093 9648,9093 9648,360C4,2016-04-15,Online,,151,0
+152,Mr Lau,Mr Lau,"Rm 1008 , Block C , Galaxia , 3 Lung Poon St, Diamond Hill","Rm 1008 , Block C , Galaxia , 3 Lung Poon St, Diamond Hill",9882 2338,9882 2338,85C0F,2015-04-22,Online,,152,0
+153,Mr Tse,Luri Hair Designing,"Flat A, 15/F, Gold Swan Commercial Building, 438-444 Hennessy Road, Causeway Bay Flat A, 15/F, Gold Swan Commercial Building, 438-444 Hennessy Road, Causeway Bay","Flat A, 15/F, Gold Swan Commercial Building, 438-444 Hennessy Road, Causeway Bay Flat A, 15/F, Gold Swan Commercial Building, 438-444 Hennessy Road, Causeway Bay",6310 7108,6310 7108,62621,2015-04-23,,,153,0
+154,Ms Tang,Ms Tang,"Flat C, 4/F, Yuet On Building, 49-53 Tai Wai Road, Tai Wai","Flat C, 4/F, Yuet On Building, 49-53 Tai Wai Road, Tai Wai",9263 8699,9263 8699,30019,2015-05-09,Online,,154,0
+155,Ms Ting,Ms Ting,"Flat 02, 8/F, Block F, Hang King House, Siu Shan Court, Tuen Mun","Flat 02, 8/F, Block F, Hang King House, Siu Shan Court, Tuen Mun",9663 3594,9663 3594,4EF0A,2015-05-09,Online,,155,0
+156,Mrs Lau,Mrs Lau,"Flat 02, 8/F, Block A, The Dahfuldy, 21 Ho Man Tin Hill Road, Ho Man Tin","Flat 02, 8/F, Block A, The Dahfuldy, 21 Ho Man Tin Hill Road, Ho Man Tin",9279 3878,6051 9888,3FB26,2015-05-04,Online,,156,0
+157, ,Mr Chan," Flat F, 6/F, Block 15, RiveraGarden, Hoi Wai Mansion, 2-12"," Flat F, 6/F, Block 15, RiveraGarden, Hoi Wai Mansion, 2-12",9319 0550,,88CAC,2018-01-01,,,157,0
+158,Ms So,Ms So,"Flat C, 5/F, Tower 1, Goodrich Garden, 9 Leung Tak  St, Tuen Mun","Flat C, 5/F, Tower 1, Goodrich Garden, 9 Leung Tak  St, Tuen Mun",9103 6566,9103 6566,FBE7A,2015-05-05,Online,,158,0
+159,姜生,姜生,深井青山公路深井段33號 碧堤半島9座22樓F室,深井青山公路深井段33號 碧堤半島9座22樓F室,9755 4321,9755 4321,BD785,2015-05-05,Online,,159,0
+160,Mrs Leung,Mrs Leung,太古城高山台 富山閣12樓F室,太古城高山台 富山閣12樓F室,9095 1322,9095 1322,8BB38,2015-08-20,Online,,160,0
+161,Ms Chong,Ms Chong,"G/F, Green Lodge House 10, Tong Yan San Tsuen, Ma Fung Ling Road, Yuen Long","G/F, Green Lodge House 10, Tong Yan San Tsuen, Ma Fung Ling Road, Yuen Long",9257 2031,9257 2031,0F50D,2015-05-09,Online,,161,0
+162,Ms Ng,Ms Ng,"Flat H, 28/F, Tower 5, Rambler Crest, Tsing Yi","Flat H, 28/F, Tower 5, Rambler Crest, Tsing Yi",9717 1129,9717 1129,111CD,2015-05-11,Online,,162,0
+163,李小姐,李小姐,青衣青裕新村 38號3樓,青衣青裕新村 38號3樓,9778 0288,9778 0288,17DB9,2015-05-13,Online,,163,0
+164, ,鴻星集團, 荃灣沙咀道68號大成大廈14樓, 荃灣沙咀道68號大成大廈14樓,9190 5877,,B96E9,2018-01-01,,,164,0
+165,Mrs Lee,Mrs Lee,元朗黃屋村209號 瀚林苑15座1樓,元朗黃屋村209號 瀚林苑15座1樓,6926 9966,6926 9966,C416F,2015-05-26,Online,,165,0
+166,Mr Cheung,Mr Cheung,牛頭角彩霞邨 彩日樓2003室,牛頭角彩霞邨 彩日樓2003室,9722 2266,9722 2266,F53C7,2015-01-08,Online,,166,0
+167,Ms Lo,Ms Lo,"Flat B, 7/F, Tower 3, Solaria, 16 Fo Chun Road, Pak Shek Kok, Tai Po","Flat B, 7/F, Tower 3, Solaria, 16 Fo Chun Road, Pak Shek Kok, Tai Po",9866 1203,9866 1203,91D85,2015-06-08,Online,,167,0
+168, ,任白慈善基金景林安老院," G-1/F, Block 3, King MinHouse, King Lam Estate, "," G-1/F, Block 3, King MinHouse, King Lam Estate, ",2701 8655 ,,EE17C,2018-01-01,,,168,0
+169,Ms Cindy Wong,Life Fitness Asia Pacific Limited,"32/F, Global Trade Square, 21 Wang Chuk Hang Rd, Wong Chuk Hang","32/F, Global Trade Square, 21 Wang Chuk Hang Rd, Wong Chuk Hang",2575 6262,2575 6262,727BA,2015-07-17,Online,,169,0
+170,Ms Jennifer Yam,Sparadise of Hong Kong Ltd,"4/F, Sparadise,60 Wellington St, Central 4/F, Sparadise,60 Wellington St, Central","4/F, Sparadise,60 Wellington St, Central 4/F, Sparadise,60 Wellington St, Central",2997 2208,2997 2208,8AB70,2015-06-26,,,170,0
+171,Mr Kwan,Christian Concern For The Homeless Asso,"2/F, Cheong Wah Building, 203-211 Nam Cheong St, Sham Shui Po","2/F, Cheong Wah Building, 203-211 Nam Cheong St, Sham Shui Po",2788 0670,5117 6348,9FBB8,2016-12-09,Online,,171,0
+172, ,Mr Lee," 27H, Maple Mansion,Tai Koo Shing"," 27H, Maple Mansion,Tai Koo Shing",9308 3333,,12115,2018-01-01,,,172,0
+173,陳小姐,陳小姐,元朗加州花園 爵士居柳樹徑15號,元朗加州花園 爵士居柳樹徑15號,6890 8989,6890 8989,AB150,2015-07-13,Online,,173,0
+174,Ms Law,Comfort Home Co Ltd,"Flat A2, 10/F, Cheung Kong Factory Building, 5 Cheung  Shun St, Lai Chi Kok","Flat A2, 10/F, Cheung Kong Factory Building, 5 Cheung  Shun St, Lai Chi Kok",2789 3392,2789 3392,3B902,2015-07-13,Online,,174,0
+175,鍾太,鍾太,上水古洞粉錦公路338號 歌賦嶺銀杏徑16號屋,上水古洞粉錦公路338號 歌賦嶺銀杏徑16號屋,9384 0833,9384 0833,28FFB,2015-07-14,Online,,175,0
+176, ,龍生, 北角健康村康智閣607室, 北角健康村康智閣607室,6477 8114,,400EF,2018-01-01,,,176,0
+177, ,陳生, 香港柴灣新翠花園2座21樓H室, 香港柴灣新翠花園2座21樓H室,6606 3281,,950D7,2018-01-01,,,177,0
+178, ,何太, 西半山列堤頓道41號3樓, 西半山列堤頓道41號3樓,9190 5877,,DFFB5,2018-01-01,,,178,0
+179,Ms Man / Ms Yip,Ms Man / Ms Yip,"Room 3502, Wing Chun Hse, Wing Cheong Estate, Sham Shui Po","Room 3502, Wing Chun Hse, Wing Cheong Estate, Sham Shui Po",9046 1117/9755 3356,9046 1117/9755 3356,FD567,2015-07-23,Online,,179,0
+180,Ms Judith Wong,Ms Judith Wong,美孚第1期 百老匯街8號19樓A室,美孚第1期 百老匯街8號19樓A室,9135 4011,9135 4011,E3012,2015-07-21,Online,,180,0
+181,Mr Kenneth Wong,Mr Kenneth Wong,馬鞍山錦豐苑 A座錦蓉閣905室,馬鞍山錦豐苑 A座錦蓉閣905室,9803 1245,9803 1245,38B77,2015-07-23,Online,,181,0
+182, ,胡太, 土瓜灣下鄉道32號康富大廈4樓C室, 土瓜灣下鄉道32號康富大廈4樓C室,6821 8145,,95F93,2018-01-01,,,182,0
+183, ,Ms Ng," Flat 06, 11/F, Block A, Mount Parker Lodge, "," Flat 06, 11/F, Block A, Mount Parker Lodge, ",9106 3211,,05D36,2018-01-01,,,183,0
+184,海生 / 葉小姐,海生 / 葉小姐,"Flat D, 58/F, Tower 3B, Malibu, 1 Lohas Park Road, Tseung Kwan O","Flat D, 58/F, Tower 3B, Malibu, 1 Lohas Park Road, Tseung Kwan O",6620 0595,6620 0595,D7C4A,2015-07-27,Online,,184,0
+185, ,Mr Pierre Parodi," Flat 5F, 18 Square Street, Sheung Wan"," Flat 5F, 18 Square Street, Sheung Wan",5180 4474,,B3C97,2018-01-01,,,185,0
+186, ,Mr Leslie Fan," 39/F, Apt F, Tower 1, Sorrento, 1 Austin Rd West,"," 39/F, Apt F, Tower 1, Sorrento, 1 Austin Rd West,",9837 6640 ,,06CC6,2018-01-01,,,186,0
+187, ,Structuretone Asia," 23/F Chinachem Johnston Plaza,178-186 Johnston Road, "," 23/F Chinachem Johnston Plaza,178-186 Johnston Road, ",3711 0968,,056DB,2018-01-01,,,187,0
+188, ,Ms Tang," Flat C. 6/F, 1 North PointTerrace, North Point, HK"," Flat C. 6/F, 1 North PointTerrace, North Point, HK",9486 1986,,13407,2018-01-01,,,188,0
+189, ,Mrs Law," Flat C, 13/F, No. 38 Finnie Street,"," Flat C, 13/F, No. 38 Finnie Street,",9127 5684,,18ABB,2018-01-01,,,189,0
+190,Ms Carla Au,Progress Capital Limited,"6/F, Kimberley Plaza, 45-47 Kimberly Rd, Tsimshatsui","6/F, Kimberley Plaza, 45-47 Kimberly Rd, Tsimshatsui 6/F, Kimberley Plaza, 45-47 Kimberly Rd, Tsimshatsui",6533 0927,6533 0927,B912C,2015-08-04,Online,,190,0
+191,Ms Sit,Ms Sit,"Flat B, 20/F, Block 4, Kenswood Court, Kingswood Villa, Tin Shui Wai","Flat B, 20/F, Block 4, Kenswood Court, Kingswood Villa, Tin Shui Wai",9667 5801,9667 5801,D649D,2015-08-03,Online,,191,0
+192,Ms Wong,Ms Wong,"Flat F, 33/F, Blk 1, Koo Fung Court, Harbour Heights, 5 Fook Yum Road, North Point Flat F, 33/F, Blk 1, Koo Fung Court, Harbour Heights, 5 Fook Yum Road, North Point","Flat F, 33/F, Blk 1, Koo Fung Court, Harbour Heights, 5 Fook Yum Road, North Point Flat F, 33/F, Blk 1, Koo Fung Court, Harbour Heights, 5 Fook Yum Road, North Point",9655 2158,9655 2158,36ACA,2015-08-03,,,192,0
+193,Mr Kung,Mr Kung,"Flat C, 6/F, Block 3, Mandarin Ctr, 142 Argyle St, Kowloon","Flat C, 6/F, Block 3, Mandarin Ctr, 142 Argyle St, Kowloon",6509 9325,6509 9325,D49F8,2015-08-03,Online,,193,0
+194, ,Kai Shing Management Services Ltd," 1/F, Shopping Arcade,YOHO Midtown, 9 Yuen Lung St, "," 1/F, Shopping Arcade,YOHO Midtown, 9 Yuen Lung St, ",2554 0023,,14358,2018-01-01,,,194,0
+195,Mr Lee,Mr Lee,"Rm 2208, Hang Yee Hse, Cheung Hang Estate, Tsing Yi.","Rm 2208, Hang Yee Hse, Cheung Hang Estate, Tsing Yi.",9522 5170,9522 5170,A28FF,2015-08-04,Online,,195,0
+196, ,Hin Ming Cosmetic Shop, 沙田排頭村28號地下, 沙田排頭村28號地下,6899 9019,,E0C4A,2018-01-01,,,196,0
+197,Ms Yip,Ms Yip,"Flat E, 26/F, Royal Terrace, 933 King's Rd, Quarry Bay, HK","Flat E, 26/F, Royal Terrace, 933 King's Rd, Quarry Bay, HK",9030 9326,9030 9326,64274,2015-08-10,Online,,197,0
+198, ,Mr Tse," Rm 3116, Yiu Wah House,Yiu Tung Estate, Shau Kei Wan"," Rm 3116, Yiu Wah House,Yiu Tung Estate, Shau Kei Wan",9628 1226,,B5204,2018-01-01,,,198,0
+199,Ms Lo,Ms Lo,"Flat G, 3/F, Block 4, Bayshore Towers, Ma On Shan","Flat G, 3/F, Block 4, Bayshore Towers, Ma On Shan",9137 8713,9137 8713,3A03B,2015-08-14,Online,,199,0
+200, ,Ms Karen Leung, 九龍灣寶隆中心B座308室, 九龍灣寶隆中心B座308室,,,4A8D0,2018-01-01,,,200,0
+201,Mr Roger Lo,Radius Displays Limited,"Room 807, My Loft, 9 Hoi Wing Road, Tuen Mun","Room 807, My Loft, 9 Hoi Wing Road, Tuen Mun",6091 8280,6091 8280,BAD18,2015-08-18,Online,,201,0
+202, ,Mr Ng," Flat C, 6/F, Tower 2, Caldecott Hill, 2 Caldecott Rd"," Flat C, 6/F, Tower 2, Caldecott Hill, 2 Caldecott Rd",9721 6925,,0B6CA,2018-01-01,,,202,0
+203, ,Ms Chan, 上水古洞南天巒II期洛卡諾大道3號, 上水古洞南天巒II期洛卡諾大道3號,6307 7768,,F79B9,2018-01-01,,,203,0
+204,Ms Luk,Ms Luk,"Flat 05, 15/F, Block C, Kornhill, 21 Hong Shing St, Quarry Bay","Flat 05, 15/F, Block C, Kornhill, 21 Hong Shing St, Quarry Bay",9043 22209750 5885,9043 2220,94D22,2015-08-27,Online,,204,0
+205,Ms Luk,Ms Luk,"Flat H, 37/F, Block 6, La Cite Noble, 1 Ngan O Rd, TKO","Flat H, 37/F, Block 6, La Cite Noble, 1 Ngan O Rd, TKO",9043 2220,9043 2220,24EEC,2015-08-28,Online,,205,0
+206,Ms Luk,Ms Luk,"Flat H, 27/F, Block 6, La Cite Noble, 1 Ngan O Rd, TKO","Flat H, 27/F, Block 6, La Cite Noble, 1 Ngan O Rd,",9043 2220,9043 2220,5B66D,2015-08-28,Online,,206,0
+207,Mrs Fung,Mrs Fung,"No.146, Wo Yi Hop, Shing Mun Reservoir, Tsuen Wan","No.146, Wo Yi Hop, Shing Mun Reservoir, Tsuen Wan",9203 5935,9203 5935,6.00E+114,2015-08-28,Online,,207,0
+208,Mr Chan,Mr Chan,"Flat B, 27/F, Block 24, City One Shatin, 5 Cheung Shing St, Shatin","Flat B, 27/F, Block 24, City One Shatin, 5 Cheung Shing St, Shatin",9733 8422,9733 8422,81417,2016-09-12,Online,,208,0
+209,Ms Cheng,Ms Cheng,"Flat G, 20/F, Block 4, Tanner Garden, North Point","Flat G, 20/F, Block 4, Tanner Garden, North Point",9151 8983,9151 8983,7F7DA,2015-08-27,Online,,209,0
+210,Mr Wong,Mr Wong,九龍灣得寶花園 H座8樓2室,九龍灣得寶花園H座8樓2室 九龍灣得寶花園H座8樓2室,9872 9087,9872 9087,37867,2015-08-31,Online,,210,0
+211,Mrs Cheng,Mrs Cheng,"G/F, 1-3 Crown Terrace, Pok Fu Lam, HK","G/F, 1-3 Crown Terrace, Pok Fu Lam, HK",9222 0976,9222 0976,2DD30,2015-09-04,Online,,211,0
+212,Ms Eva Wong,Ms Eva Wong,上水金錢徑1號 翡翠園10號屋,上水金錢徑1號 翡翠園10號屋,5681 0002,5681 0002,C885E,2015-11-04,Online,,212,0
+213,Mrs Kwok,Mrs Kwok,"Rm 2015, Oak House, Kwong Yuen Estate, Sha Tin","Rm 2015, Oak House, Kwong Yuen Estate, Sha Tin",6091 2292,6091 2292,A53A5,2015-09-07,Online,,213,0
+214,Ms Carrie Mo,Asia Yachting Ltd,"Shop 11, Aberdeen Marina Tower, 8 Shum Wan Rd, Aberdeen, HK","Shop 11, Aberdeen Marina Tower, 8 Shum Wan Rd, Aberdeen, HK",2580 8650,2580 8650,3F219,2015-09-07,Online,,214,0
+215, ,Loreal (Beauty Centre)," Room 1706, 17/F, Rbs Tower, Time Square, No.1 Matheson St"," Room 1706, 17/F, Rbs Tower, Time Square, No.1 Matheson St",3101 0506,,0D1BB,2018-01-01,,,215,0
+216,許小姐,許小姐,西貢井頭村三杯酒 愛琴苑41E 地下,西貢井頭村三杯酒 愛琴苑41E 地下,6891 1778,6891 1778,BFAC6,2015-09-11,Online,,216,0
+217,Ms Hung,Treasure Realty Limited,"G/F, No. 45A, Sai O Village, Sai Sha Road, Sai Kung","G/F, No. 45A, Sai O Village, Sai Sha Road, Sai Kung",9095 5383,9095 5383,868D1,2015-09-11,Online,,217,0
+218,Ms Ngai,Ms Ngai,又一城牡丹路7號 文華閣2D,又一城牡丹路7號 文華閣2D,6621 2989,6621 2989,9261B,2015-09-10,Online,,218,0
+219,Mr Wu,Mr Wu,"Flat C, 28/F, Blk 6, City Point, 48 Wing Shun St, Tsuen Wan","Flat C, 28/F, Blk 6, City Point, 48 Wing Shun St, Tsuen Wan",9866 9044,9866 9044,D08C4,2015-09-11,Online,,219,0
+220,Mr  Hsu Wai Ming,徐生,元朗八鄉錦上路 大窩村212號,元朗八鄉錦上路 大窩村212號,9281 1212,9281 1212,C8662,2015-09-14,Online,,220,0
+221, ,劉小姐, 馬鞍山西沙路十四鄉井頭村115G地下, 馬鞍山西沙路十四鄉井頭村115G地下,9801 0160,,3F353,2018-01-01,,,221,0
+222, ,吳小姐, 馬鞍山銀湖天?6座39樓C室, 馬鞍山銀湖天?6座39樓C室,9655 1402,,5CDFB,2018-01-01,,,222,0
+223,Ms Lam,Starlux Entertainment Limited,觀塘開源道55號 開聯工業中心B座913室,觀塘開源道55號 開聯工業中心B座913室,9372 9947,3707 1123,F83A7,2015-09-14,Online,,223,0
+224,葉生,基督徒信望愛堂,九龍石硤尾村 24座2樓201-206室,九龍石硤尾村 24座2樓201-206室,6221 0661,6221 0661,4D18B,2015-09-17,Online,,224,0
+225, ,Gabrielle and Associates Ltd," Level 13, Hon Kwok Jordan Ctr,7 Hillwood Rd, TST, HK"," Level 13, Hon Kwok Jordan Ctr,7 Hillwood Rd, TST, HK",2376 2066,,F859E,2018-01-01,,,225,0
+226,吳小姐,吳小姐,土瓜灣興仁街 27號6樓,土瓜灣興仁街 27號6樓,9096 1205,9096 1205,5536,2015-09-17,Online,,226,0
+227,Ms Yeung,Meinhardt Facade Technology (HK) Ltd,"22/F, Great Smart Tower, 230 Wan Chai Road, Wan Chai","22/F, Great Smart Tower, 230 Wan Chai Road, Wan Chai",3109 7729,3109 7729,23EBD,2015-11-27,Online,,227,0
+228,Ms Sun,Ms Sun,沙田秦石邨 石瑩樓310室,沙田秦石邨 石瑩樓310室,6891 9851,6891 9851,2B8C4,2015-09-25,Online,,228,0
+229,Ms Yip,Hummingbird Music Ltd,"19/F, Catic Plaza, 8 CausewayRoad, Causeway Bay, HK","19/F, Catic Plaza, 8 CausewayRoad, Causeway Bay, HK",2824 2270,2824 2270,5757F,2015-10-08,Online,,229,0
+230,Ms Chong,Spring Legal Company Limited,"Unit 2703, LHT Tower, 31 Queen's Road, Central","Unit 2703, LHT Tower, 31 Queen's Road, Central",3468 8790,3468 8790,1A375,2019-08-15,Online,,230,0
+231,Ms Yeung,Ms Yeung,"Flat A, 24/F, Blk 3, Lung Mun Oasis I, 43 Lung Mun Road , Tuen Mun","Flat A, 24/F, Blk 3, Lung Mun Oasis I, 43 Lung Mun Road , Tuen Mun",6126 7335,6126 7335,7291A,2015-10-06,Online,,231,0
+232,Ms Chan,Steve Leung Designers Ltd,"30/F, Manhattan Place, 23 Wang Tai Rd, Kowloon Bay","30/F, Manhattan Place, 23 Wang Tai Rd, Kowloon Bay",2980 0320,2980 0320,C0744,2015-10-06,Online,,232,0
+233,Mr So,Mr So,"Flat E, 35/F, Block 1, Yoho Town, 8 Yuen Lung St, Yuen Long","Flat E, 35/F, Block 1, Yoho Town, 8 Yuen Lung St, Yuen Long",9286 3834,9286 3834,5AF55,2015-10-16,Online,,233,0
+234,Mr Wong,Mr Wong,"Unit 16, 19/F, J Residence, 60 Johnston Road, Wan Chai","Unit 16, 19/F, J Residence, 60 Johnston Road, Wan Chai",6333 8333,6333 8333,31D12,2015-10-13,Online,,234,0
+235,Ms Sharon Lai,Ms Sharon Lai,"Hse 19, Seasons Villas, 233 Kam Tin Rd, Shek Kong, Yuen Long Hse 19, Seasons Villas, 233 Kam Tin Rd, Shek Kong, Yuen Long","Hse 19, Seasons Villas, 233 Kam Tin Rd, Shek Kong, Yuen Long Hse 19, Seasons Villas, 233 Kam Tin Rd, Shek Kong, Yuen Long",6605 5544,6605 5544,7DEB4,2015-10-20,,,235,0
+236,Ms Wo,Nine Rivers Capital Partners Limited,"26/F, Times Tower, 391-407 Jaffe Road, Causeway Bay","26/F, Times Tower, 391-407 Jaffe Road, Causeway Bay",2149 2580,2149 2580,5E895,2015-10-19,Online,,236,0
+237,Ms Poon,Ms Poon,"Flat G, 8/F, Block 4, Nan Fung Sun Chuen, 38 Greig Rd, Quarry Bay","Flat G, 8/F, Block 4, Nan Fung Sun Chuen, 38 Greig Rd, Quarry Bay",9643 5582,9643 5582,380D5,2015-10-23,Online,,237,0
+238,Ms Lai,Newland Engineering Limited,"Flat 2A, 4/F, Hang Fung Ind.Bldg, Phase 2, No. 2G Hok Yuen St, Hung Hom","Flat 2A, 4/F, Hang Fung Ind.Bldg, Phase 2, No. 2G Hok Yuen St, Hung Hom",2977 2506,2977 2506,B6340,2015-10-26,Online,,238,0
+239, ,Green-i Sim Motion (HK) Company Ltd," Unit 701-707, 7/F, The Octagon6 Sha Tsui Rd, Tsuen Wan"," Unit 701-707, 7/F, The Octagon6 Sha Tsui Rd, Tsuen Wan",3994 8466,,88F01,2018-01-01,,,239,0
+240,Mr Kong,Mr Kong,"Flat 26, 10/F, Man Cheong Bldg 25-47 Man Cheong St, Jordan","Flat 26, 10/F, Man Cheong Bldg 25-47 Man Cheong St, Jordan",9202 3011,9202 3011,DE0B5,2015-10-22,Online,,240,0
+241, ,文太, 元朗山下村619號D, 元朗山下村619號D,6091 9703,,ABB7E,2018-01-01,,,241,0
+242, ,321 Play," 1 st + 2 nd/F, Kras Asia Ind.Bldg, 79 Hung To Rd, Kwun Tong"," 1 st + 2 nd/F, Kras Asia Ind.Bldg, 79 Hung To Rd, Kwun Tong",2797 9323,,E1FD7,2018-01-01,,,242,0
+243,Ms Poon,Ms Poon,"Flat C, 21/F, Blk 4, Nan FungSun Chuen, 38 Greig Rd, Quarry Bay Flat C, 21/F, Blk 4, Nan FungSun Chuen, 38 Greig Rd, Quarry Bay","Flat C, 21/F, Blk 4, Nan FungSun Chuen, 38 Greig Rd, Quarry Bay Flat C, 21/F, Blk 4, Nan FungSun Chuen, 38 Greig Rd, Quarry Bay",9643 5582,9643 5582,66D65,2015-10-23,,,243,0
+244,Ms Lee,Ms Lee,"Flat 02, 13/F, Blk C, Luk Yeung Sun Chuen, Tsuen Wan","Flat 02, 13/F, Blk C, Luk Yeung Sun Chuen, Tsuen Wan",9778 1270,9778 1270,F8BDA,2015-10-27,Online,,244,0
+245,Ms Chan,Ms Chan,"No.3 Sing Woo Rd, Happy Valley","No.3 Sing Woo Rd, Happy Valley",2623 6536,5405 4971,449BE,2020-12-09,Online,,245,0
+246, ,Shoku Japanese Binchotan Grill," 109 / The Pulse, 28 Beach Road"," 109 / The Pulse, 28 Beach Road",2808 2333,,0B891,2018-01-01,,,246,0
+247,Mr Lam,Mr Lam,"Flat C, 52/F, Tower 9, Ocean Shore II, 88 O King Rd, Tseung Kwan O","Flat C, 52/F, Tower 9, Ocean Shore II, 88 O King Rd, Tseung Kwan O",9156 8558,9156 8558,8.50E+87,2015-11-07,Online,,247,0
+248,Ms Yo Yo Lee,Hang Fat Ginseng Global Importer Ltd,"RM 301-303, 3/F, Wing Tuck Commercial Ctr, 177-183 Wing Lok St, Sheung Wan RM 301-303, 3/F, Wing Tuck Commercial Ctr, 177-183 Wing Lok St, Sheung Wan","RM 301-303, 3/F, Wing Tuck Commercial Ctr, 177-183 Wing Lok St, Sheung Wan RM 301-303, 3/F, Wing Tuck Commercial Ctr, 177-183 Wing Lok St, Sheung Wan",2545 7228 (Ms Lee),2545 7228,8F4FA,2015-11-25,,,248,0
+249,Mr Anthony Cheng,Mr Anthony Cheng,"No.34, Repulse Bay Road, Hong Kong No.34, Repulse Bay Road, Hong Kong","No.34, Repulse Bay Road, Hong Kong No.34, Repulse Bay Road, Hong Kong",2723 2792,2723 2792,DD98E,2016-08-31,,,249,0
+250, ,China Orient International Capital Ltd," Unit 6805-06A, International Commerce Centre, 1 Austin Rd"," Unit 6805-06A, International Commerce Centre, 1 Austin Rd",,,1B1CB,2018-01-01,,,250,0
+251,Mr Kim,Mr Kim,"Flat 2B, University Residence No.17, CUHK","Flat 2B, University Residence No.17, CUHK",5482 1743,5482 1743,BBA9B,2015-11-01,Online,,251,0
+252,Ms Joey Ho,Hopwell Centre Management Ltd,"6/F, Hopewell Ctr, 183 Queen's Rd East, Wanchai","6/F, Hopewell Ctr, 183 Queen's Rd East, Wanchai",2863 4249,2863 4249,5AE10,2015-11-30,Online,,252,0
+253,Ms Lau,Calibration Partners (Hong Kong) Ltd,中環皇后大道中39號 豐盛創建大廈1302室,中環皇后大道中39號 豐盛創建大廈1302室,3620 3060,9025 3104,B139B,2015-11-27,Online,,253,0
+254,Mr Yu,Mr Yu,"Flat D, 18/F, Tower 6, Greenfield Garden, 1 Fung Shue Wo Road, Tsing Yi","Flat D, 18/F, Tower 6, Greenfield Garden, 1 Fung Shue Wo Road, Tsing Yi",9555 5100,9555 5100,4957A,2015-12-18,Online,,254,0
+255,Ms Astrey Tam,Hutchison Hain Organic (Hong Kong) Ltd,"Level 18, The Metropolis Tower, 10 Metropolis Drive, Hung Hom","Level 18, The Metropolis Tower, 10 Metropolis Drive, Hung Hom",9822 1590,3912 6866,F913F,2015-12-30,Online,,255,0
+256,張小姐,國盛行有限公司,上環 高陞街33號,上環 高陞街33號,2549 9880,2549 9880,AD11E,2016-01-08,Online,,256,0
+257,Mr Sam Lam / Ms Chan,611 Tree of Life Kindergarten,荃灣怡樂街2-12號 海濱花園D平台,荃灣怡樂街2-12號 海濱花園D平台,3956 8611,9389 3571,29BBB,2016-01-21,Online,,257,0
+258,Mrs Law,Mr Ken Law,"Flat B, 10/F, Block 12, Constellation Cove, 1 Hung Lam Drive, Tai Po Flat B, 10/F, Block 12, Constellation Cove, 1 Hung Lam Drive, Tai Po","Flat B, 10/F, Block 12, Constellation Cove, 1 Hung Lam Drive, Tai Po Flat B, 10/F, Block 12, Constellation Cove, 1 Hung Lam Drive, Tai Po",9733 5325,6337 1092,563FC,2016-01-15,,,258,0
+259, ,Mr Tong," 2/F, Wing On Lodge,78 Blue Pool Rd, Happy Valley"," 2/F, Wing On Lodge,78 Blue Pool Rd, Happy Valley",9222 1979,,18273,2018-01-01,,,259,0
+260,Ms Ding,Ms Ding,"Flat B, 10/F, Block 2, Ocean Shores, 88 O King Road, TKO","Flat B, 10/F, Block 2, Ocean Shores, 88 O King Road, TKO",9423 3471,9423 3471,783EB,2016-01-24,Online,,260,0
+261,Ms Fung,Ms Fung,"Flat E, 33/F, Shining Heights, 83 Sycamore St, Tai Kok Tsui","Flat E, 33/F, Shining Heights, 83 Sycamore St, Tai Kok Tsui",9182 2385,9182 2385,6E67B,2016-02-04,Online,,261,0
+262,曹小姐,曹小姐,梅窩銀灣邨 銀日樓613室,梅窩銀灣邨 銀日樓613室,9176 1832,9176 1832,EA25A,2016-01-27,Online,,262,0
+263,陶小姐,D & R International Capital Management Ltd,"Unit 2904, 29/F, Two Exchange Square, 8 Connaught Place, Central","Unit 2904, 29/F, Two Exchange Square, 8 Connaught Place, Central",3951 8602/9835 6827,9835 6827,FC4F4,2016-01-29,Online,,263,0
+264,Ms Katy Pak,Summary Service Ltd,"Rm 510, Delta House, 3 On Yiu St, Shatin Rm 510, Delta House, 3 On Yiu St, Shatin","Rm 510, Delta House, 3 On Yiu St, Shatin Rm 510, Delta House, 3 On Yiu St, Shatin",2180 7760,2180 7760,0E5AE,2016-01-29,,,264,0
+265,Ms Lee,CHA Textiles Ltd,"Unit 08, 12/F, CDW Building, 388 Castle Peak Rd, Tsuen Wan","Unit 08, 12/F, CDW Building, 388 Castle Peak Rd, Tsuen Wan",2411 8080,2411 8080,67211,2016-02-01,Online,,265,0
+266,Mr Chao,Mr Chao,"House 22 Royal Camellia, 9 Villa Camellia, Yuen Long","House 22 Royal Camellia, 9 Villa Camellia, Yuen Long",6777 1160,6777 1160,D6845,2016-02-27,Online,,266,0
+267,Ms Portia Lo,Toluna Hong Kong Limited,"3/F, Hencny Tower, 9 Chatham Road South, Tsim Sha Tsui","3/F, Hencny Tower, 9 Chatham Road South, Tsim Sha Tsui",3512 0601,3512 0601,2D012,2016-03-31,Online,,267,0
+268,Mr Man,Mr Man,"Rm 2710, Cheung Shun House, Cheung Wah Estate, Fanling","Rm 2710, Cheung Shun House, Cheung Wah Estate, Fanling",5413 5411,,B2CDE,2016-03-08,Online,,268,0
+269,Ms Kam,Pozuk Design Ltd,"Rm 01, 16/F, The Galaxy, 313 Castle Peak Rd, Kwai Chung","Rm 01, 16/F, The Galaxy, 313 Castle Peak Rd, Kwai Chung",3611 6883,3611 6883,C6452,2016-03-18,Online,,269,0
+270,阿偉,OH360 Company Limited,"7/F, United Overseas Plaza,11 Lai Yip St, Kwun Tong 軍地北村150號","7/F, United Overseas Plaza,11 Lai Yip St, Kwun Tong 軍地北村150號",2439 7200,9287 9174,2370C,2016-04-05,,,270,0
+271, ,Mr Kevin Yip," 1B, Orchid Garden, 7 Tat Chee Avenue,"," 1B, Orchid Garden, 7 Tat Chee Avenue,",9030 3880,,027FD,2018-01-01,,,271,0
+272,Ms Cheung,GMC Music,"Rm 1510, 15/F, Technology Park, Shek Mun, Shatin","Rm 1510, 15/F, Technology Park, Shek Mun, Shatin",2683 5304,2683 5304,381F0,2016-03-21,Online,,272,0
+273,Ms Jenny Tsang,Kai Shing Management Services Ltd - V City,"83 Tuen Mun Heung Sze Wui Rd, Tuen Mun 83 Tuen Mun Heung Sze Wui Rd, Tuen Mun","83 Tuen Mun Heung Sze Wui Rd, Tuen Mun 83 Tuen Mun Heung Sze Wui Rd, Tuen Mun",2960 1800,9227 6620,B6AEE,2018-05-29,,,273,0
+274,Ms Jean,Ms Jean,"Flat E, 43/F, Tower 3, The Belcher's, 89 Pok Fu Lam Road, Hong Kong","Flat E, 43/F, Tower 3, The Belcher's, 89 Pok Fu Lam Road, Hong Kong",9664 0077,9664 0077,90339,2016-04-05,Online,,274,0
+275,Ms Tang,Ms Tang,"Flat B, 29/F, Tower 3, Phase 2, The Avenue, 200 Queen's Rd East, Wan Chai","Flat B, 29/F, Tower 3, Phase 2, The Avenue, 200 Queen's Rd East, Wan Chai",9665 6883,9665 6883,E3FDD,2016-04-12,Online,,275,0
+276,Mr Marco Mak,Fuji Electric FA (Asia) Co Ltd,"Room 2015, 20/F, The Metropolis Tower, 10 Metropolis Drive, Hung Hom","Room 2015, 20/F, The Metropolis Tower, 10 Metropolis Drive, Hung Hom",2313 7921,2313 7921,5BF90,2016-04-18,Online,,276,0
+277, ,Monart Associates Ltd., 香港柴灣小西灣道 28 號藍灣半島5座39樓 E 室, 香港柴灣小西灣道 28 號藍灣半島5座39樓 E 室,9213 7062,,9DACE,2018-01-01,,,277,0
+278,Ms Kwok,Ms Kwok,大埔大尾督村 112A號地下,大埔大尾督村 112A號地下,6976 2377,6976 2377,E4D4A,2016-04-16,Online,,278,0
+279,Mr Poon,Mr Poon,"Flat A, 7/F, Blk 6, City Point, 48 Wing Shun St, Tsuen Wan","Flat A, 7/F, Blk 6, City Point, 48 Wing Shun St, Tsuen Wan",9093 6707,9093 6707,DF68D,2016-04-22,Online,,279,0
+280,Ms Lee,Ms Lee,"Flat A, 10/F, Phase 1, 4 Broadway Street, Mei Foo Sun Chuen","Flat A, 10/F, Phase 1, 4 Broadway Street, Mei Foo Sun Chuen",9104 8081,9104 8081,C1421,2016-04-25,Online,,280,0
+281,Mr Anthony Cheng,Mr Anthony Cheng,"Flat A, 7/F, Tower 3, Phase 2,The Avenue, 200 Queen's Rd East, Wan Chai","Flat A, 7/F, Tower 3, Phase 2,The Avenue, 200 Queen's Rd East, Wan Chai",2723 2792,2723 2792,65972,2016-05-09,Online,,281,0
+282,Mrs Cheng,Mrs Cheng,淺水灣道21號 冠園2樓D室,淺水灣道21號 冠園2樓D室,6313 6699,9828 5950,95508,2019-09-02,Online,,282,0
+283,Mr Leung,Mr Leung,"G/F, House 17, Hyde Park, No. 216 Tse Tong Tsuen, Kam Tin","G/F, House 17, Hyde Park, No. 216 Tse Tong Tsuen, Kam Tin",9277 7408,9277 7408,C18FC,2016-05-05,Online,,283,0
+284, ,Shun Yuen Contruction Company Limited," Office 1, 6/F, Rykadan CapitalTower, 135 Hoi Bun Road,"," Office 1, 6/F, Rykadan CapitalTower, 135 Hoi Bun Road,",2389 1368 (Ext.9935),,96B29,2018-01-01,,,284,0
+285,Ms Wong,Vectr Ventures Limited,"1/F, Talon Tower, 38 Connaught Road West, Sheung Wan","1/F, Talon Tower, 38 Connaught Road West, Sheung Wan",3702 3070,3702 3070,41C9E,2016-05-13,Online,,285,0
+286,Mr Rex Chu,Mr Rex Chu,"Flat B, 41/F, Tower 2A,The Latitude, 638 Prince Edward Road East, San Po Kong","Flat B, 41/F, Tower 2A,The Latitude, 638 Prince Edward Road East, San Po Kong",9233 9830,9233 9830,C3DA6,2016-05-14,Online,,286,0
+287,Mrs Hayes,Mrs Hayes,"Flat 21, Century Tower 2, 1A Tregunter Path, Mid Level Flat 21, Century Tower 2, 1A Tregunter Path, Mid Level","Flat 21, Century Tower 2, 1A Tregunter Path, Mid Level Flat 21, Century Tower 2, 1A Tregunter Path, Mid Level",9130 0851,9130 0851,976C7,2016-05-25,,,287,0
+288, ,Ms Lau, 沙田麗坪道33號玖瓏山月瓏閣1座2B室, 沙田麗坪道33號玖瓏山月瓏閣1座2B室,9439 1767,,E2121,2018-01-01,,,288,0
+289,Ms  Lam,Laab Ltd,上環普慶坊2-8號 寶慶大廈地下S-H鋪,上環普慶坊2-8號 寶慶大廈地下S-H鋪,6438 8424,6438 8424,502D3,2016-05-31,Online,,289,0
+290,Ms Chan,Space Interior Solutions Limited,"32/F, Times Tower, 391-407 Jaffe Rd, Causeway Bay","32/F, Times Tower, 391-407 Jaffe Rd, Causeway Bay",3895 9602,3895 9602,5F72B,2016-08-12,Online,,290,0
+291,Ms Robin Hwang,Ms Robin Hwang,"Apt 0387, 3/F, ParkviewTower 16, 88 Tai Tam Reservoir Road","Apt 0387, 3/F, ParkviewTower 16, 88 Tai Tam Reservoir Road",9488 1151,9488 1151,E6787,2019-04-01,Online,,291,0
+292,Ms Ng,VIM Pilates Studio Limited,"15/F, QRE Plaza, 202 Queen's Rd East, Wan Chai","15/F, QRE Plaza, 202 Queen's Rd East, Wan Chai",2572 2683,2572 2683,8F74B,2016-05-26,Online,,292,0
+293,Mrs Law,Mrs Law,"Flat 04, 9/F, Block B, Mt. Parker Lodge, 10 Hong Pak Path, Quarry Bay","Flat 04, 9/F, Block B, Mt. Parker Lodge, 10 Hong Pak Path, Quarry Bay",9127 5684,9127 5684,7D532,2016-06-06,Online,,293,0
+294,Ms Esther Kwong,Wealthy Team Development Ltd,"18/F, CNT Tower, 338 Hennessy Road, Wan Chai 18/F, CNT Tower, 338 Hennessy Road, Wan Chai","18/F, CNT Tower, 338 Hennessy Road, Wan Chai 18/F, CNT Tower, 338 Hennessy Road, Wan Chai",3955 5493,3955 5493,51F58,2016-06-07,,,294,0
+295,Ms Chan,基督教關懷無家者協會 - 恩福之家,旺角砵蘭街 71號唐3F4樓,旺角砵蘭街 71號唐3F4樓,6120 8283,3583 0554,7DFC6,2016-06-07,Online,,295,0
+296, ,匯寶醫療用品配套有限公司," Rm 2806, 28/F, GlobalGateway Tower, 63 Wing"," Rm 2806, 28/F, GlobalGateway Tower, 63 Wing",2273 8211,,9294,2018-01-01,,,296,0
+297,Mr Vijay K S Agnihotri,Mr Vijay K S Agnihotri,"Flat H, 56/F, Tower 11, Caribbean Coast, Tung Chung","Flat H, 56/F, Tower 11, Caribbean Coast, Tung Chung",6677 8421,6677 8421,C8262,2016-06-08,Online,,297,0
+298,Ms Connie Lai,Kent Uniforms Ltd,"Unit 9, 8/F, Trans Asia Centre, 18 Kin Hong St, Kwai Chung","Unit 9, 8/F, Trans Asia Centre, 18 Kin Hong St, Kwai Chung",2428 2380,9879 4919,093F3,2016-06-10,Online,,298,0
+299, ,Mr David," Apt 6 H, 72-74 Tak Ku Ling Rd,Kowloon City"," Apt 6 H, 72-74 Tak Ku Ling Rd,Kowloon City",9363 9286,,66D7A,2018-01-01,,,299,0
+300,Ms Maria Paz Angeles,Ms Maria Paz Angeles,"7A, Tower 3, Bel Air on the peak, 68 Bel Air Ave (Phase 4)","7A, Tower 3, Bel Air on the peak, 68 Bel Air Ave (Phase 4)",9135 7855,9135 7855,61A1B,2016-06-20,Online,,300,0
+301,Ms Chan,Ms Chan,"Flat B, 3/F, Wing Wah House, 26-30 Kam Wa Street, Shau Kei Wan","Flat B, 3/F, Wing Wah House, 26-30 Kam Wa Street, Shau Kei Wan",6121 6534,6121 6534,4A73E,2016-06-22,Online,,301,0
+302,Ms Chan,Ms Chan,"Flat A, 18/F, The Eastborne, 41-51 Shau Kei Wan St East, Shau Kei Wan","Flat A, 18/F, The Eastborne, 41-51 Shau Kei Wan St East, Shau Kei Wan",6121 6534,6121 6534,D9647,2016-06-22,Online,,302,0
+303,Ms Tina Li,Ms Tina Li,"4/F, The Elegance, 60 Tai Hang Road","4/F, The Elegance, 60 Tai Hang Road",6123 3322,6123 3322,37D2D,2016-06-20,Online,,303,0
+304, ,Supreme Management Services Ltd-Ultima," Club House, G/F, Ultima,23 Fat Kwong Street,"," Club House, G/F, Ultima,23 Fat Kwong Street,",2329 8999,,6B924,2018-01-01,,,304,0
+305,Mr Choi,Tri-Fitness Limited,"Rm 2306, Westlands Centre, 20 Westland Rd, Quarry Bay","Rm 2306, Westlands Centre, 20 Westland Rd, Quarry Bay",9140 1444,9140 1444,168B7,2016-07-07,Online,,305,0
+306,Ms Leung,Ms Leung,"Rm 2406, Lok Hop House, Tsz Lok Estate, Tsz Wan Shan","Rm 2406, Lok Hop House, Tsz Lok Estate, Tsz Wan Shan",6151 0245,6151 0245,142B6,2016-06-22,Online,,306,0
+307,Ms Leung,NCL Hong Kong Ltd,"Unit 2207, 22/F, Berkshire House, 25 Westland Rd, Quarry Bay","Unit 2207, 22/F, Berkshire House, 25 Westland Rd, Quarry Bay",2165 6119,2165 6119,50D5C,2016-06-24,Online,,307,0
+308,Ms Lau,George Clinical Asia Pacific Ltd,"Unit 4305-06, Tower 1, Metroplaza, 233 Hing Fong Rd, Kwai Chung","Unit 4305-06, Tower 1, Metroplaza, 233 Hing Fong Rd, Kwai Chung",3104 2720,3104 2720,4E58D,2016-07-13,Online,,308,0
+309,Ms Chan,Tianli Holdings Group Limited,"Rm 907-909, Three Pacific Place, 1 Queen's Road East, Admiralty","Rm 907-909, Three Pacific Place, 1 Queen's Road East, Admiralty",2972 0136,2972 0136,48A46,2016-07-20,Online,,309,0
+310,Ms Moon Yeung,Hop Lun Management Ltd,"32/F, 9 Wing Hong Street,Cheung Sha Wan, Kowloon 32/F, 9 Wing Hong Street,Cheung Sha Wan, Kowloon","32/F, 9 Wing Hong Street,Cheung Sha Wan, Kowloon 32/F, 9 Wing Hong Street,Cheung Sha Wan, Kowloon",2359 5822,2359 5822,A038A,2016-07-07,,,310,0
+311,Mr Kong,The University of Hong Kong,"Rm 3, 1/F, Haking Wong Building, Pokfulam Road","Rm 3, 1/F, Haking Wong Building, Pokfulam Road",3917 2584,3917 2584,E0E94,2016-07-27,Online,,311,0
+312,Ms Rain Chan,Bill's Food Factory Ltd,"2/F, 330A Castle Peak Raod, Cheung Sha Wan","2/F, 330A Castle Peak Raod, Cheung Sha Wan 2/F, 330A Castle Peak Raod, Cheung Sha Wan",3586 3113,9751 8419,87C32,2016-08-03,,,312,0
+313,Mr Luk,Mr Luk,沙田玖瓏山麗坪路33號 玖瓏山月瓏閣3座15樓B室,沙田玖瓏山麗坪路33號 玖瓏山月瓏閣3座15樓B室,9360 2799,9360 2799,35E9A,2016-08-03,Online,,313,0
+314,Ms Chu,One-Eight-One Hospitality Management Lt,"5/F, 181 Connaught Road West, Hong Kong","5/F, 181 Connaught Road West, Hong Kong",3181 7471,3181 7471,B624B,2016-08-03,Online,,314,0
+315,Mr Niraj Nanda,Mr Niraj Nanda,"Flat RD, 48/F, Tower 3A Wing Amber, Hemera of Lohas Park, 1 Lohas Park Road, TKO","Flat RD, 48/F, Tower 3A Wing Amber, Hemera of Lohas Park, 1 Lohas Park Road, TKO",6370 5728,6370 5728,DE9A2,2016-08-09,Online,,315,0
+316,Ms Tam,Supplier CML Management Ltd,"Units 6-8, 11/F, Hilder Centre, 2 Sung Ping Street, Hung Hom","Units 6-8, 11/F, Hilder Centre, 2 Sung Ping Street, Hung Hom",2334 8225,2334 8225,75DB9,2016-08-29,Online,,316,0
+317,Ms Lee,Shanxi Securitier Int'l Fin. Hldg. Ltd,"Unit A, 29/F, Tower 1, Admiralty Centre, 18 Harcourt Road, Admiralty","Unit A, 29/F, Tower 1, Admiralty Centre, 18 Harcourt Road, Admiralty Unit A, 29/F, Tower 1, Admiralty Centre, 18 Harcourt Road, Admiralty",2501 1071,,12795,2016-08-25,Online,,317,0
+318,Mr Arthur,The Peninsula Hong Kong,"The Peninsula, Salisbury Road, Kowloon","The Peninsula, Salisbury Road, Kowloon",2696 6925,2696 6925,CDE90,2016-09-12,Online,,318,0
+319,Ms Yim,Ms Yim,"Room 2511, Kwai Kin House, Kwai Fong Estate, Kwai Chung","Room 2511, Kwai Kin House, Kwai Fong Estate, Kwai Chung",6050 5311,6050 5311,70243,2016-08-15,Online,,319,0
+320,Ms Saki Lau,Hip Shing Hong (Holdings) Co Ltd,"Unit A, 14/F, Hip Shing Hong Kowloon Centre, 192-194 Nathan Rd, Jordan","Unit A, 14/F, Hip Shing Hong Kowloon Centre, 192-194 Nathan Rd, Jordan",3691 9911,3691 9911,B8F43,2016-08-22,Online,,320,0
+321,黎小姐,黎小姐,元朗大棠水焦老圍村 185號地下,元朗大棠水焦老圍村 185號地下,9813 3916,9813 3916,172BB,2016-08-25,Online,,321,0
+322,Ms Karen Quek,Ms Karen Quek,"Unit 39, 22/F, Tower 5, Parkview, 88 Tai Tam Reservoir Road","Unit 39, 22/F, Tower 5, Parkview, 88 Tai Tam Reservoir Road",9389 8360,9389 8360,2336F,2016-08-19,Online,,322,0
+323,Ms Leung,Ms Leung,"4/F, 20 Square Street, Sheung Wan 4/F, 20 Square Street, Sheung Wan","4/F, 20 Square Street, Sheung Wan 4/F, 20 Square Street, Sheung Wan",9125 8254,9125 8254,52C7C,2016-08-24,,,323,0
+324,夏小姐,夏小姐,"1/F, 1 Lane, No. 7 Kam Tin Shing Mun San Tsuen, Yuen Long","1/F, 1 Lane, No. 7 Kam Tin Shing Mun San Tsuen, Yuen Long",6909 9328,6909 9328,B8063,2016-08-24,Online,,324,0
+325,Ms Cheung,Legend World Tech. Development Ltd,"15/F, 16/F, SML Tower, 165 Hoi Bun Road, Kwun Tong","15/F, 16/F, SML Tower, 165 Hoi Bun Road, Kwun Tong",2207 3182,2207 3182,8F2B0,2016-09-01,Online,,325,0
+326,Zenith Wong,Zenith Education Centre,"Office 11, 1/F, Folkland Mansion, 8 Walnut St, Tai Kok Tsui","Office 11, 1/F, Folkland Mansion, 8 Walnut St, Tai Kok Tsui",3954 5692,6257 4673,A3FD4,2016-09-05,Online,,326,0
+327,Ms Lee,Ms Lee,"No.19, Eighteenth St, Hong Lok Yuen, Tai Po","No.19, Eighteenth St, Hong Lok Yuen, Tai Po",9150 0213,9150 0213,72498,2016-11-22,Online,,327,0
+328, ,Ms Gan," Flat A, 27/F, Blk 6, Costal Skyline, 12 Tung Chung"," Flat A, 27/F, Blk 6, Costal Skyline, 12 Tung Chung",6330 7296,,C51BF,2018-01-01,,,328,0
+329, ,Discovery Park Comm. Services Ltd," Shop 2000, Level 2, D-Park,398 Castle Peak Rd,"," Shop 2000, Level 2, D-Park,398 Castle Peak Rd,",2940 2228,,6B969,2018-01-01,,,329,0
+330,郭小姐,Sky Bond Limited,西貢竹洋路102號 西沙小築高座E4室,西貢竹洋路102號 西沙小築高座E4室,6680 6623,6680 6623,52124,2016-09-06,Online,,330,0
+331,Ms Kay,Tower 535 Tenant Limited,"20/F. Tower 535 , 535 Jaffe RdCauseway Bay , HK 20/F. Tower 535 , 535 Jaffe RdCauseway Bay , HK","20/F. Tower 535 , 535 Jaffe RdCauseway Bay , HK 20/F. Tower 535 , 535 Jaffe RdCauseway Bay , HK",31500101,31500101,94BB1,2016-09-07,,,331,0
+332,Mr Mok,Euro Search (HK) Limited,"20/F, Hong Kong Diamond Exchange Building, 8-10 Duddell St, Central","20/F, Hong Kong Diamond Exchange Building, 8-10 Duddell St, Central",3900 0334,3900 0334,10E3A,2016-09-27,Online,,332,0
+333,Ms Hung,Cypress Industrial (China) Ltd,深水埗通洲街252-254號 通明大廈10樓,深水埗通洲街252-254號 通明大廈10樓,2728 6656,9662 7367,31616,2016-09-14,Online,,333,0
+334,Mr Amit Chanda,Mr Amit Chanda,"Flat RA, 31/F, Tower 3, The Capitol, Lohas Park, TKO","Flat RA, 31/F, Tower 3, The Capitol, Lohas Park, TKO",6396 5767,6396 5767,BA1B9,2016-09-13,Online,,334,0
+335,Mr Tangent Chan,Fitt Pub,"28/F, Soundwill Plaza II Midtown, 1 Tang Lung St, Causeway Bay","28/F, Soundwill Plaza II Midtown, 1 Tang Lung St, Causeway Bay",9773 3885,9773 3885,0FEF7,2016-10-05,Online,,335,0
+336,Ms Li,Ms Li,"Flat B, 17/F, Hong Fook Court,Bedford Gardens, 151-173 Tin Hau Temple Road, North Point","Flat B, 17/F, Hong Fook Court,Bedford Gardens, 151-173 Tin Hau Temple Road, North Point",9613 1498,9613 1498,907BC,2016-09-23,Online,,336,0
+337,Mr Brian Chu,Mr Brian Chu,"Flat C, 6/F, Caine Mansion, 80-88 Cain Road, Mid Level, HK","Flat C, 6/F, Caine Mansion, 80-88 Cain Road, Mid Level, HK",9858 9884,9858 9884,729B6,2016-09-27,Online,,337,0
+338,Ms Cheng,China Tina Yuan International Finance (Management) Ltd,"19/F, Fairmont House, Cotton Tree Drive, Central","19/F, Fairmont House, Cotton Tree Drive, Central",2726 9842,2726 9842,8D9B4,2016-09-27,Online,,338,0
+339,Mr Fong,Mr Fong,"Room RA, 28/F, Tower 1, The Capitol, Lohas Park, TKO","Room RA, 28/F, Tower 1, The Capitol, Lohas Park, TKO",6291 1825,6291 1825,61089,2016-11-09,Online,,339,0
+340,Mr Wong,Mr Wong,"Flat D, 7/F, Block 23, Double Cove, Ma On Shan","Flat D, 7/F, Block 23, Double Cove, Ma On Shan",6156 7434,6156 7434,9E69E,2016-10-03,Online,,340,0
+341, ,劉生, 九龍又一村玉蘭路4號1 A, 九龍又一村玉蘭路4號1 A,9669 4805,,C6BD0,2018-01-01,,,341,0
+342,Ms Yam,Century Partner Limited,"25/F, Shanghai Commercial Bank Tower , 12 Queen's Rd, Central.","25/F, Shanghai Commercial Bank Tower , 12 Queen's Rd, Central.",2826 0925,2826 0925,571B6,2016-10-11,Online,,342,0
+343,張太,張太,新界元朗 山下村569號,新界元朗 山下村569號,9876 3418,9876 3418,81DB4,2016-11-04,Online,,343,0
+344, ,Mr Chan / Amy," Flat B, 51/F, Tower 3, Hampton Place, 11 Hoi Fan Road"," Flat B, 51/F, Tower 3, Hampton Place, 11 Hoi Fan Road",9803 4687,,3B4C8,2018-01-01,,,344,0
+345, ,D-Tek Technologies Limited," Rm C2, 7/F, Lee Ka Ind. Bldg,8 Ng Fong St, San Po Kong,"," Rm C2, 7/F, Lee Ka Ind. Bldg,8 Ng Fong St, San Po Kong,",2142 5388,,1E5B2,2018-01-01,,,345,0
+346,Ms Chiu,Torq Capital Management (HK) Limited,"Unit 4708 , 2 Exchange Square, Central.","Unit 4708 , 2 Exchange Square, Central.",3701 9506,5633 0053,DF451,2016-10-19,Online,,346,0
+347,Ms Wong,Tesco Dental (Hong Kong) Ltd,"Unit D-F, 15/F, The Globe, 79 Wing Hong St, Kowloon","Unit D-F, 15/F, The Globe, 79 Wing Hong St, Kowloon",3970 1611,3970 1611,80AFE,2016-10-18,Online,,347,0
+348, ,Tesco Dental (Hong Kong) Ltd," Rm C, 18/F, Wing HangInsurance Building, 9-17 Wing"," Rm C, 18/F, Wing HangInsurance Building, 9-17 Wing",,,0DACF,2018-01-01,,,348,0
+349,Ms Karena Chung,China Galaxy Intl Fin Holdings Ltd,上環干諾道中111號 永安中心28樓,上環干諾道中111號 永安中心28樓,3698 6240,6011 2866,127FD,2016-10-25,Online,,349,0
+350,Ms Tse,Ms Tse,西貢大網仔路 大環南丫村5號,西貢大網仔路 大環南丫村5號,9349 9749,9349 9749,490C7,2016-10-26,Online,,350,0
+351,Mr Tsang,Hal International Ltd,"Flat G, 8/F, Block 6, Villa Esplanada, Tsing Yi","Flat G, 8/F, Block 6, Villa Esplanada, Tsing Yi",9416 1286,9416 1286,A0200,2016-11-11,Online,,351,0
+352,Ms Patri Crockett,Ms Patri Crockett,"1 Helene Court, 14 Shouson Hill Road, Deep Water Bay","1 Helene Court, 14 Shouson Hill Road, Deep Water Bay",9019 0289,9019 0289,D8261,2016-10-28,Online,,352,0
+353,Mr Wan,33 Lockhart Tenant Limited,"10/F, 33 Lockhart Road,Wan Chai 10/F, 33 Lockhart Road,Wan Chai","10/F, 33 Lockhart Road,Wan Chai 10/F, 33 Lockhart Road,Wan Chai",3905 1302,5320 9662,0ED69,2016-11-10,,,353,0
+354,Mr Gawain Leung,Mr Gawain Leung,澳門漁翁街166-190號永好工業大廈12樓B座 澳門漁翁街166-190號永好工業大廈12樓B座,澳門漁翁街166-190號永好工業大廈12樓B座 澳門漁翁街166-190號永好工業大廈12樓B座,(853) 6300 8839,(853) 6300 8,5562D,2016-11-09,,,354,0
+355,Ms Nina Tang,Ms Nina Tang,"Flat B, 3/F, La Villa, 142 Waterloo Road, Kowloon Tong","Flat B, 3/F, La Villa, 142 Waterloo Road, Kowloon Tong",5591 5555,5591 5555,267B0,2016-12-06,Online,,355,0
+356,張小姐,張小姐,西貢西沙路 井頭村4E地下,西貢西沙路 井頭村4E地下,9206 4747,9206 4747,7E4D8,2017-02-24,Online,,356,0
+357,Mrs Choi,Mrs Choi,"Flat 1C, Tower 4, Hillsborough Court, 18 Old Peak Road, Mid Level","Flat 1C, Tower 4, Hillsborough Court, 18 Old Peak Road, Mid Level",9222 1221,9222 1221,5A30F,2016-11-16,Online,,357,0
+358, ,Mr Gary So," Flat D, 16/F, Block 6, City One Shatin, N.T"," Flat D, 16/F, Block 6, City One Shatin, N.T",9866 8562,,B5BF3,2018-01-01,,,358,0
+359,Mr Nobin John,Mr Nobin John,"Flat D, 10/F, Fairview Mansion51 Ptterson St, Causeway Bay","Flat D, 10/F, Fairview Mansion51 Ptterson St, Causeway Bay",9038 2771,9038 2771,CF395,2016-11-17,Online,,359,0
+360,Ms Yuriko San,Canary Co Ltd,"9/F, Man Cheung Building, 15-17 Wyndham Street, Central","9/F, Man Cheung Building, 15-17 Wyndham Street, Central",2537 0338,2537 0338,16F54,2016-11-24,Online,,360,0
+361, ,陳太,香港堅尼地城荷蘭街8號珍珠閣B座9樓5室 香港堅尼地城荷蘭街8號珍珠閣B座9樓5室,香港堅尼地城荷蘭街8號珍珠閣B座9樓5室 香港堅尼地城荷蘭街8號珍珠閣B座9樓5室,35997215,13926902389,58A6D,2016-11-24,,,361,0
+362,Mr Chan,Mr Chan,"Flat A, 2/F, Carnival Mansion, 15B Austin Avenue, Tsim Sha Tsui","Flat A, 2/F, Carnival Mansion, 15B Austin Avenue, Tsim Sha Tsui",6091 9166,6091 9166,7BBE6,2016-11-28,Online,,362,0
+363, ,Elite Concepts (HK) Ltd," Flat A, 2/F, Gold HarbourMansion, 122-128 Queen's Rd"," Flat A, 2/F, Gold HarbourMansion, 122-128 Queen's Rd",2521 0817,,7B1CF,2018-01-01,,,363,0
+364,Mr Chow,New World Property Management Co. Ltd,"Park Signature, 68 Kung Um Rd,Yuen Long Park Signature, 68 Kung Um Rd,Yuen Long","Park Signature, 68 Kung Um Rd,Yuen Long Park Signature, 68 Kung Um Rd,Yuen Long",3719 3718,9680 5213,42B81,2017-01-19,,,364,0
+365,Mr Wong,,"Flat C, 2/F, 12 Tung Shan Terrace, Stubbs Road, Hong Kong","Flat C, 2/F, 12 Tung Shan Terrace, Stubbs Road, Hong Kong",9230 1010,9230 1010,DAEFA,2016-12-13,Online,,365,0
+366,Ms Lam,High Fitness Limited,尖沙咀柯士甸路4號 柯士甸商業中心2樓,尖沙咀柯士甸路4號 柯士甸商業中心2樓,9608 3505,9608 3505,64BD8,2016-12-19,Online,,366,0
+367, ,Sun Bus Limited," Rm 9A, 9/F, 9 Po Lun St,Lai Chi Kok, Kowloon, HK"," Rm 9A, 9/F, 9 Po Lun St,Lai Chi Kok, Kowloon, HK",3897 8876,,F165A,2018-01-01,,,367,0
+368,Ms Coddy Chu,Donghai International (HK) Ltd,"19/F, Shanghai Commercail BankTower, 12 Queen's Rd, 19/F, Shanghai Commercail BankTower, 12 Queen's Rd, ","19/F, Shanghai Commercail BankTower, 12 Queen's Rd, 19/F, Shanghai Commercail BankTower, 12 Queen's Rd, ",3180 6002,3180 6002,32D83,2017-01-04,,,368,0
+369,Ms Chung,Ms Chung,"Unit 33, 2/F, Tower 4, Hong Kong Parkview","Unit 33, 2/F, Tower 4, Hong Kong Parkview",9335 0566,9335 0566,CE379,2017-01-04,Online,,369,0
+370,Mr Wong,Mr Wong,大埔康樂園18街56號 大埔康樂園18街56號,大埔康樂園18街56號 大埔康樂園18街56號,9083 1935,9083 1935,99B40,2017-04-03,,,370,0
+371,Mr Eric Tsang,Soho Property Hong Kong Company,"Flat 116, 1/F, Wayson Commercial Building, 28 Connaught Road West, HK","Flat 116, 1/F, Wayson Commercial Building, 28 Connaught Road West, HK",6083 2199,8109 9183,89768,2017-01-09,Online,,371,0
+372,Mr Au,Mr Au,"Flat C, 5/F, Mayfair By The Sea I Lowrise 18, 23 Fo Chun Flat C, 5/F, Mayfair By The Sea I Lowrise 18, 23 Fo Chun","Flat C, 5/F, Mayfair By The Sea I Lowrise 18, 23 Fo Chun Flat C, 5/F, Mayfair By The Sea I Lowrise 18, 23 Fo Chun",6704 8559,6704 8559,671AF,2017-01-07,,,372,0
+373,Mr Chung,Mr Chung,元朗鳳琴街22號 金龍樓2座5樓D室,元朗鳳琴街22號 金龍樓2座5樓D室,9685 2689,9685 2689,C8B01,2017-01-11,Online,,373,0
+374,Ms Pauline,Ms Pauline,"Unit D, 6/F, Monticello, 48 Kennedy Road, Wan Chai","Unit D, 6/F, Monticello, 48 Kennedy Road, Wan Chai",9867 7233,9867 7233,4580C,2017-01-17,Online,,374,0
+375,Mr Tse,Flexworks Limited,"Unit 1715, Shatin Galleria, 18-24 Shan Mei St, Shatin","Unit 1715, Shatin Galleria, 18-24 Shan Mei St, Shatin",9655 6299,9655 6299,18FD9,2017-01-20,Online,,375,0
+376,Ms Saki Lau,Hip Shing Hong (Holding) Company Ltd,"Unit B, 14/F, Hip Shing Hong Kowloon Ctr, 192-194 Nathan Rd, Jordan","Unit B, 14/F, Hip Shing Hong Kowloon Ctr, 192-194 Nathan Rd, Jordan",3691 9911,3691 9911,3B1BB,2017-05-04,Online,,376,0
+377,Ms Carrie Li,Ms Carrie Li,"Flat F, 18/F, On Fook Court, Bedford Gardens, 151-173 Tin Hau Temple Road, North Point","Flat F, 18/F, On Fook Court, Bedford Gardens, 151-173 Tin Hau Temple Road, North Point",9400 0935,9400 0935,09C55,2017-01-23,Online,,377,0
+378,孫小姐,孫小姐,大角咀海輝道10號瓏璽6A(迎海鑽)13樓A室 大角咀海輝道10號瓏璽6A(迎海鑽)13樓A室,大角咀海輝道10號瓏璽6A(迎海鑽)13樓A室 大角咀海輝道10號瓏璽6A(迎海鑽)13樓A室,6971 6605,6971 6605,A4C02,2017-02-16,,,378,0
+379,Ms Wing Leung,Tate,"210 Hollywood Road, Sheung Wan, Hong Kong 210 Hollywood Road, Sheung Wan, Hong Kong","210 Hollywood Road, Sheung Wan, Hong Kong 210 Hollywood Road, Sheung Wan, Hong Kong",9197 9971 (Vicky Lau,6096 2096 (W,3AC87,2017-01-23,,,379,0
+380, ,Kai Shing Management Services Ltd," Room 602-605, New Town Tower,10-18 Pak Hok Ting Street,"," Room 602-605, New Town Tower,10-18 Pak Hok Ting Street,",2609 3638,,D7F9A,2018-01-01,,,380,0
+381,Ms Claire Ceung,Transperfect Translations Ltd,"19/F, 33 Lockhart Road,Wan Chai, HK 19/F, 33 Lockhart Road,Wan Chai, HK","19/F, 33 Lockhart Road,Wan Chai, HK 19/F, 33 Lockhart Road,Wan Chai, HK",2581 0297,2581 0297,42316,2017-02-20,,,381,0
+382,Mr Jimmy Leung,The Fighters Club Hong Kong,"19/F, Shiu Fung Building 51-53 Johnston Road, Hong Kong","19/F, Shiu Fung Building, 51-53 Johnston Road, Hong Kong",6342 8145,6342 8145,C5610,2017-02-24,Online,,382,0
+383,Ms Emily,Joy Square Limited,"Unit C, 9/F, KOHO, 73-75 Hung To Road, Kwun Tong","Unit C, 9/F, KOHO, 73-75 Hung To Road, Kwun Tong Unit C, 9/F, KOHO, 73-75 Hung To Road, Kwun Tong",3589 6143,3589 6143,D6A63,2017-02-06,,,383,0
+384,黎太,黎太,新界上水古洞路28號天巒1期 因特拉肯大道20號屋,新界上水古洞路28號天巒1期因特拉肯大道20號屋 新界上水古洞路28號天巒1期因特拉肯大道20號屋,9070 0907,9070 0907,97ADA,2017-02-07,Online,,384,0
+385, ,李小姐," Flat A, 19/F, Tower 1, Sorrento, Austin Rd West,"," Flat A, 19/F, Tower 1, Sorrento, Austin Rd West,",9328 7988 (徐生),,383AC,2018-01-01,,,385,0
+386,Ms Chan,Ms Chan,"Flat B, 22/F, Block 1, La Costa, 8 Po Tai St, Ma On Shan","Flat B, 22/F, Block 1, La Costa, 8 Po Tai St, Ma On Shan",9846 8869,9846 8869,3EE3B,2017-02-13,Online,,386,0
+387,Mr Wan,Mr Wan,荔枝角青山道646號 豐華工業大廈4樓B室,荔枝角青山道646號 豐華工業大廈4樓B室,9011 2492,9011 2492,68FE1,2017-02-14,Online,,387,0
+388,Ms Deeksha Bhurtah,Ms Deeksha Bhurtah,"Flat A , 10/F , Alassio, 100 Caine Road , Mid Levels.","Flat A , 10/F , Alassio, 100 Caine Road , Mid Levels.",5114 3206,5114 3206,A4C61,2017-02-21,Online,,388,0
+389,Ms Kan,GDH Hotel,"No.18, Prat Avenue, Tsim Sha Tsui, Kowloon","No.18, Prat Avenue, Tsim Sha Tsui, Kowloon",3410 8241,3410 8241,3CA73,2017-03-27,Online,,389,0
+390,Ms Joey,Uber Asia Limited,"25/F, Leighton Centre, 77 Leighton Road, Causeway Bay","25/F, Leighton Centre, 77 Leighton Road, Causeway Bay",3525 1378,3525 1378,B6DC9,2017-03-20,Online,,390,0
+391,Ms Birgit Wahlhaeuser,Ms Birgit Wahlhaeuser,"5/F, Carlos Court, 64 Robinson Road, Mid Level West","5/F, Carlos Court, 64 Robinson Road, Mid Level West",9535 1919,9535 1919,DC888,2017-02-25,Online,,391,0
+392,Mr Joe Yiu,King's Glory Educational Centre Ltd,"1/F, Block S, Lee Kee Building, Ngau Tau Kok Rd, Kowloon Bay","1/F, Block S, Lee Kee Building, Ngau Tau Kok Rd, Kowloon Bay",3923 1761,9576 6669,BABF1,2017-03-03,Online,,392,0
+393,Ms Anne,Acuma Hong Kong Limited,"Suite 606-7, 6/F, St. George'sBuilding, Ice House St, Suite 606-7, 6/F, St. George'sBuilding, Ice House St,","Suite 606-7, 6/F, St. George'sBuilding, Ice House St, Suite 606-7, 6/F, St. George'sBuilding, Ice House St,",3951 3000,3951 3000,CE1D2,2017-03-02,,,393,0
+394,Mr Umberto Mari Anzolin,Alfa Fashion Ltd,"Flat F, 29/F, The Masterpiece,18 Hanoi Rd, TST","Golden Dragon Commercial Bldg, 522 Nathan Road, Yau Ma Tei",9792 6918,9792 6918,823F5,2017-03-09,Online,,394,0
+395,Ms Lee,Kai Shing Management Services Limited,新界元朗朗日路9號Grand YoHo第8座5樓平台服務處 新界元朗朗日路9號Grand YoHo第8座5樓平台服務處,新界元朗朗日路9號Grand YoHo第8座5樓平台服務處 新界元朗朗日路9號Grand YoHo第8座5樓平台服務處,3766 6333,6332 4357,FBEED,2017-03-14,,,395,0
+396,Ms Esther Leung,OBI Group Sourcing Hong Kong Ltd,"31/F, Tower 2, Megabox, Enterprise Square Five, 38 Wang Chiu Road, Kowloon Bay","31/F, Tower 2, Megabox, Enterprise Square Five, 38 Wang Chiu Road, Kowloon Bay",2270 8201,2270 8201,6795,2017-04-28,Online,,396,0
+397,Ms Lau,Stillpoint Ltd,"9/F, Fung Woo Centre, 279-281 Des Voeux Road, Central","9/F, Fung Woo Centre, 279-281 Des Voeux Road, Central",9187 1852,9187 1852,BA7B1,2017-03-21,Online,,397,0
+398,Ms Leung,Hotstone Yoga,銅鑼灣謝斐道500號 維安商業大廈14樓全層,銅鑼灣謝斐道500號 維安商業大廈14樓全層,2628 3086,2628 3086,9FF2D,2019-09-11,Online,,398,0
+399,Ms Coddy Chu,Donghai Internationl (Hong Kong) Ltd,"20/F, Shanghai Commercial BankTower, 12 Queen's Road, Central","20/F, Shanghai Commercial BankTower, 12 Queen's Road, Central",3180 6002,3180 6002,DDA0F,2017-04-12,Online,,399,0
+400,Ms Cheung,Absolute Fitness Limited,"6/F, On Lok Yuen Building, 25-27 & 27A Des Voeux Rd, Central","6/F, On Lok Yuen Building, 25-27 & 27A Des Voeux Rd, Central",3595 6118,3595 6118,EC96C,2017-05-15,Online,,400,0
+401,楊生/ 楊太,楊生/ 楊太,馬鞍山迎海5期 10座15樓A室,馬鞍山迎海5期 10座15樓A室,9686 7990/ 9385 9759,9686 7990/ 9385 9759,4376C,2017-04-24,Online,,401,0
+402,Ms Chan,Brunswick Group Limited,"11/F, Dina House, 11 Duddel St, Central","11/F, Dina House, 11 Duddel St, Central",3512 5000,3512 5000,A38AB,2017-04-18,Online,,402,0
+403,Ms Tong,Hong Yip Services Co Ltd,"4-30 Tai Pa Street, Tsuen Wan 4-30 Tai Pa Street, Tsuen Wan","4-30 Tai Pa Street, Tsuen Wan 4-30 Tai Pa Street, Tsuen Wan",2417 1709,2417 1709,7A705,2017-04-12,,,403,0
+404,Mr Louis Mak,Kai Shing Management Services Ltd,"YoHo MallNo. 9, Yuen Lung St, Yuen Long YoHo MallNo. 9, Yuen Lung St, Yuen Long","YoHo MallNo. 9, Yuen Lung St, Yuen Long YoHo MallNo. 9, Yuen Lung St, Yuen Long",2554 0023,97734622,7B9F6,2017-05-12,,,404,0
+405,Mr Andy Robinson,Mr Andy Robinson,"9A, Moonfair Mansion, 11 Shiu Fai Terrace, Hong Kong","9A, Moonfair Mansion, 11 Shiu Fai Terrace, Hong Kong",9199 6556,9199 6556,D594B,2017-04-12,Online,,405,0
+406,Mr Ma,Mr Ma,馬鞍山彩沙街1號 星漣海1座5樓D室,馬鞍山彩沙街1號 星漣海1座5樓D室,9080 8197,9080 8197,BB208,2017-04-13,Online,,406,0
+407,Ms Lam,Cheung Yung Wellness Limited,"11/F, Henan Building, 90 Jaffe Rd, Wan Chai","11/F, Henan Building, 90 Jaffe Rd, Wan Chai",9552 0864,9552 0864,2DB5F,2017-04-21,Online,,407,0
+408,Ms Tam,Cheung Yung Wellness Limited,佐敦白加士街59號健能發展大廈3樓 佐敦白加士街59號健能發展大廈3樓,佐敦白加士街59號健能發展大廈3樓 佐敦白加士街59號健能發展大廈3樓,2736 7473,2736 7473,EB0B3,2018-04-22,,,408,0
+409,Mr Cheung,Mr Cheung,"Flat 01, 11/F, Block A, Tung Yan Court, Sai Wan Ho","Flat 01, 11/F, Block A, Tung Yan Court, Sai Wan Ho",6120 0884,6120 0884,788D1,2017-04-19,Online,,409,0
+410,.,Mr Amit,"Flat A, 7/F, Wai Cheong Building, 5-9A Gresson St, Wan Chai","Flat A, 7/F, Wai Cheong Building, 5-9A Gresson St, Wan Chai",9453 6833,.,5A1C9,2018-01-01,Online,,410,0
+411,Ms Rose Lai,Sky Business Center (Caroline) Limited,"Rm 1101, 11/F, Lee Garden 2, Causeway Bay","Rm 1101, 11/F, Lee Garden 2, Causeway Bay",3951 0100,3951 0100,AB182,2017-04-24,Online,,411,0
+412,Ms Lai,Ms Lai,"Flat D, 21/F, Block 4, Phase 1, Sea Crest Villa, Sham Tseng","Flat D, 21/F, Block 4, Phase 1, Sea Crest Villa, Sham Tseng",9059 5786,9059 5786,38FCE,2017-04-28,Online,,412,0
+413, ,Wing Keung Contracting & Eng. Co Ltd," Rm 5, 1/F, Hong Kong Chai Wan Ind. Bldg, 26 Lee Chung St, "," Rm 5, 1/F, Hong Kong Chai Wan Ind. Bldg, 26 Lee Chung St, ",2889 0612,,20672,2018-01-01,,,413,0
+414,Ms Chung,Ms Chung,"Flat C, 16/F, Block 2, Villa Sapphire, 8 Tsing Fat St, Tuen Mun","Flat C, 16/F, Block 2, Villa Sapphire, 8 Tsing Fat St, Tuen Mun",9425 4094,9425 4094,94023,2017-05-05,Online,,414,0
+415,Ms Ng,Nextra (HK) Limited,"15/F, Fun Tower, 35 Hung To Road, Kwun Tong","15/F, Fun Tower, 35 Hung To Road, Kwun Tong",2247 9300,2247 9300,9B503,2017-05-08,Online,,415,0
+416, ,Rainpure HK Ltd," Unit 2, 5/F, Block A, Profit Ind., Bldg., 1-15 Kwai Fong "," Unit 2, 5/F, Block A, Profit Ind., Bldg., 1-15 Kwai Fong ",2481 7010,,5D5BD,2018-01-01,,,416,0
+417,Miss Ng ,Miss Ng,"3C, 1/F, Ham Tin San Tsuen,Pui O, Lantau Island 3C, 1/F, Ham Tin San Tsuen,Pui O, Lantau Island","3C, 1/F, Ham Tin San Tsuen,Pui O, Lantau Island 3C, 1/F, Ham Tin San Tsuen,Pui O, Lantau Island",9573 3325,9573 3325,1F47B,1970-01-01,,,417,0
+418,Mr Isaac Cheung,Kai Shing Management Services Ltd - YoHo Town,元朗 元龍街8號,元朗 元龍街8號,2470 6630,2470 6630,AB315,2012-03-31,Online,,418,0
+419,Mr Samuel Ho,Kai Shing Management Services Limited - YoHo Mid Town,元朗 元龍街9號,元朗 元龍街9號,2475 9669,6102 2217,8AB89,2015-10-01,Online,,419,0
+420,張小姐,Wylie Maintenance & Services Ltd,荃灣青山道457號 華懋荃灣廣場12樓1204-05室,荃灣青山道457號 華懋荃灣廣場12樓1204-05室,2400 9100,2400 9100,03ECB,2012-06-04,Online,,420,0
+421,Judy Yiu ,Supreme Management Services Ltd," The Club Hse,The Leighton Hill2B Broadwood Rd,Happy Valley"," The Club Hse,The Leighton Hill2B Broadwood Rd,Happy Valley",3198 9800,,541B4,2018-01-01,,,421,0
+422, ,Kai Shing Management Services Co Ltd," Chelsea Court100 Yeung Uk Rd, Tsuen Wan"," Chelsea Court100 Yeung Uk Rd, Tsuen Wan",2480 6022,,EACCC,2018-01-01,,,422,0
+423,王太,王太,葵涌村合葵樓 3樓312室,葵涌村合葵樓 3樓312室,9151 5197,9151 5197,61556,2013-01-02,Online,,423,0
+424,曾小姐,新達廣場,大埔南運路9號 新達廣場1樓停車場, 大埔南運路9號新達廣場1樓停車場,2653 8089,,D18C7,2013-01-18,Online,,424,0
+425,簡小姐,達利證券有限公司,元朗福康街 12-14號2樓,元朗福康街12-14號地下 元朗福康街12-14號地下,2479 7337,2479 7337,2366B,2013-02-06,Online,,425,0
+426,Ms Marquis Chung,Convoy Financial Services Ltd,"39/F, @Convoy, 169 Electric Rd, North Point"," 39/F, @Convoy,169 Electric Rd, North Point",3601 3661,,33B8D,2013-02-28,Online,,426,0
+427,Ms Pang,Ho Pong 280 Management Limited,屯門鄉事會路139號 巴黎倫敦紐約戲院購物中心客戶服務部,屯門鄉事會路139號 巴黎倫敦紐約戲院購物中心客戶服務部,2459 9596,2459 9596,76517,2013-02-25,Online,,427,0
+428,龐小姐,好順福廣場客戶服務部,元朗壽富街60號 好順福廣場,元朗壽富街60號 好順福廣場,2474 7055,2474 7055,7B5D4,2013-04-23,Online,,428,0
+429,CHICCA,CHICCA,"16/F, Stanley 11, 11 Stanley St, Central","16/F, Stanley 11, 11 Stanley St, Central",2893 3095,2893 3095,017A9,2017-07-31,Online,,429,0
+430,K.C.Lee ,香港大學, HKU賽馬會教學樓LG1, HKU賽馬會教學樓LG1,9858 7531,,A41DD,2018-01-01,,,430,0
+431,Grace Wong,UPD Limited,"上水蕉徑老圍 DD100 TKL 34, 35, 36 & 56 (Office)","上水蕉徑老圍 DD100 TKL 34, 35, 36 & 56 (Office)",2392 9233,2392 9233,5AEF1,2013-08-22,Online,,431,0
+432,Mr Kenneth Lam,碧海藍天,西九龍 深盛路8號, 西九龍深盛路8號,2749 6068,,86C64,2013-09-12,Online,,432,0
+433, ,Convoy Collateral Ltd," 10/F, 148 Electric Road,North Point"," 10/F, 148 Electric Road,North Point",3601 3641,,D2BF9,2018-01-01,,,433,0
+434,Hair Do,Hair Do,"Rm 1602&3, 16/F, Bartlock Ctr, 3 Yiu Wa Street, Causeway Bay","Rm 1602&3, 16/F, Bartlock Ctr ,3 Yiu Wa Street, Causeway Bay",2893 3760,2893 3760,1FF82,2015-09-19,Online,,434,0
+435, ,Convoy Investment Services Ltd, 灣仔皇后大道東24-32號金鐘匯中心21樓全層, 灣仔皇后大道東24-32號金鐘匯中心21樓全層,3601 3641,,80320,2018-01-01,,,435,0
+436,Ms Chow,Hong Yip Service Co. Ltd - Parc Royale,"No. 8 Hin Tai Street, Tai Wai","No. 8 Hin Tai Street, Tai Wai",2694 8296,2694 8296,AA9D4,2014-05-02,Online,,436,0
+437,Ms Cheryl Ng,REWE Far East Limited,"16/F, 17/F, 18/F, Linkchart Centre, No.2 Tai Yip St, Kwun Tong","16/F, 17/F, 18/F, Linkchart Centre, No.2 Tai Yip St, Kwun Tong",3724 6100,3724 6100,70A30,2014-06-01,Online,,437,0
+438,Mr Choi,Convoy Financial Services Ltd,"17/F, City Plaza III, 14 TaiKoo Wan Rd, Tai Koo Shing","17/F, City Plaza III, 14 TaiKoo Wan Rd, Tai Koo Shing",3601 5005,3601 5005,2EF33,2014-06-10,Online,,438,0
+439,Mr Bau,Brighton Hotel,"128 Lockhart Road, Wan Chai","128 Lockhart Road, Wan Chai",3793 7790,3793 7790,1D648,2014-07-10,Online,,439,0
+440,Ms Grace Wong,UPD Limited,上水蕉徑 老圍61號,上水蕉徑 老圍61號,2392 9233,2392 9233,3D8E4,2014-07-28,Online,,440,0
+441,鄭小姐,Skyworth TV Holdings Limited,"Room 1601,  Westlands Centre, 20 Westlands Road, Quarry Bay","Room 1601,  Westlands Centre, 20 Westlands Road, Quarry Bay",2856 3138,2856 3138,9369E,2014-10-14,Online,,441,0
+442,Ms Lo,East Concept Export (HK) Ltd,"Unit B, 3/F, Hop Hing Ind.Bldg., 704 Castle Peak Rd, Cheung Sha Wan","Unit B, 3/F, Hop Hing Ind.Bldg., 704 Castle Peak Rd, Cheung Sha Wan",3555 6611,3555 6611,46502,2014-10-22,Online,,442,0
+443, ,Walter Kei," Unit 11, 8/F, Phase 2,Chai Wan Ind. City,"," Unit 11, 8/F, Phase 2,Chai Wan Ind. City,",9219 9889,,94727,2018-01-01,,,443,0
+444,Ms Yeung,Initial Fashion Co Ltd,"1/F, 167-169 Hoi Bun Road, Kwun Tong","1/F, 167-169 Hoi Bun Road, Kwun Tong",3402 4460,3402 4460,1C0B1,2014-11-28,Online,,444,0
+445, ,Ms Fok, 青衣青泰苑A座1106室, 青衣青泰苑A座1106室,9363 8984,,8CFAD,2018-01-01,,,445,0
+446, ,Korean Canteen," Shop G12, G/F of Hang KingShopping Arcade, 9 Wing Fong"," Shop G12, G/F of Hang KingShopping Arcade, 9 Wing Fong",9363 8984,,EADFD,2018-01-01,,,446,0
+447,Ms Yuki Tsang,Kai Shing Management Services Ltd - Uptown Plaza,"Level 1, Carpark, Uptown Plaza, 9 Nam Wan Road, Tai Po","Level 1, Carpark, Uptown Plaza, 9 Nam Wan Road, Tai Po",2653 8089,2653 8089,B5EA1,2016-04-08,Online,,447,0
+448, ,Ms Man, , ,,,29443,2018-01-01,,,448,0
+449, ,TEST, Room F 9/F Golden DragonIndustrail Center, Room F 9/F Golden DragonIndustrail Center,,,E8D08,2018-01-01,,,449,0
+450, ,Vanguard Adv. & Pro. Co.Ltd," 9/F , Soho Tower25 Hart Avenue , Tsim Sha Tsui"," 9/F , Soho Tower25 Hart Avenue , Tsim Sha Tsui",23762892,,1068D,2018-01-01,,,450,0
+451, ,Wellnessplus Ltd," Rm 1506, 15/F, Riley House,88 Lei Muk Rd, Kwai Chung, N.T"," Rm 1506, 15/F, Riley House,88 Lei Muk Rd, Kwai Chung, N.T",9756 0279,,4D3E8,2018-01-01,,,451,0
+452,Fate LUI,Gammon – TKP2A Project Team,"Room 2201, Westlands Centre , 20 Westlands Road, Quarry Bay Tong Chong Street, Quarry Bay,","Room 2201, Westlands Centre , 20 Westlands Road, Quarry Bay Tong Chong Street, Quarry Bay,",3702 3845,91741644,60EQL,2017-06-19,,,452,0
+453,Test,Test,"Room F , 9/F , Block 1 Golden Dragon Ind. Ctr.",Test Test,1,33333,6HNDC,2017-06-19,Online,,453,0
+454,Ms Luen,Flips Digital Media Limited,尖沙咀亞士喱道7號 裕華國際大廈1001室,尖沙咀亞士喱道7號 裕華國際大廈1001室,9302 8925,9302 8925,WP65W,2017-06-20,Online,,454,0
+455,Mr Kevin Siu,Fordex Electric Co Ltd,"Unit 1 , G/F.,Kai Fuk Industrial Centre , 1 Wang Tung St , Kowloon Bay .","Unit 1 , G/F.,Kai Fuk Industrial Centre , 1 Wang Tung St , Kowloon Bay .",2689 9810,9887 8022,0AZJD,2017-06-23,Online,,455,0
+456,Ms Gigi Chan,Uber Asia Limited,"22/F , Peak Castle , 476 Castle Peak Rd , Cheung Sha Wan. 22/F , Peak Castle , 476 Castle Peak Rd , Cheung Sha Wan.","22/F , Peak Castle , 476 Castle Peak Rd , Cheung Sha Wan. 22/F , Peak Castle , 476 Castle Peak Rd , Cheung Sha Wan.",6606 6909,6606 6909,W3V2E,2017-08-09,,,456,0
+457,Ms Jennifer Lau,Pacific Sun Limited,"Suite 01-05, 12/F, Two Chinachem Exchange Square, 338 King's Road, North Point","Suite 01-05, 12/F, Two Chinachem Exchange Square, 338 King's Road, North Point",2290 2652,6053 1990,3EDTB,2017-08-11,Online,,457,0
+458,Ms Neha,Ms Neha,"Flat B, 9/F, Tower 2, 2 Marina South, 8 Ap Lei Chau Drive, Ap Lei Chau","Flat B , 9/F , Tower 2 , 2 Marina South , 8 Ap Lei Chau Drive, Ap Lei Chau",6816 3196,6816 3196,8B5M6,2017-08-08,Online,,458,0
+459,黃小姐,宣道會元基堂,元朗康樂路8號 康樂廣場2樓,元朗康樂路8號 康樂廣場2樓,2470 2132,2470 2132,HY2I8,2017-08-08,Online,,459,0
+460,阿鋒,阿鋒,沙田水泉澳邨 竹泉樓1106室,沙田水泉澳邨 竹泉樓1106室,9651 1239,9651 1239,A2M7V,2017-07-14,Online,,460,0
+461,Ms Yip,香港聖公會牧愛長者之家,九龍牛頭角樂華南邨 輝華樓地下141-156室及2樓,九龍牛頭角樂華南邨 輝華樓地下141-156室及2樓,2759 3378,2759 3378,KYS2R,2017-07-17,Online,,461,0
+462,Ms Iris So,The Mahjong,"1F , 10-16 Pak Tai St , To Kwa Wan.","1F , 10-16 Pak Tai St , To Kwa Wan.",2705 1869,2705 1869,F0VAA,2017-07-04,Online,,462,0
+463,Mr Jason Chung,Hip Shing Hong (Holdings) Company Ltd,"13/F , Hip Shing Hong Centre , 55 Des Voeux Road , Central.","13/F , Hip Shing Hong Centre , 55 Des Voeux Road , Central.",2978 3701,2978 3701,YSEZ5,2017-07-03,Online,,463,0
+464,Mr Cedar Cheng,Incubator Ministries Limited,官塘偉業街182號 官塘碼頭廣場2樓201室,官塘偉業街182號 官塘碼頭廣場2樓201室,9329 1826,9329 1826,YIIDS,2017-06-23,Online,,464,0
+465,Ms Lai,King Power Duty Free Company Ltd,"36/F, Enterprise Square Two, 3 Sheung Yuet Rd, Kowloon Bay.","36/F, Enterprise Square Two, 3 Sheung Yuet Rd, Kowloon Bay.",2755 1555,2755 1555,SDV6B,2017-08-08,Online,,465,0
+466,Ms Karil Cheng,AdBeyond (Group) Limited,官塘鴻圖道 75號4樓,官塘鴻圖道 75號4樓,3952 1300,3952 1300,RSY0N,2017-07-12,Online,,466,0
+467,Ms Leung,Ms Leung,將軍澳日出康城 領都第2座17樓RD室,將軍澳日出康城 領都第2座17樓RD室,9287 1430,9287 1430,WC249,2017-06-05,Online,,467,0
+468,Ms Vanice Tang,A Menarini Hong Kong Limited,"20/F , Crocodile Ctr , 79 Hoi Yuen Rd , Kwun Tong.","20/F , Crocodile Ctr , 79 Hoi Yuen Rd , Kwun Tong.",3605 5883,9586 6635,YAIDD,2017-05-26,Online,,468,0
+469,Ms Yan Ng,New World Property Management Company,"28/F , Skypark , No.17 Nelson St , Mongkok.","28/F , Skypark , No.17, Nelson St , Mongkok.",3990 1910,9330 6225,IL2U7,2017-05-24,Online,,469,0
+470,Ms Lam,Laab Ltd,上環普慶坊2-8號 寶慶大廈地下S-H鋪,上環普慶坊2-8號 寶慶大廈地下S-H鋪,6438 8424,6438 8424,VK3ZO,2017-05-23,Online,,470,0
+471,Ms Rachel Wong,Vectr Ventures Limited,"1/F , Talon Tower, 38 Connaught Rd West , Sheung Wan.","1/F , Talon Tower, 38 Connaught Rd West , Sheung Wan.",3702 3070,6709 7170,F1UHK,2017-05-23,Online,,471,0
+472,Ms Tam,Arch Partnership Limited,"11/F, 78 Hung To Rd, Kwun Tong.","11/F, 78 Hung To Rd, Kwun Tong.",3955 0809,9872 1955,SJ6TJ,2017-05-19,Online,,472,0
+473,Mr Yip,Alco Vogue Design Co Ltd,"Unit ABC , 6/F , Kings Wing Plaza 2 , 1 On Kwan St , Shatin, Unit ABC , 6/F , Kings Wing Plaza 2 , 1 On Kwan St , Shatin,","Unit ABC , 6/F , Kings Wing Plaza 2 , 1 On Kwan St , Shatin, Unit ABC , 6/F , Kings Wing Plaza 2 , 1 On Kwan St , Shatin,",9028 3881,9028 3881,C4ZXY,2017-05-19,,,473,0
+474,Ms Ivy Chan,The University of Hong Kong,"University Hall , 144 Pofuklam Rd , HK.","University Hall , 144 Pofuklam Rd , HK.",2595 0966,2595 0966,3HV4D,2017-05-18,Online,,474,0
+475,Mr Lau,Mr Lau,香港灣仔道125號 國泰新宇20樓B室,香港灣仔道125號 國泰新宇20樓B室,9419 2392,9419 2392,1TIY4,2017-05-18,Online,,475,0
+476,Mr Chu,Quick Yield (Hong Kong) Limited,"3/F, Vincent House , 30-30A Jordan Rd , Kowloon.","3/F, Vincent House , 30-30A Jordan Rd , Kowloon.",5411 4141,5411 4141,GOSLL,2017-05-16,Online,,476,0
+477,Ms Chan,Kendall International Preschool,西九龍褔榮街 228號地下,西九龍褔榮街 228號地下,2328 8223,2328 8223,2472B,2017-08-08,Online,,477,0
+478,Ms Belle Wu,Compare Asia Group Limited,"21/F , 88 Hing Fat Street , Tin Hau.","21/F , 88 Hing Fat Street , Tin Hau. 21/F , 88 Hing Fat Street , Tin Hau.",9425 1991,9425 1991,T2M2H,2017-09-27,Online,,478,0
+479,Derek Tom,DerekTom,"Flat A , 11/F , South Tower 3 , Residence Bel-Air , 38 Bel-Air Avenue , Pokfulam,HK.","Flat A , 11/F , South Tower 3 , Residence Bel-Air , 38 Bel-Air Avenue , Pokfulam,HK.",9017 3050,9017 3050,HN1O8,2017-09-08,Online,,479,0
+480,Ms Tam,Upmore Corporation Limited,"2/F, 2 Pak Sha Road, Causeway Bay","2/F, 2 Pak Sha Road, Causeway Bay",6336 6922,6336 6922,YOYWS,2017-10-20,Online,,480,0
+481,Ms Elsa Lee,Kai Shing Management Services Limited (Grand Yoho),"5/F Podium , Tower 8 , Grand Yoho, 9 Long Tay Road , Yuen Long.","5/F Podium , Tower 8 , Grand Yoho, 9 Long Tay Road , Yuen Long.",2274 1318,6332 4357,CMICK,2017-09-22,Online,,481,0
+482,Ms Cheung,Tempus Cross-border Commercial Service Limited,"29/F, 9 Des Voeux Road West , Sheung Wan","29/F, 9 Des Voeux Road West , Sheung Wan",2543 6880,2543 6880,PFZXH,2017-10-03,Online,,482,0
+483,Ms Lillian,My Nail Nail,"Shop 3028, Podium Level 3 , IFC Mall , Central , HK","Shop 3028, Podium Level 3 , IFC Mall , Central , HK",2366 9322,2366 9322,BW8UQ,2017-09-28,Online,,483,0
+484,Angela Kwok,Preqin HK Limited,"Unit 1504 , 15/F , The Centre , Central , HK","Unit 1504 , 15/F , The Centre , Central , HK",3892 0200,3892 0200,3RPFE,2017-09-08,Online,,484,0
+485,Mr Ryan Ching,Mr Ryan Ching,"Unit F , 39/F , Block 5 , Grand Yoho , 9 Long Yat Rd , Yuen Long. Unit F , 39/F , Block 5 , Grand Yoho , 9 Long Yat Rd , Yuen Long.","Unit F , 39/F , Block 5 , Grand Yoho , 9 Long Yat Rd , Yuen Long. Unit F , 39/F , Block 5 , Grand Yoho , 9 Long Yat Rd , Yuen Long.",9423 6209,9423 6209,KQQ1O,2017-10-27,,,485,0
+486,Ms Moon Lam,Kai Shing Management Services Office (Twin Regency),"G/F , Tower 2 , No.11 Tak Yip Street , Yuen Long , NT.","G/F , Tower 2 , No.11 Tak Yip Street Yuen Long , NT.",3611 7890,3611 7890,YD7S3,2017-09-22,Online,,486,0
+487,TEST ACCOUNT SHIVKUMAR,Connectus Software Solution,Rajkot Rajkot,Rajkot Rajkot,9913300950,9913300950,N41YF,2018-03-21,,,487,0
+488,阿鋒,阿鋒,荃灣石圍角邨 石翠樓低座1925室,荃灣石圍角邨 石翠樓低座1925室,9651 1239,9651 1239,31HXS,2018-03-22,Online,,488,0
+489,Ms Chan,Overflow Springs Center  Limited,"Unit A, 12/F, Capri Building, 130 Austin Road, Tsim Sha Tsui","Unit A, 12/F, Capri Building, 130 Austin Road, Tsim Sha Tsui",6750 3118,6750 3118,1P9XP,2018-03-28,Online,,489,0
+490,Ms Yeung,Ours Media HK Limites,"6/F, KOHO, 73-75 Hung To Road, Kwun Tong","6/F, KOHO, 73-75 Hung To Road, Kwun Tong",9383 2628,9383 2628,PBM39,2018-03-28,Online,,490,0
+491,楊生,楊生,澳門河邊新街266號豐順新村第1座1樓G室 澳門河邊新街266號豐順新村第1座1樓G室,澳門河邊新街266號豐順新村第1座1樓G室 澳門河邊新街266號豐順新村第1座1樓G室,6685 8002,6685 8002,VPNRK,2017-10-09,,,491,0
+492,黃生,黃生,澳門勞動節大馬路183號廣福祥花園第2座6樓P室 澳門勞動節大馬路183號廣福祥花園第2座6樓P室,澳門勞動節大馬路183號廣福祥花園第2座6樓P室 澳門勞動節大馬路183號廣福祥花園第2座6樓P室,6633 8423,6633 8423,MM652,2017-10-09,,,492,0
+493,Mr Adrian Leung,Mr Adrian Leung,屯門青榕街6號 雅德苑2座6樓B室,屯門青榕街6號 雅德苑2座6樓B室,9699 0128,9699 0128,DT5W8,2018-04-30,Online,,493,0
+494,Ms Karen Hui,Jumbo Faith Logistics Limited,宏輝物流有限公司 宏輝物流有限公司,宏輝物流有限公司 宏輝物流有限公司,3568 9683,3568 9683,AZSE0,2017-05-15,Online,,494,0
+495,Ms Maggie,BMA Management Limited,"26/F, YF Life Tower, 33 Lockhart Road, Wan Chai","26/F, YF Life Tower, 33 Lockhart Road, Wan Chai",2378 3187,6110 4122,6WB3J,2018-05-03,Online,,495,0
+496,Ms Emma Wallace,Emma Wallace Company Limited,"Flat A, G/F, Po Hing Mansion, 2 Po Hing Fong, 1-6 Wa Ning Lane, Hong Kong","Flat A, G/F, Po Hing Mansion, 2 Po Hing Fong, 1-6 Wa Ning Lane, Hong Kong",9153 5204,9153 5204,V7C8V,2017-11-21,Online,,496,0
+497,Ms Rimma Tyan,Ms Rimma Tyan,"G/F, 1 Chek Lap Kok New Village","G/F, 1 Chek Lap Kok New Village",6168 5475,6168 5475,Z7KSS,2017-11-08,Online,,497,0
+498,Ms Fung,Wickfield Financial Group,"14/F, San Toi Building, 137-139 Connaught Road, Central","14/F, San Toi Building, 137-139 Connaught Road, Central",2850 0220,2850 0220,N55NM,2017-11-13,Online,,498,0
+499,Ms Hui,Regus (HK) Management Limited,"5/F & 6/F, Lee Garden 3, Causeway Bay","5/F & 6/F, Lee Garden 3, Causeway Bay",9577 6533,9577 6533,Y8ELW,2018-06-08,Online,,499,0
+500,Mr Chan,Kai Shing Managment Service Ltd - World Trade Centre,"4/F, World Trade Centre, 280 Gloucester Road, Causeway Bay","4/F, World Trade Centre, 280 Gloucester Road, Causeway Bay",6281 0910,6281 0910,JQN4X,2018-06-08,Online,,500,0
+501,Ms Jennifer Lau,Kentic Limited,"Shop 3029-3030, Podium Level 3, IFC Mall, 1 Harbour View St, Central","Shop 3029-3030, Podium Level 3, IFC Mall, 1 Harbour View St, Central",2290 2652,2290 2652,LVK38,2017-12-12,Online,,501,0
+502,Ms Cheung,Yan Yuet Tong Limited,"3/F, 60 Wellington St, Central 3/F, 60 Wellington St, Central","3/F, 60 Wellington St, Central 3/F, 60 Wellington St, Central",9400 6635,9400 6635,WQUVR,2017-12-08,,,502,0
+503,Ms Iris Chan,Ms Iris Chan,"23A, 7/F, Fujiya Mansion, 21-23 Kennedy Road, Wan Chai","23A, 7/F, Fujiya Mansion, 21-23 Kennedy Road, Wan Chai",9252 4580,9252 4580,L3JP7,2018-06-11,Online,,503,0
+504,Ms Leung,Ms Leung,元朗錦繡花園 荔枝南路O段142A,元朗錦繡花園 荔枝南路O段142A,9179 1788,9179 1788,9PPFR,2018-06-12,Online,,504,0
+505,Ms Jennifer Lau,Pacific Favour (International) Limited,"Unit 03-06, 24/F, Eight Commercial Tower, 8 Sun Yip St, Chai Wan","Unit 03-06, 24/F, Eight Commercial Tower, 8 Sun Yip St, Chai Wan",2290 2652,2290 2652,6P39T,2017-12-08,Online,,505,0
+506,Mr Lai,Zuverlassig Development Limited,"Flat D, 27/F, No.88 The Third Street, Sai Ying Pun Flat D, 27/F, No.88 The Third Street, Sai Ying Pun","Flat D, 27/F, No.88 The Third Street, Sai Ying Pun Flat D, 27/F, No.88 The Third Street, Sai Ying Pun",9694 4499,9694 4499,KADKZ,2018-06-20,,,506,0
+507,Dr Clark Cheng,Aptorum Medical Limited,"19/F, 1 Duddell Street, Central, HK","19/F, 1 Duddell Street, Central, HK",2169 0006,2169 0006,HCEPN,2018-06-20,Online,,507,0
+508,文太,文太,天水圍嘉湖山莊 樂湖居7座22樓C室,天水圍嘉湖山莊 樂湖居7座22樓C室,6680 8117,6680 8117,A4HK8,2017-12-19,Online,,508,0
+509,Ms Jennifer Lau,Private I Concept Store & Private I Pets,"G/F, Shop A1 & A2 at 1/F, Fashion Walk, 9 Kingston St, Causeway Bay G/F, Shop A1 & A2 at 1/F, Fashion Walk, 9 Kingston St, Causeway Bay","G/F, Shop A1 & A2 at 1/F, Fashion Walk, 9 Kingston St, Causeway Bay G/F, Shop A1 & A2 at 1/F, Fashion Walk, 9 Kingston St, Causeway Bay",2290 2652,2290 2652,UDIRK,2018-07-03,,,509,0
+510,Ms Kwok / Ms Cheng,International City Churches (HK) Limited,"21/F, AIA Financial Center, 712 Prince Edward Road East, Kowloon","21/F, AIA Financial Center, 712 Prince Edward Road East, Kowloon",2736 2968,9701 3661,VGPQ6,2018-07-05,Online,,510,0
+511,Ms Christy Wong,Infinitus Property Investment (Hong Kong) Limited,"Rm 1801, FWD Financial Centre, 308-320 Des Voeux Road, Sheung Wan","Rm 1801, FWD Financial Centre, 308-320 Des Voeux Road, Sheung Wan",9523 2619,9523 2619,XC30J,2018-07-05,Online,,511,0
+512,Ms Yuriko San,Canary Co Limited,"9/F, Man Cheung Building, 15-17 Wyndham Street, Central","9/F, Man Cheung Building, 15-17 Wyndham Street, Central",2537 0338,2537 0338,SL5ZS,2018-01-29,Online,,512,0
+513,Ms Mandy Lai,Kai Shing Management Services Limited - V Walk,"Level 2, V Walk, 28 Sham Mong Road, Sham Shui Po, Kowloon","Level 2, V Walk, 28 Sham Mong Road, Sham Shui Po, Kowloon",3612 1003,3253 7653,LG8IO,2018-07-06,Online,,513,0
+514,Ms Lesley Lau,YY Wong Safety Consultants Limited,"4/F, Tai Shing Commercial Yaumati Building, 498-500 Nathan Road, Yau Ma Tei","4/F, Tai Shing Commercial Yaumati Building, 498-500 Nathan Road, Yau Ma Tei",2430 1606,2430 1606,G36HE,2018-07-06,Online,,514,0
+515,Mr Wong,Mr Wong,大埔康樂園18街56號 大埔康樂園18街56號,大埔康樂園18街56號 大埔康樂園18街56號,9083 1935,9083 1935,KJS08,2018-01-15,,,515,0
+516,Ms Yau,Hong Kong Medical Consultants Limited,"Unite 812, 8/F, Central Building, 1-3 Pedder St, Central","Unite 812, 8/F, Central Building, 1-3 Pedder St, Central",2219 9992,2219 9992,4RGNY,2018-01-10,Online,,516,0
+517,Ms Ng,REWE Far East Limited,"19/F, Linkchart Center, 2 Tai Yip St, Kwun Tong","19/F, Linkchart Center, 2 Tai Yip St, Kwun Tong",3724 6100,3724 6100,DZBIT,2018-01-10,Online,,517,0
+518,Ms Au,Ms Au,"Room 2617, Fu Ming House, Wah Ming Estate, Fanling","Room 2617, Fu Ming House, Wah Ming Estate, Fanling",9718 0003,9718 0003,Y7AQH,2018-07-16,Online,,518,0
+519,Ms Yip,Ms Yip,"Flat F, 38/F, Tower 6, Aquamarine, 8 Sham Shing Road, Cheung Sha Wan","Flat F, 38/F, Tower 6, Aquamarine, 8 Sham Shing Road, Cheung Sha Wan",9755 3356,9755 3356,0UT7Y,2018-01-15,Online,,519,0
+520,Ms Cheung,The University of Hong Kong,"Rm 8-17, 8/F, Haking Wong Building, The Unviersity of Hong Kong, Pokfulam Road, HK","Rm 8-17, 8/F, Haking Wong Building, The Unviersity of Hong Kong, Pokfulam Road, HK",3917 2668,3917 2668,EPGDN,2018-01-10,Online,,520,0
+521,Mrs Ko,Mrs Ko,"Rm D, 18/F, Tower 1, Mount Haven, 3 Liu To Road, Tsing Yi","Rm D, 18/F, Tower 1, Mount Haven, 3 Liu To Road, Tsing Yi",9431 8372,9431 8372,N0V8M,2018-07-23,Online,,521,0
+522,Ms Rebecca Edwards,Ms Rebecca Edwards,"Flat B, 7/F, Tower 3, Avignon, 1 Kwun Chui Road, Tuen Mun","Flat B, 7/F, Tower 3, Avignon, 1 Kwun Chui Road, Tuen Mun",6681 6309,6681 6309,5CUPL,2018-01-16,Online,,522,0
+523,Mr Wong,Mr Wong,"Flat G, 5/F, Block 1, Mantin Heights, 28 Sheung Shing St, Ho Man Tin Flat G, 5/F, Block 1, Mantin Heights, 28 Sheung Shing St, Ho Man Tin","Flat G, 5/F, Block 1, Mantin Heights, 28 Sheung Shing St, Ho Man Tin Flat G, 5/F, Block 1, Mantin Heights, 28 Sheung Shing St, Ho Man Tin",6028 0186,6028 0186,48WY1,2018-02-12,,,523,0
+524,Ms Ashley Lui,Ms Ashley Lui,"Flat E, 19/F, Tower 3, Mantin Heights, 28 Sheung Shing St, Ho Man Tin","Flat E, 19/F, Tower 3, Mantin Heights, 28 Sheung Shing St, Ho Man Tin",6177 8949,6177 8949,3OAXZ,2018-07-30,Online,,524,0
+525,Ms Shirley Lo,Ms Shirley Lo,"Flat G, 12/F, Tower 18, Phase 2, Serenity Park, Tai Po","Flat G, 12/F, Tower 18, Phase 2, Serenity Park, Tai Po",9386 4581,9386 4581,W7X4E,2018-08-02,Online,,525,0
+526,Ms Belle Wu,Money Hero Global Limited,"15/F, 88 Hing Fat St Tin Hau","15/F, 88 Hing Fat St, Tin Hau 15/F, 88 Hing Fat St, Tin Hau",9425 1991,9425 1991,5RQEY,2018-08-03,Online,,526,0
+527,Ms Camilla Lam,Solutions Health Care Products & Services Limited,"RM 1104-05, 11/F, Capitol Centre, 5-19 Jardine's Bazaar, Causeway Bay","RM 1104-05, 11/F, Capitol Centre, 5-19 Jardine's Bazaar, Causeway Bay",2273 8215,2273 8215,ZOC8Q,2018-02-02,Online,,527,0
+528,Ms Sophia Kim,Ms Sophia Kim,"Flat A, 23/F, Tavistock II, 10A Tregunter Path, Mid Levels","Flat A, 23/F, Tavistock II, 10A Tregunter Path, Mid Levels",9508 2038,9508 2038,OJOY3,2018-04-09,Online,,528,0
+529,Mr Lam,Central China International Financials Holdings Co Ltd,"Suite 1505-08, Two Exchange Square, 8 Connaught Place, Central","Suite 1505-08, Two Exchange Square, 8 Connaught Place, Central",9338 8281,9338 8281,21RJD,2017-08-14,Online,,529,0
+530,Ms Claire Cheung,TransPerfect Translations Ltd,"19/F, 33 Lockhart Raod, Wan Chai 19/F, 33 Lockhart Raod, Wan Chai","19/F, 33 Lockhart Raod, Wan Chai 19/F, 33 Lockhart Raod, Wan Chai",2292 9950,2292 9950,59DTD,2017-04-03,,,530,0
+531,Ms Fung,Prudence Investment Management (Hong Kong) Limited,"Suite 504-505, Bank of America Tower, 12 Harcourt Road, Central","Suite 504-505, Bank of America Tower, 12 Harcourt Road, Central",3189 2873,3189 2873,P5J11,2017-08-22,Online,,531,0
+532,Ms Bonny Suen,Sky One Express (HK) Limited,"Unit 3 & 5, 3/F, Hong Leong Plaza, 31 Lok Yip Road, Fanling, N.T 長沙灣永康街51-53號時穎中心14樓1室","Unit 3 & 5, 3/F, Hong Leong Plaza, 31 Lok Yip Road, Fanling, N.T 長沙灣永康街51-53號時穎中心14樓1室",9045 2304,9045 2304,DG4YV,2017-08-14,,,532,0
+533,Issac,The Room Hair & Design,"Rm E & F, 9/F, Emperor Watch & Jewellery Centre, 8 Russell St, Causeway Bay","Rm E & F, 9/F, Emperor Watch & Jewellery Centre, 8 Russell St, Causeway Bay",9757 9479,9757 9479,DOETQ,2018-08-08,Online,,533,0
+534,Ms Megan Kincaid,Ms Megan Kincaid,"Tai Tam Garden C2, 700 Tai Tam Reservoir Road, Tai Tam","Tai Tam Garden C2, 700 Tai Tam Reservoir Road, Tai Tam",6380 5145,6380 5145,DAZDZ,2017-08-31,Online,,534,0
+535,Ms Elsa Kwong,The Clearwater Bay Golf and Country Club,"139 Tai Au Mun Road, Clearwater Bay, N.T","139 Tai Au Mun Road, Clearwater Bay, N.T 139 Tai Au Mun Road, Clearwater Bay, N.T",2335 3728,2335 3728,V9OYN,2017-08-18,Online,,535,0
+536,Ms Eliza Wong,Konica Minolta Business Solutions (HK) Limited,"23/F, Rykadan Capital Tower, 135 Hoi Bun Road, Kwun Tong","23/F, Rykadan Capital Tower, 135 Hoi Bun Road, Kwun Tong 23/F, Rykadan Capital Tower, 135 Hoi Bun Road, Kwun Tong",2963 4561,2963 4561,CVH5K,2018-08-22,Online,,536,0
+537,Ms Ng,J to G Limited,"Rm B, 10/F, Shui Ki Industrial Building, 18 Wong Chuk Hang Road, Wong Chuk Hang","Rm B, 10/F, Shui Ki Industrial Building, 18 Wong Chuk Hang Road, Wong Chuk Hang",9661 9566,9661 9566,KPTP7,2017-08-29,Online,,537,0
+538,Ms Cherrie Cheng,New World Property Management Company Limited,"88 Tuen Mun Heung Sze Wui Road, Tuen Mun","88 Tuen Mun Heung Sze Wui Road, Tuen Mun",5669 0681,5669 0681,37EXL,2018-08-31,Online,,538,0
+539,Ms Hui,Regus (HK) Management Limited,"20/F, Lee Garden 3, Causeway Bay","20/F, Lee Garden 3, Causeway Bay",9577 6533,9577 6533,7QOSP,2018-09-03,Online,,539,0
+540,Ms Chan,Hong Kong Medical Consultants Limited,"Unit 1202, 12/F, Central Building, 1-3 Pedder St, Central","Unit 1202, 12/F, Central Building, 1-3 Pedder St, Central",2525 6119,2525 6119,P04G0,2018-09-03,Online,,540,0
+541,Ms Sean Chow,Manteam International Limited,"Unit L2-55, Festival Walk, 80 Tak Chee Road, Kowloon Tong","Unit L2-55, Festival Walk, 80 Tak Chee Road, Kowloon Tong",2314 0003,2314 0003,6TCLE,2018-09-04,Online,,541,0
+542,Dr Wong,Eucharist Medical Consulting Co,"Suite 1320, 13/F, Ocean Centre, Harbour City, Tsim Sha Tsui","Suite 1320, 13/F, Ocean Centre, Harbour City, Tsim Sha Tsui",6580 6003,6580 6003,0KADD,2018-09-05,Online,,542,0
+543,程小姐,Zhen Hua Engineering Co Ltd,"4/F, Toppy Tower, 45-51 Kwok Shui Road, Kwai Chung","4/F, Toppy Tower, 45-51 Kwok Shui Road, Kwai Chung",2192 0615,2192 0615,W0JT0,2018-09-05,Online,,543,0
+544,Mr Mohsin Fatta,Mr Mohsin Fatta,"Flat A, 46/F, Tower 7, Caribbean Coast, Tung Chung","Flat A, 46/F, Tower 7, Caribbean Coast, Tung Chung",6904 6255,6904 6255,AK38Q,2018-09-18,Online,,544,0
+545,Ms Ida Sze,Ida & Billy Architects,中環雲咸街31號 嘉兆商業大廈8樓,中環雲咸街31號 嘉兆商業大廈8樓,9212 1804,9212 1804,XERM4,2018-09-18,Online,,545,0
+546,Yan Yuen Tong Limited,Ms Cheung,香港銅鑼灣駱克道496-498號合亞廣場16樓 香港銅鑼灣駱克道496-498號合亞廣場16樓,香港銅鑼灣駱克道496-498號合亞廣場16樓 香港銅鑼灣駱克道496-498號合亞廣場16樓,9400 6635,9400 6635,1290P,2018-03-05,,,546,0
+547,Dedicare Medical Centre,Ms Tong,"Unit 2108, Melbourne Plaza, 33 Queen's Road, Central","Unit 2108, Melbourne Plaza, 33 Queen's Road, Central",2468 2248,2468 2248,TTB9R,2018-09-20,Online,,547,0
+548,Ms Claire Cheung,Transperfect Translations Limited,"Unit 2002, YF Life Tower, 33 Lockhart Road, Wan Chai","Unit 2002, YF Life Tower, 33 Lockhart Road, Wan Chai",2292 9950,2292 9950,T3Z73,2018-10-02,Online,,548,0
+549,劉太,劉太,筲箕灣耀東邨 耀昌樓1512室,筲箕灣耀東邨 耀昌樓1512室,9824 1338,9824 1338,CUP8T,2018-10-03,Online,,549,0
+550,Ms Leung,Mother App Hong Kong,科學園科技大道西5號 企業廣場(5W)708-709室,科學園科技大道西5號 企業廣場(5W)708-709室,3427 8265,3427 8265,FMQYY,2018-10-05,Online,,550,0
+551,Ms Gina Dobles,Ms Gina Dobles,"Flat C, 16/F, Tower 3, Bel Air On the Peak, Phase 6 Flat C, 16/F, Tower 3, Bel Air On the Peak, Phase 6","Flat C, 16/F, Tower 3, Bel Air On the Peak, Phase 6 Flat C, 16/F, Tower 3, Bel Air On the Peak, Phase 6",5217 1886,5217 1886,Q9GE7,2017-10-10,,,551,0
+552,楊小姐,楊小姐,屯門欣田邨 喜田樓701室,屯門欣田邨 喜田樓710室,9426 5221,9426 5221,T7WYM,2018-10-09,Online,,552,0
+553,Ms Phyllis,Kai Shing Management Services Ltd - Eight Regency,屯門 良德街8號,屯門 良德街8號,6701 4269,6701 4269,5SODY,2018-10-24,Online,,553,0
+554,蘇太,港九五旬節會香港堂,半山衛城道 11號,半山衛城道 11號,6082 1488,6082 1488,97JP4,2018-10-04,Online,,554,0
+555,Ms Jenny Li,Mercedes - Benz Brand Centre,"60 Ka Yip St, Chai Wan","60 Ka Yip St, Chai Wan",2895 7338,2895 7338,QRZP5,2018-10-09,Online,,555,0
+556,Mr Ryan Chu,Perfect World Company Limited,"The One, 100 Nathan Road, Tsim Sha Tsui, Kowloon","The One, 100 Nathan Road, Tsim Sha Tsui, Kowloon",3106 3879,3106 3879,YIV4H,2018-10-12,Online,,556,0
+557,Control Room,Perfect World Company Limited,"311 Gloucester Road, Causeway Bay","311 Gloucester Road, Causeway Bay",2895 0612,2895 0612,OTA57,2018-10-15,Online,,557,0
+558,Ms KiKi Wong,Cachet Asset Management Limited,"28/F, YF Life Tower, 33 Lockhart Road, Wan Chai","28/F, YF Life Tower, 33 Lockhart Road, Wan Chai",3579 2090,6977 1138,F0DCS,2018-10-23,Online,,558,0
+559,Ms Tsang,Ms Tsang,沙田富豪花園 A座11樓A室,沙田富豪花園 A座11樓A室,6100 8785,6100 8785,6WA1S,2018-11-06,Online,,559,0
+560,Mr Tsang,Mr Tsang,沙田富豪花園 A座19樓B室,沙田富豪花園 A座19樓B室,9123 5893,9123 5893,UCGNM,2018-11-06,Online,,560,0
+561,Ms Hui,Regus HK,"21/F, Lee Garden 3, Causeway Bay","21/F, Lee Garden 3, Causeway Bay",9577 6533,9577 6533,K0YDF,2018-11-14,Online,,561,0
+562,Ms Lam,Fordex Electric Co Ltd,"Unit 1, G/F, Kai Fuk Industrial Ctr, 1 Wang Tung St, Kowloon Bay","Unit 1, G/F, Kai Fuk Industrial Ctr, 1 Wang Tung St, Kowloon Bay",2689 9825,2689 9825,NB726,2018-11-13,Online,,562,0
+563,Mr Chan,Mr Chan,屯門寶田邨 4座1629室,屯門寶田邨 4座1629室,9388 2583,9388 2583,6Y04C,2018-11-16,Online,,563,0
+564,Mr Samson Wong,Faiveley Transport Far East Limited,"25/F, 26/F, Casey Aberdeen House, 38 Heung Yip Road, Wong Chuk Hang","25/F, 26/F, Casey Aberdeen House, 38 Heung Yip Road, Wong Chuk Hang",2861 1788 Ext. 120,2861 1788 Ext. 120,4QAFB,2018-11-20,Online,,564,0
+565,Ms So,One Country Two System Law Center Limited,"9/F, Lippo Centre Tower 1, 89 Queensway, Admiralty","9/F, Lippo Centre Tower 1, 89 Queensway, Admiralty",2810 7222,2810 7222,U3UCI,2018-11-26,Online,,565,0
+566,Ms Suki Tung,Robert Walters (Hong Kong) Limited,"20/F, Nexxus Building, 41 Connaught Road, Central","20/F, Nexxus Building, 41 Connaught Road, Central",2103 5392,6133 1761,1VCX8,2018-11-30,Online,,566,0
+567,Ms Frances Sio,VistaJet International Ltd,"L2101-02, China Evergrande Center, 38 Gloucrster Road, Causeway Bay","L2101-02, China Evergrande Center, 38 Gloucrster Road, Causeway Bay",2901 0525,9552 6150,6I3VS,2018-12-10,Online,,567,0
+568,Mr Adrian Chan,SL & A Hong Kong Limited,"7/F, Sea Bird House, 22-28 Wyndham St, Central","7/F, Sea Bird House, 22-28 Wyndham St, Central",9820 4949,9820 4949,HT1OM,2018-12-21,Online,,568,0
+569,Mr Law,Mr Law,"Flat D, 10/F, Blk 16 The Parcville , Yuen Long","Flat D, 10/F, Blk 16 The Parcville , Yuen Long",9586 8787,9586 8787,NW9G7,2018-09-27,Online,,569,0
+570,Ms. Tracy Lau,BOTTEGA VENETA Hong Kong Limited,"28/F, One Taikoo Place, 979 King's Road, Hong Kong","28/F, One Taikoo Place, 979 King's Road, Hong Kong",2839 9530,2839 9530,KO6AJ,2019-03-19,Online,,570,0
+571,Ms Colin,Ms Colin,"1/F, 2/F, 129 Tai Hang Hau, Clear Water Bay","1/F, 2/F, 129 Tai Hang Hau, Clear Water Bay",6134 7500,6134 7500,HF80X,2019-03-18,Online,,571,0
+572,Ms Mak,Miton Exhibits Management (Greater China) Limited,"9/F, Artisan Hub, 9 Luk Hop St, San Po Kong","9/F, Artisan Hub, 9 Luk Hop St, San Po Kong",9673 3639,9673 3639,LU06V,2019-03-14,Online,,572,0
+573,Ms Mak,Miton Exhibits Management (Greater China) Limited,"10/F, Artisan Hun, 9 Luk Hop St, San Po Kong","10/F, Artisan Hun, 9 Luk Hop St, San Po Kong",9673 3639,9673 3639,C5SP3,2019-03-07,Online,,573,0
+574,Bernice Lau,Aravia Design Limited,中環士丹利街 18號2樓,中環士丹利街 18號2樓,6200 4204,6200 4204,CYIAT,2019-02-11,Online,,574,0
+575,Ms Chan,Kai Shing Management Services Limited - Park YoHo,元朗青山公路 澤尾段18號,元朗青山公路 澤尾段18號,2656 8811,2656 8811,PJJNI,2019-02-04,Online,,575,0
+576,Mr Tsang,Kai Shing Management Services Limited - YoHo Mid Town,元朗 元龍街9號,元朗 元龍街9號,9739 8468,9739 8468,SXBDI,2019-01-30,Online,,576,0
+577,陳小姐,陳小姐,銅鑼灣 銅鑼灣道134號1樓,銅鑼灣 銅鑼灣道134號1樓,6881 1088,6881 1088,VZ2RA,2019-01-24,Online,,577,0
+578,Mr Gem,Mobile Internet Limited,"9/F, Galaxy Publishing House, 118 Wai Yip St, Kwun Tong","9/F, Galaxy Publishing House, 118 Wai Yip St, Kwun Tong",6027 8928,6027 8928,I24KR,2019-01-25,Online,,578,0
+579,Ms Joey Law,Apex Cardio Limited,"Unit 1804, Crawford House, Central, Hong Kong","Unit 1804, Crawford House, Central, Hong Kong",6277 2168,6277 2168,YT405,2019-01-24,Online,,579,0
+580,Ms Tse,Kerry Property Management Services Limited - Mont Rouge,"9 Lung Kui Road, Beacon Hill, Kowloon","9 Lung Kui Road, Beacon Hill, Kowloon",6845 6154,6845 6154,JQ8JZ,2019-01-14,Online,,580,0
+581,Ms Lee,Ms Lee,"Rm 909, Ngan Wai Court, 15 Ngan Kwong Wan Road, Mui Wo, Lantau Island","Rm 909, Ngan Wai Court, 15 Ngan Kwong Wan Road, Mui Wo, Lantau Island",9729 3944,9729 3944,ZSC2S,2018-12-12,Online,,581,0
+582,梁小姐,東南車行有限公司,元朗西裕街18號 好發洋樓5-6號鋪,元朗西裕街18號 好發洋樓5-6號鋪,2476 9968,9179 1788,4T76P,2018-12-11,Online,,582,0
+583,Ms Ng,LL Chance Investment Limited,"6/F, Overseas Trust Building, 160 Gloucester Road, Causeway Bay","6/F, Overseas Trust Building, 160 Gloucester Road, Causeway Bay",3501 1352,3501 1352,2FTIH,2018-12-10,Online,,583,0
+584,Ms Cheung,TuTu Clay,上環普慶坊 72號地鋪,上環普慶坊 72號地鋪,9640 6058,9640 6058,6CYXY,2018-12-10,Online,,584,0
+585,Mr Ivan Lee,Hong Yip Service Co Ltd,"202A, Level 2, 9 Tong Tak St, Tseung Kwan O","202A, Level 2, 9 Tong Tak St, Tseung Kwan O",9600 8985,9600 8985,R36BF,2019-03-21,Online,,585,0
+586,Ms Chu,One-Eight-One Hospitality Management Limited,"1/F, 181 Connaught Road West, Hong Kong","1/F, 181 Connaught Road West, Hong Kong",3181 7471,3181 7471,UDOBL,2019-03-22,Online,,586,0
+587,Ms Amber,HFZ Capital Management Limited,"Rm 4005-06, Jardine House, 1 Connaught Place, Central","Rm 4005-06, Jardine House, 1 Connaught Place, Central",6036 0826,6036 0826,CNKQE,2019-03-25,Online,,587,0
+588,Ms Grace Wong,UPD Limited,"Lot 1372 in D.D. 100, Tsiu Keng, Sheung Shui","Lot 1372 in D.D. 100, Tsiu Keng, Sheung Shui",2392 9233,2392 9233,POKQQ,2019-04-23,Online,,588,0
+589,Mr Law,Mr Law,貝沙灣一期 5座15樓A室,貝沙灣一期 5座15樓A室,9523 3450,9523 3450,E954M,2019-04-26,Online,,589,0
+590,Mr Au,SE System Projects Limited,"Unit D, 31/F, Montery Plaza, 15-17 Chong Yip St, Kwun Tong","Unit D, 31/F, Montery Plaza, 15-17 Chong Yip St, Kwun Tong",9662 9131,9662 9131,7H5LF,2019-04-29,Online,,590,0
+591,Ms Cherry,SATS HK Limited,"Unit 6N019, 6/F, Terminal 1, Hong Kong International Airport","Unit 6N019, 6/F, Terminal 1, Hong Kong International Airport",3902 9157,3902 9157,TXEXS,2019-05-07,Online,,591,0
+592,方小姐,方小姐,馬鞍山新港城 2期C座5樓I室,馬鞍山新港城 2期C座5樓I室,9520 0323,9520 0323,BRDW5,2019-05-03,Online,,592,0
+593,Ms Eva Ko,Pillsbury Law Hong Kong Service Co Ltd,"26/F, Oriental Crystal Commercial Building, 46 Lyndhurst Terrace, Central","26/F, Oriental Crystal Commercial Building, 46 Lyndhurst Terrace, Central",3959 7508,3959 7508,CP7YH,2019-05-03,Online,,593,0
+594,Ms Nikki Lee,World Force Investments Limited,"Shop 282-83, 2/F, Mira Place Two, 118-130 Nathan Road, Tsim Sha Tsui","Shop 282-83, 2/F, Mira Place Two, 118-130 Nathan Road, Tsim Sha Tsui",2301 2899,2301 2899,NIX9T,2019-05-17,Online,,594,0
+595,Mr Benjamin Dufour,Mr Benjamin Dufour,"Flat 22, 8/F, Block A, Ka Ning Path, Tai Hang","Flat 22, 8/F, Block A, Ka Ning Path, Tai Hang",9126 8776,9126 8776,GTKXL,2019-05-21,Online,,595,0
+596,Ms Chow,Heng Fu Sport Limited,"Flat A, 13/F, Wing Cheong Industrial Building, 58 Kwai Cheong Road, Kwai Chung","Flat A, 13/F, Wing Cheong Industrial Building, 58 Kwai Cheong Road, Kwai Chung",3464 6171,3464 6171,51UPA,2019-05-22,Online,,596,0
+597,Mr Romain Lemaire,Mr Romain Lemaire,"Flat A, 22/F,  Roc Ye Court, 11 Robinson Road, Mid Level","Flat A, 22/F,  Roc Ye Court, 11 Robinson Road, Mid Level",6312 2827,6312 2827,M839D,2019-05-22,Online,,597,0
+598,Mr Chan,Mr Chan,調景嶺維景灣畔 13座48樓A室,調景嶺維景灣畔 13座48樓A室,9266 3112,9266 3112,8B0ZT,2019-05-31,Online,,598,0
+599,Ms Leung / Mr Lee,Fame Bros Limited,"Unit B, 13/F, Kin Teck Ind Bldg, 26 Wong Chuk Hang Road, Aberdeen, HK","Unit B, 13/F, Kin Teck Ind Bldg, 26 Wong Chuk Hang Road, Aberdeen, HK",3488 1632,3488 1632,1AW8L,2019-06-17,Online,,599,0
+600,Ms Lam,Builderprise (HK) Co Ltd,"Rm D6A, 17/F, TML Tower, 3 Hoi Shing Road, Tsuen Wan","Rm D6A, 17/F, TML Tower, 3 Hoi Shing Road, Tsuen Wan",3616 0443,3616 0443,VTGOC,2019-05-23,Online,,600,0
+601,Mr Samson Ng,Torstone Technology Ltd,"Unit 4202 - 04, AIA Tower, 183 Electric Road, North Point","Unit 4202 - 04, AIA Tower, 183 Electric Road, North Point",5804 9358,5804 9358,O2AL1,2019-06-06,Online,,601,0
+602,洪小姐,Lengda Technology (Hong Kong) Limited,黃竹坑道40號 貴寶工業大廈6樓A室,黃竹坑道40號 貴寶工業大廈6樓A室,3188 8945,3188 8945,HAMHO,2019-06-06,Online,,602,0
+603,Ms Yan,Sephora Hong Kong Limited,"4/F, Taikoo Place Cambridge House, 979 King's Road, Quarry Bay","4/F, Taikoo Place Cambridge House, 979 King's Road, Quarry Bay",3749 8301,3749 8301,SPDK4,2019-06-20,Online,,603,0
+604,Ms Lee,Jordache International (HK) Limited,"Unit 901, 9/F, Wing On Plaza, 62 Mody Road, TST East","Unit 901, 9/F, Wing On Plaza, 62 Mody Road, TST East",2762 4721,2762 4721,NRTWY,2019-06-27,Online,,604,0
+605,Ms Chu,Ms Chu,"Flat C, 30/F, Block 8, K. City, 7 Muk Ning St, Kai Tak","Flat C, 30/F, Block 8, K. City, 7 Muk Ning St, Kai Tak",9641 3630,9867 2257,0XJMR,2019-06-26,Online,,605,0
+606,Ms Priscilla Lam,Boley International (HK) Limited,"Unit 504, New Mandarin Plaza Tower B, 14 Science Museum Road, Tsim Sha Tsui East","Unit 504, New Mandarin Plaza Tower B, 14 Science Museum Road, Tsim Sha Tsui East",3652 1332,3652 1332,AY0R5,2019-07-03,Online,,606,0
+607,Mr. Cheong,,山頂 百祿徑17號,山頂 百祿徑17號,9190 6666,9190 6666,S23LM0,2019-08-06,Online,,607,0
+608,Mr Jason Wong,B.L Wong & Company Ltd,"22/F, Beverly House, 93-107 Lockhart Rd, Wan Chai","22/F, Beverly House, 93-107 Lockhart Rd, Wan Chai",9230 1010,9230 1010,L935HT,2019-07-22,Online,,608,0
+609,Mr Tam,Caritas Jockey Club Resource and Support Centre for Carers,"9/F, Caritas Institute of Higher Education, 2 Chui Ling Lane, TKO","9/F, Caritas Institute of Higher Education, 2 Chui Ling Lane, TKO",3892 0199,3892 0199,LO1V85,2018-03-05,Online,,609,0
+610,Ms Wu,Hip Shing Hong Holdings Company Limited,"1/F, Madera Residences, No.19 Cheong Lok St , Jordan","1/F, Madera Residences, No.19 Cheong Lok St , Jordan",3190 9988,3190 9988,VFCCUS,2019-07-31,Online,,610,0
+611,Ms Charlotte Chan,Editecture Architecyure Interior Design,0 Regent on the Park 16-17B, ,9507 9695,9507 9695,SSLC2G,2018-10-11,,,611,0
+612,Ms Michelle Yau,Hong Kong Medical Consultants Limited,"Rm 810, Central Building, 1-3 Pedder Street, Central.","Rm 810, Central Building, 1-3 Pedder Street, Central.",6705 4711,6705 4711,BESZ1C,2019-08-06,Online,,612,0
+613,Ms Linda Lam,Integrated Corporation,"10/F, Kai Tak Commercial Building, 317-319 Des Voeux Road, Central.","10/F, Kai Tak Commercial Building, 317-319 Des Voeux Road, Central.",2544 8580,2544 8580,ZDCWJL,2019-07-24,Online,,613,0
+614,Ms Au Yeung Ching Crystal,Kru Muay Thai Limited,"14/F, Siu Ying Commercial Building , No.151-155 Queen Road ,Central","14/F, Siu Ying Commercial Building , No.151-155 Queen Road ,Central",6226 8767,6226 8767,J9HP2C,2018-12-06,Online,,614,0
+615,Mr Leung,Mr Leung,"Flat D, 5/F, Phase 2, Block 1, Belvedere Garden, Tsuen Wan","Flat D, 5/F, Phase 2, Block 1, Belvedere Garden, Tsuen Wan",6198 2138,6198 2138,XCUP24,2019-08-02,Online,,615,0
+616,Ms Lisa Higgins,.,"Apt C , 29/F , The Morgn ,", ,,,,2018-01-01,,,616,0
+617,Ms Mak,Miton Exhibits Management (Greater China) Limited,"11/F, Artisan Hub, 9 Luk Hop Street, San Po Kong.","11/F, Artisan Hub, 9 Luk Hop Street, San Po Kong.",9673 3639,9673 3639,WMPYH9,2019-03-25,Online,,617,0
+618,Ms Mak,Miton Exhibits Management (Greater China) Limited,"8/F, Artisan Hub, 9 Luk Hop St , San Po Kong.","8/F, Artisan Hub, 9 Luk Hop St , San Po Kong.",9673 3639,9673 3639,NTSPVA,2019-03-25,Online,,618,0
+619,Mrs Chow,Sunny Optical Technology (Group) Co Ltd,"Rm 2304, Henley Building, No.5 Queen Road, Central","Rm 2304, Henley Building, No.5 Queen Road, Central",6036 5285,6036 5285,0083LY,2018-09-06,Online,,619,0
+620,Ms Jennifer Lau,St Private I Salon (Shining Pacific Limited),"LG/F, 11 Stanley Street , Central , HK.","LG/F, 11 Stanley Street , Central , HK.",2290 2652,2290 2652,KWD3A7,2018-05-24,Online,,620,0
+621,Mr Jimmy Leung,The Fighters Club,"26/F, Guangdong Tour Center, 18 Pennington St, Causeway Bay","26/F, Guangdong Tour Center, 18 Pennington St, Causeway Bay",6342 8145,6342 8145,4PY3EB,2018-06-04,Online,,621,0
+622,Mr Kan,St Anthony's School,"69A, Pokfulam Road, Hong Kong","69A, Pokfulam Road, Hong Kong",2546 6263,2546 6263,RHLQYF,2018-08-25,Online,,622,0
+623,Mr Yiu,Jennifer H Lifestyle Design,"14/F, SPA Centre, 53-55 Lockhart Road, Wan Chai","14/F, SPA Centre, 53-55 Lockhart Road, Wan Chai",9828 9219,9828 9219,G0SXZH,2019-08-22,Online,,623,0
+624,Ms Yandy Yuen,New World Property Management Co. Ltd,"The Forest, 17 Nelson St, Mong Kok","The Forest, 17 Nelson St, Mong Kok",9810 9946,9810 9946,HYESZ4,2017-09-07,Online,,624,0
+625,Ms Ponny,Hyve Asia Exhibitions Limited,"13/F, Connaught Harbourfront House, 35-36 Connaught Road West, Sheung Wan","13/F, Connaught Harbourfront House, 35-36 Connaught Road West, Sheung Wan",9354 5668,9354 5668,J1007B,2017-09-08,Online,,625,0
+626,Ms Chiu,Renco Holdings Group Ltd,"Room 1901, Far East Finance Centre, 16 Harcourt Road, Admiralty","Room 1901, Far East Finance Centre, 16 Harcourt Road, Admiralty",2710 2323,2710 2323,5Q6A0K,2016-09-27,Online,,626,0
+627,Mr Thomas,Thomas Fencing,"110 Tai Au Mun Road, Sai Kung, N.T","110 Tai Au Mun Road, Sai Kung, N.T",9240 1198,9240 1198,TE15X9,2018-08-15,Online,,627,0
+628,Ms Chan,Phoenix Elephant Holding Limited,"Room 1906, Westland Centre, 20 Westlands Road, Quarry Bay","Room 1906, Westland Centre, 20 Westlands Road, Quarry Bay",5502 2960,5502 2960,3FM15X,2019-08-19,Online,,628,0
+629,Ms Connie Mok,Ms Connie Mok,屯門兆康苑 兆欣閣2902室,屯門兆康苑 兆欣閣2902室,9811 5911,9811 5911,23WFWF,2019-09-12,Online,,629,0
+630,Ms Yumi,Initial Fashion Co Ltd,"1/F, 167-169 Hoi Bun Rd , Kwun Tong.","1/F, 167-169 Hoi Bun Rd , Kwun Tong.",6707 4213,6707 4213,XA3467,2019-09-11,Old,,630,0
+631,Mr Alan Lau,Hong Kong Institute of Languages,"Shop G01 , Capri , 33 Tong Yin St , Tseung Kwan O.","Shop G01 , Capri , 33 Tong Yin St , Tseung Kwan O.",6380 0836,6380 0836,ICDEL2,2019-09-10,Phone ,,631,0
+632,Mr Alan Lau,Hong Kong Institute of Languages Limited,"3/F, Wellington Plaza, 56-58 Wellington St, Central","3/F, Wellington Plaza, 56-58 Wellington St, Central",6380 0836,6380 0836,6DL9O3,2019-09-19,Online,,632,0
+633,Mrs Lee,,"10A, The Homestead, No.260-262 ,Prince Edward Rd West , Ho Man Tin.","10A, The Homestead, No.260-262 ,Prince Edward Rd West , Ho Man Tin.",9172 7167,9172 7167,7NIZES,2019-09-23,Phone ,,633,0
+634,Ms Chan,Bill's Food Factory Limited,葵涌華星街8號 華達工業中心A座20樓08室,葵涌華星街8號 華達工業中心A座20樓08室,9751 8419,9751 8419,V6AQHU,2019-09-30,Online,,634,0
+635,Ms Bernice Cheung,Nippon Wealth Limited,"Unit 1101, 1102 & 1113B, 11/F, Office Tower 1, The Harbour Front, Hung Hom","Unit 1101, 1102 & 1113B, 11/F, Office Tower 1, The Harbour Front, Hung Hom",3958 8883,3958 8883,VYURIS,2014-07-03,Online,,635,0
+636,李小姐,香港潮商學校,79B 香港薄扶林道 79B,79B 香港薄扶林道 79B,2546 1644,2546 1644,XXFAPP,2019-04-18,Online,,636,0
+637,Ms Audrey,Ms Audrey,"14/F, Villa Elegance, 1 Robinson Road, Mid Levels","14/F, Villa Elegance, 1 Robinson Road, Mid Levels",9432 6315,9432 6315,M10I91,2019-09-05,Online,,637,0
+638,Ms Kwan,五旬節靳茂生小學,"NO.4 Pik Fung Rd ,Fanling","NO.4 Pik Fung Rd ,Fanling",2670 0103,,DBOW5A,2019-10-10,Old,,638,0
+639,梁生,梁生,跑馬地掃桿埔樂活道10B號 樂翠台B座地下1室,跑馬地掃桿埔樂活道10B號 樂翠台B座地下1室,9882 6232,9882 6232,W1P05X,2019-10-22,Online,,639,0
+640,Ms Lam,Ms Lam,半山羅便臣道95號 殷華花園1期16樓C室,半山羅便臣道95號 殷華花園1期16樓C室,2342 7782,2342 7782,HL4W8M,2018-04-09,Online,,640,0
+641,Mr Alan Lau,Hong Kong Institute of Languages,"2/F, Wellington Plaza, 56-58 Wellington Plaza, Central","2/F, Wellington Plaza, 56-58 Wellington Plaza, Central",6380 0836,6380 0836,NZC7OJ,2019-11-14,Online,,641,0
+642,Ms Stephine Cheung,Lee Kum Kee Family Investment Group Limited,"8/F, Lee Kum Kee Central, 54-58 Des Voeux Road, Central","8/F, Lee Kum Kee Central, 54-58 Des Voeux Road, Central",3752 2178,3752 2178,LGVS0N,2019-08-02,Online,,642,0
+643,張太,張太,新界元朗山下村 500號2樓,新界元朗山下村 500號2樓,9876 3418,9876 3418,JPKEPO,2019-11-29,Online,,643,0
+644,Ms Chan,Steve Leung Designers Limited,"30/F, Manhattan Place, 23 Wang Tai Road, Kowloon Bay","30/F, Manhattan Place, 23 Wang Tai Road, Kowloon Bay",2980 0320,6113 6792,XDRG91,2018-06-19,Online,,644,0
+645,邵小姐,Circle Square Limited,香港北角七姊妹道206-208號 昌利大廈2樓202室,香港北角七姊妹道206-208號 昌利大廈2樓202室,2988 8150,2988 8150,FGHTWB,2019-12-05,Online,,645,0
+646,Ms Chan,Starling Labs Limited,"Rm 2101-05, Nam Wo Hong Building, 148 Wing Lok St, Sheung Wan","Rm 2101-05, Nam Wo Hong Building, 148 Wing Lok St, Sheung Wan",2802 2363,6102 6174,95P3XF,2018-12-05,Online,,646,0
+647,Ms Jane Cheng,Design X Company Limited,"Unit 609, 6/F, Block A, Shatin Industrial Centre, 5-7 Yuen Shun Circuit, Shatin","Unit 609, 6/F, Block A, Shatin Industrial Centre, 5-7 Yuen Shun Circuit, Shatin",2863 0880,2863 0880,0AQLAL,2020-01-07,Online,,647,0
+648,Ms Jenny,Kai Shing Management Service Limited - V Walk,"Level 2, V Walk, 28 Sham Mong Road, Sham Shui Po","Level 2, V Walk, 28 Sham Mong Road, Sham Shui Po",9227 6620,9227 6620,P7UPK7,2019-07-18,Online,,648,0
+649,Mr Damien Bourhis,Mr Damien Bourhis,"Flat B, 9/F, Tower 1, Hillsborough Court, 18 Old Peak Road, Mid Level","Flat B, 9/F, Tower 1, Hillsborough Court, 18 Old Peak Road, Mid Level",9664 4742,9664 4742,OGVE6G,2019-07-31,Online,,649,0
+650,Ms Fung,Ms Fung,"Flat D, 28/F, Block 3, Greenwood Terrace, Chai Wan","Flat D, 28/F, Block 3, Greenwood Terrace, Chai Wan",6223 7742,6223 7742,4YEABK,2020-01-13,Online,,650,0
+651,邱生,Queen Elizabeth School Old Students Association Branch Primary School,天水圍 天盛苑,天水圍 天盛苑,2447 8686,2447 8686,EAMDWB,2020-01-16,Online,,651,0
+652,Mr Justin Wong,Mr Justin Wong,"Flat C, 1/F, 12 Tung Shan Terrace, Stubbs Road, Hong Kong","Flat C, 1/F, 12 Tung Shan Terrace, Stubbs Road, Hong Kong",9230 1010,9606 7779,AIY6C1,2020-02-11,Online,,652,0
+653,黃小姐,元朗信義會生命幼稚園,元朗 安信街,元朗 安信街,2476 9388,2476 9388,JGCEAN,2020-02-14,Online,,653,0
+654,Ms Lam,Otto International (Hong Kong) Limited,"19/F, Peninsula Square, 18 Sung On St, Hung Hom","19/F, Peninsula Square, 18 Sung On St, Hung Hom",2303 7284,9468 1361,Z0Q43G,2019-08-27,Online,,654,0
+655,Mr Tim,Tempus Holdings Limited,"28/F, 9 Des Voeux Road West,  Sheung Wan","28/F, 9 Des Voeux Road West,  Sheung Wan",2543 6880,2543 6880,RAJTEG,2017-08-31,Online,,655,0
+656,Ms Lee,Jordache International (HK) Limited,屯門新安街1號 億兆工業大廈9樓,屯門新安街1號 億兆工業大廈9樓,2762 4721,2762 4721,GFYW2X,2020-03-13,Online,,656,0
+657,Mr Kenny Lee,Solutions Health Care Products & Services Limited,"Rm 1104-05, Capitol Centre, 5-19 Jardine's Bazaar, Causeway Bay","Rm 1104-05, Capitol Centre, 5-19 Jardine's Bazaar, Causeway Bay",2273 8211,2273 8211,G8LL91,2020-04-07,Online,,657,0
+658,鍾生,鍾生,香港炮台山英皇道52-56號 康明苑20樓B座,香港炮台山英皇道52-56號 康明苑20樓B座,.,.,WDJNRO,2020-04-27,Online,,658,0
+659,Ms Zoe Chan,Shopline Limited,"13/F, Nam Wo Hong Building, 148 Wing Lok St, Shwung Wan","13/F, Nam Wo Hong Building, 148 Wing Lok St, Shwung Wan",2802 2363,2802 2363,FYO6AJ,2020-04-28,Online,,659,0
+660,Ms Rita,Ms Rita,"8A, The Warren, 9 Warren Street, Tai Hang","8A, The Warren, 9 Warren Street, Tai Hang",9663 9398,9663 9398,F4HY2U,2019-11-01,Online,,660,0
+661,Ms Chan,Bill's Food Factory Limited,葵涌華星街8號 華達工業中心A座20樓18室,葵涌華星街8號 華達工業中心A座20樓18室,9751 8419,9751 8419,Z7W2X3,2020-05-12,Online,,661,0
+662,Ms Karen,Ms Karen,"Apartment A3, Galesend, 6 Bluff Path, The Peak","Apartment A3, Galesend, 6 Bluff Path, The Peak",9229 5824,9229 5824,SLUW24,2020-05-19,Online,,662,0
+663,Ms Cynthia Lai,Kintetsu World Express (HK) Limited,"17/F, Rykadan Capital Tower, 135 Hoi Bun Road, Kwun Tong","17/F, Rykadan Capital Tower, 135 Hoi Bun Road, Kwun Tong",2705 7687,2705 7687,9I0PGG,2019-12-20,Online,,663,0
+664,Mr Fung,Mr Fung,"G/F, No.46 Leung Fai Tin, Clear Water Bay Road, Sai Kung","G/F, No.46 Leung Fai Tin, Clear Water Bay Road, Sai Kung",6132 2218,6132 2218,M4P90U,2020-06-01,Online,,664,0
+665,Ms Kandra Leung,Deliveroo Hong Kong Limited,"16/F, 17/F, H Code, 45 Pottinger St, Central","16/F, 17/F, H Code, 45 Pottinger St, Central",6206 9171,6206 9171,XI0I59,2020-06-03,Online,,665,0
+666,Ms Kwan,Christian Concern For The Homeless Association,深水埗大南街 175號唐6樓,深水埗大南街 175號唐6樓,2788 0670,2788 0670,GPQ59M,2016-12-09,Online,,666,0
+667,Ms Lau,Checkpoint Fitness & Yoga Co. Ltd,"20/F, Bartlock Ctr, 3 Yiu Wa Street, Causeway Bay","20/F, Bartlock Ctr, 3 Yiu Wa Street, Causeway Bay",6224 8018,6224 8018,FW0HR0,2020-06-03,Online,,667,0
+668,Ms Ada Chan,Artmax Management Limited,"21/F, Citicorp Centre, 18 Whitfield Road, Causeway Bay","21/F, Citicorp Centre, 18 Whitfield Road, Causeway Bay",2508 2920,2508 2920,XPL1XB,2019-12-23,Online,,668,0
+669,Jusdi Ali,Five Guys Hong Kong Limited,"G/F & 1/F, Harbour East, 218 Electric Road, Fortress Hill","G/F & 1/F, Harbour East, 218 Electric Road, Fortress Hill",6645 4309,6645 4309,W9LICO,2020-06-17,Online,,669,0
+670,Mr Tang,Mr Tang,"House 6, The Great Hill, Tai Wai","House 6, The Great Hill, Tai Wai",5366 1998,5366 1998,JKJEB0,2020-07-03,Online,,670,0
+671,鄧生 / 冼生,鄧生 / 冼生,尖沙咀半島酒店 地庫BW11 & BW13,尖沙咀半島酒店 地庫BW11 & BW13,6511 2218,6511 2218,DWT9YO,2020-01-17,Online,,671,0
+672,Ms Lau,The Orthodontic & Children's Dental Center,"Suite 08-10, 38/F, Langham Place Office Tower, 8 Argyle St, MongKok","Suite 08-10, 38/F, Langham Place Office Tower, 8 Argyle St, MongKok",2392 2881,2392 2881,IV9GMU,2020-07-17,Online,,672,0
+673,Mr Angus Mak,Sustenir Agriculture (Hong Kong) Limited,"18/F, Tai Hing Industrial Building, 3 Tsing Yeung Circuit, Tuen Mun","18/F, Tai Hing Industrial Building, 3 Tsing Yeung Circuit, Tuen Mun",6200 2528,6200 2528,5HKPLL,2020-07-22,Online,,673,0
+674,Mr Patrick Lau,Five Guys HK Limited,"3/F, K11 Musea Mall, Salisbury Road, Tsim Sha Tsui","3/F, K11 Musea Mall, Salisbury Road, Tsim Sha Tsui",5229 1920,5229 1920,KCF2B2,2020-07-23,Online,,674,0
+675,.,Five Guys HK Limited,"Shop No. 18, G/F, J Residence, 60 Johnston Road, Wan Chai","Shop No. 18, G/F, J Residence, 60 Johnston Road, Wan Chai",.,.,E30C1Y,2020-07-24,Online,,675,0
+676,.,Five Guys HK Limited,"Basement Floor, Maning House, 48 Queen's Road, Central","Basement Floor, Maning House, 48 Queen's Road, Central",.,.,3BG3JB,2020-07-24,Online,,676,0
+677,Ms Jean Lee,China Renaissance Capital Investment Limited,"Suite 2202, South Island Place, 8 Wong Chuk Hang Road, Wong Chuk Hang","Suite 2202, South Island Place, 8 Wong Chuk Hang Road, Wong Chuk Hang",9400 2871,3556 0288,22ES4T,2020-08-12,Online,,677,0
+678,Ms Amy So,Adamas Asset Management (HK) Limited,"19/F, CMA Building, 64-66 Connaught Road, Central","19/F, CMA Building, 64-66 Connaught Road, Central",3793 6211,3793 6211,ZOOMLD,2019-08-28,Online,,678,0
+679,Ms Jody,Shinsun Holdings (Group) Co Ltd,"Suite 2907-8, Two Exchange Square, 8 Connaught Place, Central","Suite 2907-8, Two Exchange Square, 8 Connaught Place, Central",6920 1617,6920 1617,E4OLTL,2020-08-26,Online,,679,0
+680,Ms Emma Shum岺小姐,Po Leung Kuk Wan Lam May Yin Shirley Neighbourhood Eldery Centre,"Shop A206, Ching Long Shipping Centre, 12 Muk Hung St, Kowloon City","Shop A206, Ching Long Shipping Centre, 12 Muk Hung St, Kowloon City",2897 6608,2897 6608,QCT9TF,2020-03-24,Online,,680,0
+681,Mr Barry Chu,Jewel Web Limited,"M/F, Cornwall Court, 687-689 Nathan Road, MongKok","M/F, Cornwall Court, 687-689 Nathan Road, MongKok",5411 4141,5411 4141,YO1NRT,2020-09-11,Online,,681,0
+682,Ms Yau,Hong Kong Medical Consultants Limited,"Unit 503, 5/F, Central Building, 1-3 Pedder st, Central","Unit 503, 5/F, Central Building, 1-3 Pedder st, Central",6705 4711,6705 4711,L6KGAX,2020-03-24,Online,,682,0
+683,Ms Flora Fung,Sony Music Office,"Unit 1, 10/F, China Life Centre, 18 Hung Luen Road, Hung Hom","Unit 1, 10/F, China Life Centre, 18 Hung Luen Road, Hung Hom",2956 5412,2956 5412,3QRUP0,2020-09-30,Online,,683,0
+684,Clara,,"Unit B, 18/F, Block 7, Cavendish Heights, 33 Perkins Road, Tai Hang","Unit B, 18/F, Block 7, Cavendish Heights, 33 Perkins Road, Tai Hang",9800 5631,9800 5631,THAS5Q,2020-09-01,Online,,684,0
+685,Ms Wong,Cundall Hong Kong Limited,"8/F, The Hennessy, 256 Hennessy Road, Wan Chai","8/F, The Hennessy, 256 Hennessy Road, Wan Chai",6281 9801,6281 9801,BGVEO5,2020-10-19,Online,,685,0
+686,Ms Tam,Myicellar Limited,"Unit 907, Westlands Centre, 20 Westlands Road, Quarry Bay","Unit 907, Westlands Centre, 20 Westlands Road, Quarry Bay",2591 9929,2591 9929,Q6R2AW,2020-11-11,Online,,686,0
+687,Ms Mandy Lai,Kai Shing Managment Service Limited - V Walk,"Level 2, V Walk, 28 Sham Mong Road, Sham Shui Po","Level 2, V Walk, 28 Sham Mong Road, Sham Shui Po",3612 1003,3612 1003,QPH4I7,2020-11-12,Online,,687,0
+688,Ms Aries Wong,Surana Brothers Jewellery Hong Kong Ltd,"Unit 604, 6/F, Guardforce Centre, 3 Hok Yuen St East, Hung Hom","Unit 604, 6/F, Guardforce Centre, 3 Hok Yuen St East, Hung Hom",2356 1858,2356 1858,G7Z1NW,2020-11-20,Online,,688,0
+689,Mr Kit Yam,Chinachem Agencies Limited,"5/F, Nina Tower 2, 8 Yeung UK Road, Tsuen Wan","5/F, Nina Tower 2, 8 Yeung UK Road, Tsuen Wan",2500 7242,2500 7242,7CNPO2,2020-12-04,Online,,689,0
+690,Ms Jennifer Lau,Surplus Horizon Limited,"Shop 230, 2/F, Lee Gardens Two, 28 Yun Ping Road, Causeway Bay","Shop 230, 2/F, Lee Gardens Two, 28 Yun Ping Road, Causeway Bay",2290 2652,6053 1990,BEGZYK,2020-12-08,Online,,690,0
+691,Mr Chiu,Kai Shing Management Service Ltd - Villa by the Park,元朗 139青山公路屏山段,元朗 139青山公路屏山段,2338 9892,2338 9892,3DGF3A,2020-06-02,Online,,691,0
+692,羅生,,東涌逸東(二)邨 傑逸樓3801室,東涌逸東(二)邨 傑逸樓3801室,6211 1116,6211 1116,06GVH0,2020-06-29,Online,,692,0
+693,Mrs Guillaume Bar,.,"No 67, Tai  Wo Village, Tai Po, N.T","No 67, Tai  Wo Village, Tai Po, N.T",9485 8243,9485 8243,0BBWQP,2020-07-28,Online,,693,0
+694,Ms Iris Lam,Rainy Sky Interiors Limited,"Unit 1, 5/F, China Aerospace Centre, 143 Hoi Bun Road, Kwun Tong","Unit 1, 5/F, China Aerospace Centre, 143 Hoi Bun Road, Kwun Tong",3104 2263,3104 2263,S3ZTJ4,2020-07-24,Online,,694,0
+695,.,Five Guys Hong Kong Limited,"Shop C2, APM, 418 Kwun Tong Road, Kwun Tong","Shop C2, APM, 418 Kwun Tong Road, Kwun Tong",.,.,IH6EE2,2021-01-18,Online,,695,0
+696,Mr Wong,.,"8B, Tung Shan Terrace, Stubbs Road","8B, Tung Shan Terrace, Stubbs Road",9600 7767,9600 7767,5WPKMD,2021-01-21,Online,,696,0
+697,Ms Chloe Merdjanian,.,"Apt E, 38/F, Tower 2, Robinson Place, 70 Robinson Road","Apt E, 38/F, Tower 2, Robinson Place, 70 Robinson Road",9617 9093,9617 9093,SSDZK5,2021-01-20,Online,,697,0
+698,Ms Li,Shun Yuen Construction Company Limited,長沙灣道683號 近興華街,長沙灣道683號 近興華街,2363 3408,2363 3408,L7N487,2021-02-04,Online,,698,0
+699,Mr Kavin Mok,Goodwill Management Limited (Shatin Centre & Shatin Plaza),"2-16 Wang Pok St, Shatin","2-16 Wang Pok St, Shatin",2606 3700,2606 3700,SNPFIV,2021-02-05,Online,,699,0
+700,Ms Atsushi Matsuoka,Hair Quest,中環域多利皇后街4號 利隆大廈1002室,中環域多利皇后街4號 利隆大廈1002室,5500 8482,5500 8482,5MZ621,2021-03-08,Online,,700,0
+701,Mr Kong,The University of Hong Kong,"Room 104, 1/F, Haking Wong Building, Pofulam, HK","Room 104, 1/F, Haking Wong Building, Pofulam, HK",6699 1888,3917 2584,OQB2HH,2021-03-15,Online,,701,0
+702,Ms Kristine Wan,Topaz Financial Group Limited,"Unit 2709-12, Wing On Centre, 11 Connaught Road, Central","Unit 2709-12, Wing On Centre, 11 Connaught Road, Central",6225 1124,2295 0155,2NHV23,2021-03-15,Online,,702,0
+703,Mr Yan,,九龍又一村壽菊路4號 萬金閣地下B室,九龍又一村壽菊路4號 萬金閣地下B室,6979 0900,6979 0900,60NS0A,2021-03-19,Online,,703,0

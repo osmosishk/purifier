@@ -25,31 +25,24 @@ class Command(BaseCommand):
 
                 if row['id']:
                     try:
-                        customer, created = _model.objects.get_or_create(id=row['id'],customercode_id=row['customercode_id'])
+                        technician, created = _model.objects.get_or_create(id=row['id'],staffcode=row['staffcode'])
 
                         if created:
-                            customer.contactname = row['contactname']
-                            customer.companyname = row['companyname']
-                            customer.billingaddress = row['billingaddress']
-                            customer.installaddress = row['installaddress']
-                            customer.contactno = row['contactno']
-                            customer.mobile = row['mobile']
-                            customer.invitationcode = row['invitationcode']
-
-                            customer.joindate = row['joindate']
-                            customer.source = row['source']
-                            customer.comment = row['comment']
-                            customer.isconfirm = row['isconfirm']
+                            technician.staffshort = row['staffshort']
+                            technician.staffname = row['staffname']
+                            technician.staffcontact = row['staffcontact']
+                            technician.email = row['email']
 
 
 
-                            customer.save()
+
+                            technician.save()
 
                             created_users += 1
                         else:
                             existing_users += 1
 
-                        print('{0} - {1}'.format(row['customercode_id'], 'Created' if created else 'Exist'))
+                        print('{0} - {1}'.format(row['staffcode'], 'Created' if created else 'Exist'))
 
                     except Exception as e:
                         errors += 1

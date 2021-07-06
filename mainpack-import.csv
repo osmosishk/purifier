@@ -1,0 +1,7 @@
+"id";"packagecode";"isbytime";"isbyusage";"price";"exfiltermonth";"exfiltervolume";"packagedetail"
+1;"STD06";1;0;1780.0;6;2500;"Exchange filter every 6 months , 2 times per year"
+2;"STD04";1;0;2480.0;4;2500;"Exchange filter every 3 months , 4 times per year"
+3;"STD03";1;0;2980.0;3;2500;"Exchange filter every 3 months , 4 times per year"
+4;"ION06";1;0;1980.0;6;2500;"ION1100 Exchange filter every 6 months , 2 times per year"
+5;"COWAY06";1;0;1980.0;6;2500;"COWAY Exchange filter every 6 months , 2 times per year"
+6;"STD02";1;0;2780.0;2;2500;"Exchange filter every 2 months , 6 Times per year"

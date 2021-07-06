@@ -21,7 +21,7 @@ class Command(BaseCommand):
             created_users = existing_users = errors = 0
             users_with_errors = []
             for row in reader:
-                print (row['machineid'])
+                print(row['machineid'])
 
                 if row['machineid']:
                     try:

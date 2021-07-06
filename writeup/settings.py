@@ -91,9 +91,9 @@ WSGI_APPLICATION = 'writeup.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '35.220.139.166',
-        'PORT': '3306',
-        'NAME': 'crmtest',
+        'HOST': '172.104.181.122',
+        'PORT': '3358',
+        'NAME': 'osmosiscrm',
         'USER': 'tonyho',
         'PASSWORD': 'zanik5dbkr',
         'OPTIONS': {
