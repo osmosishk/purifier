@@ -1,3 +1,71 @@
+python manage.py makemigrations
+python manage.py showmigrations
+python manage.py migrate
+python manage.py bulk_users_from_csv --csv="c:/github/purifier/customer-import.csv" --encoding="utf-8
+python manage.py importcustomer --path="c:/github/purifier/customermain-import.csv" --model_name=Customer --app_name=OneToOne
+
+python manage.py importtechnician --path="c:/github/purifier/technician-import.csv" --model_name=Technician --app_name=management
+
+python manage.py importmachine --path="c:/github/purifier/machine-import.csv" --model_name=Machine --app_name=management
+
+python manage.py importcase --path="c:/github/purifier/case-import.csv" --model_name=Case --app_name=management
+
+python manage.py casefilter --path="c:/github/purifier/casefilter-import.csv" --model_name=Case --app_name=management
+
+
+python manage.py importperiod --path="c:/github/purifier/mainperiod-import.csv" --model_name=MainPeriod --app_name=management
+
+
+{
+    "getAllcustomer" : "http://adminapi.osmosismember.com/security/accounts/",
+    "getAllmachine" : "http://adminapi.osmosismember.com/management/Machines/",
+    "getAllCase" : "http://adminapi.osmosismember.com/management/Cases/",
+    "getMachineonlyclient" : "http://adminapi.osmosismember.com/management/list_machine_client/",
+    "getCaseonlyclient" : "http://adminapi.osmosismember.com/management/list_case_client/",
+    "getClientbyCode" : "http://adminapi.osmosismember.com/management/list_code_client/",
+    "getDoc" : "http://adminapi.osmosismember.com/management/Jobsheet/",
+    "updateCustomer" : "http://adminapi.osmosismember.com/security/update_customer_info/",
+    "updateMachine" : "http://adminapi.osmosismember.com/management/update_machine_info/",
+    "updateProduct" : "http://adminapi.osmosismember.com/management/update_product_info/",
+    "updateFilter" : "http://adminapi.osmosismember.com/management/update_filter_info/",
+    "updateTech" : "http://adminapi.osmosismember.com/management/update_technicien_info/",
+    "updateMain" : "http://adminapi.osmosismember.com/management/update_main_pack_info/",
+    "updateCase" : "http://adminapi.osmosismember.com/management/update_case_info/",
+    "updateDoc" : "http://adminapi.osmosismember.com/management/update_doc/",
+    "getAllfilter" : "http://adminapi.osmosismember.com/management/Filters/",
+    "getAlltechnician" : "http://adminapi.osmosismember.com/management/Technicians/",
+    "getAllmainpack" : "http://adminapi.osmosismember.com/management/MainPacks/",
+    "getAllproduct" : "http://adminapi.osmosismember.com/management/Product/",
+    "token" : "0011d7b8ee0c21bdf4e005149b97815d36955052"
+    
+}
+
+{
+    "getAllcustomer" : "http://127.0.0.1:8000/security/accounts/",
+    "getAllmachine" : "http://127.0.0.1:8000/management/Machines/",
+    "getAllCase" : "http://127.0.0.1:8000/management/Cases/",
+    "getMachineonlyclient" : "http://127.0.0.1:8000/management/list_machine_client/",
+    "getCaseonlyclient" : "http://127.0.0.1:8000/management/list_case_client/",
+    "getClientbyCode" : "http://127.0.0.1:8000/management/list_code_client/",
+    "getDoc" : "http://127.0.0.1:8000/management/Jobsheet/",
+    "updateCustomer" : "http://127.0.0.1:8000/security/update_customer_info/",
+    "updateMachine" : "http://127.0.0.1:8000/management/update_machine_info/",
+    "updateProduct" : "http:/127.0.0.1:8000/management/update_product_info/",
+    "updateFilter" : "http://127.0.0.1:8000/management/update_filter_info/",
+    "updateTech" : "http://127.0.0.1:8000/management/update_technicien_info/",
+    "updateMain" : "http://127.0.0.1:8000/management/update_main_pack_info/",
+    "updateCase" : "http://127.0.0.1:8000/management/update_case_info/",
+    "updateDoc" : "http://127.0.0.1:8000/management/update_doc/",
+    "getAllfilter" : "http://127.0.0.1:8000/management/Filters/",
+    "getAlltechnician" : "http://127.0.0.1:8000/management/Technicians/",
+    "getAllmainpack" : "http://127.0.0.1:8000/management/MainPacks/",
+    "getAllproduct" : "http://127.0.0.1:8000/management/Product/",
+    "token" : "0011d7b8ee0c21bdf4e005149b97815d36955052"
+    
+}
+
+
+
 c3c1d72b219561cfe00084d3434f37c3714f5961
 
 #user

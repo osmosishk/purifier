@@ -358,7 +358,7 @@ class MainPackViewSet(viewsets.ViewSet):
     def list(self, request):
         search = request.GET.get('search', '')
         queryset = list(MainPack.objects.filter(packagecode__icontains=search))
-        print(queryset)
+
         queryset.extend(list(MainPack.objects.filter(price__icontains=search)))
         queryset.extend(list(MainPack.objects.filter(exfiltermonth__icontains=search)))
         queryset.extend(list(MainPack.objects.filter(exfiltervolume__icontains=search)))

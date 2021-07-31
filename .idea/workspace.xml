@@ -10,18 +10,19 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3b23f63-c8c5-4326-8a72-596be7352505" name="Default Changelist" comment="19 Feb changes">
-      <change afterPath="$PROJECT_DIR$/OneToOne/management/commands/importtechnician.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OneToOne/management/commands/importperiod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneToOne/management/commands/importcustomer.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneToOne/management/commands/importcustomer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OneToOne/management/commands/importmachine.py" beforeDir="false" afterPath="$PROJECT_DIR$/OneToOne/management/commands/importmachine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-import.csv" beforeDir="false" afterPath="$PROJECT_DIR$/customer-import.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.txt" beforeDir="false" afterPath="$PROJECT_DIR$/api.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainperiod-import.csv" beforeDir="false" afterPath="$PROJECT_DIR$/mainperiod-import.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/management/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/management/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/management/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/writeup/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/writeup/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,6 +186,11 @@
       <workItem from="1625234247769" duration="1482000" />
       <workItem from="1625277165854" duration="4305000" />
       <workItem from="1625396538800" duration="6000" />
+      <workItem from="1625838187198" duration="814000" />
+      <workItem from="1625880401954" duration="5575000" />
+      <workItem from="1625893356912" duration="1542000" />
+      <workItem from="1625899772198" duration="611000" />
+      <workItem from="1627045569416" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="3 jan changes">
       <created>1609678507859</created>
@@ -218,7 +224,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

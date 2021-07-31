@@ -40,6 +40,23 @@ class TechnicianSerializer(serializers.ModelSerializer):
         }
 
 
+class LiteMainPackSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MainPack
+        fields = ('packagecode', 'exfiltermonth', 'packagedetail')
+        extra_kwargs = {
+            'packagecode': {
+                'validators': [], 'required': True
+            },
+            'exfiltermonth': {
+                'required': False
+            },
+            'packagedetail': {
+                'required': False
+            }
+
+        }
+
 class FilterSerializer(serializers.ModelSerializer):
     class Meta:
         model = Filter
@@ -129,12 +146,12 @@ class MachineSerializer(serializers.ModelSerializer):
 
     customer = CustomerCodeSerializer(required=True)
     machinetype =  ProductSerializer(required=True , partial=True)
-    # main_pack = MainPackSerializer(required=True)
+    maintenance = LiteMainPackSerializer(required=True)
 
     class Meta:
         model = Machine
         fields = ('customer','machineid', 'installaddress1', 'installaddress2',
-                  'mac', 'installdate','nextservicedate', 'machinetype','id')
+                  'mac', 'installdate','nextservicedate', 'machinetype','id', 'maintenance')
         extra_kwargs = {
 
             'machineid': {
@@ -146,7 +163,7 @@ class MachineSerializer(serializers.ModelSerializer):
             'machinetype': {
                 'required': False
             },
-            'main_pack': {
+            'maintenance': {
                 'required': False
             },
 
